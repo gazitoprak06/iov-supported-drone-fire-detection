@@ -34,7 +34,10 @@ Two modules exist so that programs cannot drift apart in how they count:
 
 - `tools/clip_metrics.py` — the alarm rule, the sampling policy, the clip
   grouping and the Wilson interval. Both clip evaluators and the viewer import
-  from it rather than restating it.
+  from it rather than restating it. The four constants of Algorithm 2 in the
+  manuscript — the fire class index, two samples per second, three consecutive
+  samples for an alarm and the 24 fps fallback — are defined here and nowhere
+  else.
 - `tools/image_metrics.py` — the split walker, the confusion-matrix arithmetic,
   the null baselines and the McNemar test for the still-image cohort.
 
@@ -46,7 +49,7 @@ Two modules exist so that programs cannot drift apart in how they count:
 | Table 2 | `tools/resolution_control.py` | `v1_image_level/v1_resolution_control.json` |
 | Table 3 | `tools/saturation_sweep.py` | `v1_image_level/v1_saturation_sweep.json` |
 | Table 4 | `v2_learned_baselines.py` | `v2_baselines/v2_baseline_metrics.json` |
-| Section 4.5, Table 5 | `tools/eval_clips_numpy.py` | `v3_deep_edge/v3_results_by_split.json` |
+| Section 4.5, Table 5 | `tools/eval_clips_numpy.py` (Algorithm 2) | `v3_deep_edge/v3_results_by_split.json` |
 | Fig. 6 | `tools/make_confusion_figure.py` | `v3_confusion_matrix.png` |
 | Latency, deep edge | `tools/benchmark_latency.py` | `v3_deep_edge/v3_latency.json` |
 | Latency variability, V1 (Section 5) | `tools/benchmark_v1_latency.py` | `v1_image_level/v1_latency_variability.json` |
