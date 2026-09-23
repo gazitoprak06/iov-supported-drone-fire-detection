@@ -61,6 +61,24 @@ Two modules exist so that programs cannot drift apart in how they count:
 spurious-box total at each stage of the localization chain, so that the totals
 quoted in Section 4.3 can be attributed to a stage rather than guessed.
 
+`tools/clip_score_curve.py` is provided but was not run for this submission, and
+no figure in the manuscript depends on it. The alarm rule of Algorithm 2 exposes
+no threshold, so a reader asking for an ROC or precision-recall curve is asking
+for something the deployed rule does not define. It does define one implicitly:
+writing `p_i` for the fire probability of the i-th sample, a clip alarms at
+threshold `t` exactly when some window of `CONSECUTIVE_FOR_ALARM` successive
+samples has every `p_i` above `t`, so
+
+    score = max over windows w of ( min over i in w of p_i )
+
+is the largest threshold at which the clip still alarms, and sweeping it
+reproduces the deployed rule at every operating point rather than approximating
+it. The program asserts that at `t = 0.5` it reproduces the published verdict of
+every clip, since argmax over two logits is `p > 0.5`, and refuses to emit a
+curve if any clip disagrees. It scans each clip to the end rather than stopping
+at the first alarm, and skips unsampled frames with `grab()`; expect tens of
+minutes over the 483-clip corpus. Run it, then `--report`.
+
 ## Install
 
 Two environments are recorded in the manuscript, and the header of every result

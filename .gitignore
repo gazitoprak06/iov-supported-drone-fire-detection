@@ -74,6 +74,9 @@ HAKEM_RAPORU.md
 
 # Checkpoint of the box-stage diagnostic; the aggregate JSON beside it is released
 **/_v1_box_stages.jsonl
+# Resume caches. The released per-image record is the CSV beside them.
+**/_v3_still_predictions.jsonl
+**/_clip_frame_probs.jsonl
 
 # Per-seed artifacts of the seed sweep; the aggregate v3_seed_variance.json is released
 **/_seed_runs.json
