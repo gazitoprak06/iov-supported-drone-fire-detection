@@ -91,3 +91,5 @@ torch_nerede.bat
 # A virtual environment created inside the tree
 .venv/
 KAPAK_VE_HAKEM_NOTLARI.md
+# The cover letter is addressed to the editor, not to readers of the release.
+KAPAK_MEKTUBU.txt
