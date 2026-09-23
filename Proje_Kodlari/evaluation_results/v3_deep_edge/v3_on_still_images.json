@@ -1,0 +1,60 @@
+{
+  "_protocol": {
+    "experiment": "Section 4.5 - the deep edge classifier on the still-image test split, giving all three architectures one cohort in common",
+    "decision_rule": "bare argmax of the two-class head; the three-consecutive-sample alarm of Algorithm 2 is undefined on a single image",
+    "domain": "weights fitted on low-altitude aerial video frames, applied to a mixed ground and aerial photographic corpus: a transfer measurement",
+    "n_images": 410,
+    "n_fire": 159,
+    "n_no_fire": 251,
+    "environment": {
+      "python": "3.10.12",
+      "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+      "cpu": "x86_64",
+      "argv": [
+        "tools/v3_on_still_images.py",
+        "--budget",
+        "140"
+      ],
+      "opencv": "4.13.0",
+      "numpy": "2.2.6"
+    }
+  },
+  "deep_edge_still": {
+    "TP": 125,
+    "TN": 169,
+    "FP": 82,
+    "FN": 34,
+    "Accuracy": 71.71,
+    "Precision": 60.39,
+    "Recall": 78.62,
+    "F1": 68.31,
+    "Specificity": 67.33,
+    "FPR": 32.67
+  },
+  "null_baselines": {
+    "constant_positive": {
+      "TP": 159,
+      "TN": 0,
+      "FP": 251,
+      "FN": 0,
+      "Accuracy": 38.78,
+      "Precision": 38.78,
+      "Recall": 100.0,
+      "F1": 55.89,
+      "Specificity": 0.0,
+      "FPR": 100.0
+    },
+    "constant_negative": {
+      "TP": 0,
+      "TN": 251,
+      "FP": 0,
+      "FN": 159,
+      "Accuracy": 61.22,
+      "Precision": null,
+      "Recall": 0.0,
+      "F1": null,
+      "Specificity": 100.0,
+      "FPR": 0.0
+    }
+  }
+}

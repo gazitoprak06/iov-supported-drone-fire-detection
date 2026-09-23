@@ -41,6 +41,8 @@ ARTIFACTS = {
     "ctrl":  Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_corpus_controls.json"),
     "seed":  Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_seed_variance.json"),
     "null":  Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_null_baselines.json"),
+    "still": Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_on_still_images.json"),
+    "lat":   Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_latency.json"),
 }
 
 

@@ -55,6 +55,7 @@ Two modules exist so that programs cannot drift apart in how they count:
 | Latency variability, V1 (Section 5) | `tools/benchmark_v1_latency.py` | `v1_image_level/v1_latency_variability.json` |
 | Source and event controls (Section 4.5) | `tools/corpus_controls.py` | `v3_deep_edge/v3_corpus_controls.json` |
 | Null baselines, clip cohorts (Table 5) | `tools/clip_null_baselines.py` | `v3_deep_edge/v3_null_baselines.json` |
+| Deep edge on the still-image cohort (Table 5) | `tools/v3_on_still_images.py` | `v3_deep_edge/v3_on_still_images.json` |
 
 `tools/box_count_stages.py` is a diagnostic rather than a result: it reports the
 spurious-box total at each stage of the localization chain, so that the totals
