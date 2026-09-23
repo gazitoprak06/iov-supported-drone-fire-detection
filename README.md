@@ -111,7 +111,12 @@ survives anywhere in the file. It exits non-zero, so it can gate a commit.
 ### Still images (Sections 4.1 to 4.4)
 
 The image dataset is not redistributed here. Download *The Wildfire Dataset*
-(CC BY 4.0) from its Kaggle source and place it as:
+(CC BY 4.0) from Kaggle and place it as:
+
+- **The Wildfire Dataset.** El-Madafri I, Peña M, Olmedo-Torre N. *Forests.*
+  2023;14(9):1697. doi:10.3390/f14091697 — Licence **CC BY 4.0**.
+  <https://www.kaggle.com/datasets/elmadafri/the-wildfire-dataset>
+
 
 ```
 Proje_Kodlari/data/AR Souri Dataset/{train,val,test}/{fire,nofire}/
