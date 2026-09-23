@@ -96,3 +96,6 @@ torch_nerede.bat
 KAPAK_VE_HAKEM_NOTLARI.md
 # The cover letter is addressed to the editor, not to readers of the release.
 KAPAK_MEKTUBU.txt
+
+# Local demo launcher, not part of the reproduction package
+hocaya_goster.bat

@@ -62,7 +62,41 @@ if os.path.exists(v3_path):
         print("Dogru Bilme (Recall/TPR): {:.2f}%".format(test_group.get("Recall_TPR", 0)))
         print("Yanlis Alarm (FPR)      : {:.2f}%".format(test_group.get("FPR", 0)))
         print("F1-Skoru                : {:.2f}%".format(test_group.get("F1", 0)))
+
+    # The null baselines for this cohort are the audit the paper is named for,
+    # so the summary states them next to the result rather than leaving the
+    # reader to assume the result clears them.
+    nb_path = os.path.join("Proje_Kodlari", "evaluation_results", "v3_deep_edge",
+                           "v3_null_baselines.json")
+    if os.path.exists(nb_path):
+        with open(nb_path, "r", encoding="utf-8") as f:
+            nb = json.load(f).get("unseen_by_gradient", {})
+        print("  (Null sabit-pozitif F1 : {:.2f}%)".format(
+            nb.get("constant_positive", {}).get("F1", 0)))
+        print("  (Null sabit-negatif Acc: {:.2f}%  <-> V3 Acc: {:.2f}%)".format(
+            nb.get("constant_negative", {}).get("Accuracy", 0),
+            nb.get("deep_edge", {}).get("Accuracy", 0)))
 else:
     print("\nV3 metrikleri bulunamadi.")
 
+# All three architectures on one cohort. This is the comparison Table 5 could
+# not make until the deep edge weights were applied to the still-image split.
+st_path = os.path.join("Proje_Kodlari", "evaluation_results", "v3_deep_edge",
+                       "v3_on_still_images.json")
+if os.path.exists(st_path):
+    with open(st_path, "r", encoding="utf-8") as f:
+        st = json.load(f).get("deep_edge_still", {})
+    print("\n--- ORTAK KUME: ucu de ayni 410 goruntude ---")
+    print("(V3 bu goruntulerin hicbirinde egitilmedi: alan aktarimi)")
+    print("V1 kural tabanli          : F1 = {:.2f}%   Acc = {:.2f}%".format(
+        rel.get("F1", 0), rel.get("Accuracy", 0)))
+    print("V3 derin ag (aktarim)     : F1 = {:.2f}%   Acc = {:.2f}%".format(
+        st.get("F1", 0), st.get("Accuracy", 0)))
+    print("V2 ogrenilmis (bu veride egitildi): F1 = {:.2f}%   Acc = {:.2f}%".format(
+        rf.get("F1", 0), rf.get("Accuracy", 0)))
+    print("  -> Kendi verisi icin ayarlanmis kural, o veriyi hic gormemis aga yeniliyor.")
+
 print("\n" + "="*70)
+print("  Bu rakamlarin tamami yayimlanan sonuc dosyalarindan okundu.")
+print("  Dogrulamak icin:  python tools\\check_paper_numbers.py")
+print("="*70)
