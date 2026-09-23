@@ -99,3 +99,7 @@ KAPAK_MEKTUBU.txt
 
 # Local demo launcher, not part of the reproduction package
 hocaya_goster.bat
+
+# Derived deliverables; makale.html is the audited source
+makale.docx
+makale.pdf
