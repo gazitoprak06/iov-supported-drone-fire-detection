@@ -40,6 +40,7 @@ ARTIFACTS = {
     "v1lat": Path("Proje_Kodlari/evaluation_results/v1_image_level/v1_latency_variability.json"),
     "ctrl":  Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_corpus_controls.json"),
     "seed":  Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_seed_variance.json"),
+    "null":  Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_null_baselines.json"),
 }
 
 

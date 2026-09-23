@@ -1,0 +1,101 @@
+{
+  "_protocol": {
+    "experiment": "Section 4.5 and Table 5 - constant-predictor null baselines on the clip cohorts",
+    "definition": "the constant-positive rule alarms on every clip; the constant-negative rule alarms on none. Both are fixed by the class counts alone and read no pixel.",
+    "source": "cohort composition and confusion matrices of v3_results_by_split.json; no clip is re-evaluated",
+    "environment": {
+      "python": "3.10.12",
+      "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+      "cpu": "x86_64",
+      "argv": [
+        "tools/clip_null_baselines.py"
+      ],
+      "opencv": "4.13.0",
+      "numpy": "2.2.6"
+    }
+  },
+  "unseen_by_gradient": {
+    "N_clips": 194,
+    "N_fire": 68,
+    "N_no_fire": 126,
+    "prevalence": 35.05,
+    "constant_positive": {
+      "TP": 68,
+      "TN": 0,
+      "FP": 126,
+      "FN": 0,
+      "Accuracy": 35.05,
+      "Precision": 35.05,
+      "Recall": 100.0,
+      "F1": 51.91,
+      "Specificity": 0.0,
+      "FPR": 100.0
+    },
+    "constant_negative": {
+      "TP": 0,
+      "TN": 126,
+      "FP": 0,
+      "FN": 68,
+      "Accuracy": 64.95,
+      "Precision": null,
+      "Recall": 0.0,
+      "F1": null,
+      "Specificity": 100.0,
+      "FPR": 0.0
+    },
+    "deep_edge": {
+      "TP": 63,
+      "TN": 125,
+      "FP": 1,
+      "FN": 5,
+      "Accuracy": 96.91,
+      "Precision": 98.44,
+      "Recall": 92.65,
+      "F1": 95.45,
+      "Specificity": 99.21,
+      "FPR": 0.79
+    }
+  },
+  "full_manifest_CONTAMINATED": {
+    "N_clips": 483,
+    "N_fire": 170,
+    "N_no_fire": 313,
+    "prevalence": 35.2,
+    "constant_positive": {
+      "TP": 170,
+      "TN": 0,
+      "FP": 313,
+      "FN": 0,
+      "Accuracy": 35.2,
+      "Precision": 35.2,
+      "Recall": 100.0,
+      "F1": 52.07,
+      "Specificity": 0.0,
+      "FPR": 100.0
+    },
+    "constant_negative": {
+      "TP": 0,
+      "TN": 313,
+      "FP": 0,
+      "FN": 170,
+      "Accuracy": 64.8,
+      "Precision": null,
+      "Recall": 0.0,
+      "F1": null,
+      "Specificity": 100.0,
+      "FPR": 0.0
+    },
+    "deep_edge": {
+      "TP": 165,
+      "TN": 312,
+      "FP": 1,
+      "FN": 5,
+      "Accuracy": 98.76,
+      "Precision": 99.4,
+      "Recall": 97.06,
+      "F1": 98.21,
+      "Specificity": 99.68,
+      "FPR": 0.32
+    }
+  }
+}
