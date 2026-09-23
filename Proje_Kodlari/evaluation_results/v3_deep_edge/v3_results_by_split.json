@@ -1,0 +1,112 @@
+{
+  "unseen_by_gradient": {
+    "TP": 63,
+    "TN": 125,
+    "FP": 1,
+    "FN": 5,
+    "N_clips": 194,
+    "N_fire": 68,
+    "N_no_fire": 126,
+    "Accuracy": 96.91,
+    "Recall_TPR": 92.65,
+    "Precision": 98.44,
+    "F1": 95.45,
+    "FPR": 0.79,
+    "Recall_TPR_wilson": [
+      83.91,
+      96.82
+    ],
+    "FPR_wilson": [
+      0.14,
+      4.36
+    ]
+  },
+  "untouched": {
+    "TP": 32,
+    "TN": 61,
+    "FP": 1,
+    "FN": 2,
+    "N_clips": 96,
+    "N_fire": 34,
+    "N_no_fire": 62,
+    "Accuracy": 96.88,
+    "Recall_TPR": 94.12,
+    "Precision": 96.97,
+    "F1": 95.52,
+    "FPR": 1.61,
+    "Recall_TPR_wilson": [
+      80.91,
+      98.37
+    ],
+    "FPR_wilson": [
+      0.29,
+      8.59
+    ]
+  },
+  "epoch_monitor": {
+    "TP": 31,
+    "TN": 64,
+    "FP": 0,
+    "FN": 3,
+    "N_clips": 98,
+    "N_fire": 34,
+    "N_no_fire": 64,
+    "Accuracy": 96.94,
+    "Recall_TPR": 91.18,
+    "Precision": 100.0,
+    "F1": 95.38,
+    "FPR": 0.0,
+    "Recall_TPR_wilson": [
+      77.04,
+      96.95
+    ],
+    "FPR_wilson": [
+      0.0,
+      5.66
+    ]
+  },
+  "gradient_train": {
+    "TP": 102,
+    "TN": 187,
+    "FP": 0,
+    "FN": 0,
+    "N_clips": 289,
+    "N_fire": 102,
+    "N_no_fire": 187,
+    "Accuracy": 100.0,
+    "Recall_TPR": 100.0,
+    "Precision": 100.0,
+    "F1": 100.0,
+    "FPR": 0.0,
+    "Recall_TPR_wilson": [
+      96.37,
+      100.0
+    ],
+    "FPR_wilson": [
+      0.0,
+      2.01
+    ]
+  },
+  "full_manifest_CONTAMINATED": {
+    "TP": 165,
+    "TN": 312,
+    "FP": 1,
+    "FN": 5,
+    "N_clips": 483,
+    "N_fire": 170,
+    "N_no_fire": 313,
+    "Accuracy": 98.76,
+    "Recall_TPR": 97.06,
+    "Precision": 99.4,
+    "F1": 98.21,
+    "FPR": 0.32,
+    "Recall_TPR_wilson": [
+      93.3,
+      98.74
+    ],
+    "FPR_wilson": [
+      0.06,
+      1.79
+    ]
+  }
+}

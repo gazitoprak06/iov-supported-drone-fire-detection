@@ -1,0 +1,131 @@
+{
+  "_protocol": {
+    "experiment": "Section 4.3 - resolution sensitivity of the fixed area threshold",
+    "split": "test",
+    "n_images": 410,
+    "conditions": {
+      "native": "decoded at native resolution (the evaluation of Section 4.1)",
+      "resized": "decoded at full resolution then resized to 640x480 bilinearly"
+    },
+    "difference_between_conditions": "one cv2.resize call; the detector is otherwise identical",
+    "altitude_m": 50.0,
+    "environment": {
+      "python": "3.10.12",
+      "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+      "cpu": "x86_64",
+      "argv": [
+        "tools/resolution_control.py",
+        "--max-seconds",
+        "140"
+      ],
+      "opencv": "4.13.0",
+      "numpy": "2.2.6"
+    }
+  },
+  "cohort_resolution": {
+    "min_megapixels": 0.04,
+    "max_megapixels": 101.86,
+    "median_megapixels": 12.19,
+    "A_min_px": 600,
+    "A_min_as_pct_of_median_image": 0.0049,
+    "A_min_as_pct_of_work_frame": 0.1953
+  },
+  "native": {
+    "TP": 129,
+    "TN": 49,
+    "FP": 202,
+    "FN": 30,
+    "Accuracy": 43.41,
+    "Precision": 38.97,
+    "Recall": 81.13,
+    "F1": 52.65,
+    "Specificity": 19.52,
+    "FPR": 80.48
+  },
+  "resized": {
+    "TP": 111,
+    "TN": 81,
+    "FP": 170,
+    "FN": 48,
+    "Accuracy": 46.83,
+    "Precision": 39.5,
+    "Recall": 69.81,
+    "F1": 50.45,
+    "Specificity": 32.27,
+    "FPR": 67.73
+  },
+  "spurious_boxes_on_no_fire": {
+    "native": 1461,
+    "resized": 231,
+    "removed": 1230,
+    "removed_pct": 84.19,
+    "max_boxes_on_a_single_image": 61,
+    "megapixels_of_that_image": 19.89
+  },
+  "pearson_area_vs_spurious_boxes": 0.3546,
+  "resolution_bands_no_fire_native": {
+    "< 2 MP": {
+      "n": 3,
+      "boxes": 2,
+      "fp": 1,
+      "mean_boxes_per_image": 0.67,
+      "false_alarm_rate": 33.33
+    },
+    "2 - 5 MP": {
+      "n": 4,
+      "boxes": 6,
+      "fp": 3,
+      "mean_boxes_per_image": 1.5,
+      "false_alarm_rate": 75.0
+    },
+    "5 - 10 MP": {
+      "n": 44,
+      "boxes": 148,
+      "fp": 29,
+      "mean_boxes_per_image": 3.36,
+      "false_alarm_rate": 65.91
+    },
+    "10 - 25 MP": {
+      "n": 175,
+      "boxes": 1035,
+      "fp": 150,
+      "mean_boxes_per_image": 5.91,
+      "false_alarm_rate": 85.71
+    },
+    "> 25 MP": {
+      "n": 25,
+      "boxes": 270,
+      "fp": 19,
+      "mean_boxes_per_image": 10.8,
+      "false_alarm_rate": 76.0
+    }
+  },
+  "mcnemar": {
+    "no_fire_images": {
+      "b": 0,
+      "c": 32,
+      "chi2": 30.03,
+      "p": 0.0
+    },
+    "fire_images": {
+      "b": 18,
+      "c": 0,
+      "chi2": 16.06,
+      "p": 0.0001
+    },
+    "all_images": {
+      "b": 18,
+      "c": 32,
+      "chi2": 3.38,
+      "p": 0.066
+    }
+  },
+  "changes": {
+    "Accuracy_pp": 3.42,
+    "Precision_pp": 0.53,
+    "Recall_pp": -11.32,
+    "F1_pp": -2.2,
+    "Specificity_pp": 12.75,
+    "FPR_pp": -12.75
+  }
+}

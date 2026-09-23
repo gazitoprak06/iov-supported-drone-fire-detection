@@ -1,0 +1,8 @@
+{
+  "mean": 21.82,
+  "median": 18.85,
+  "p95": 38.39,
+  "n_inferences": 4342,
+  "threads": 1,
+  "note": "forward pass only, measured inside the clip loop and not warm-up corrected; use tools/benchmark_latency.py for the figure quoted in the paper"
+}

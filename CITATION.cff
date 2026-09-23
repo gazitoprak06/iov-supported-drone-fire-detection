@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript."
+type: software
+title: "UAV Fire Detection: Null-Baseline Auditing, the Location of Failure in the Decision Rule, and a Deep Edge Replacement"
+version: 0.2.0
+date-released: 2026-09-22
+authors:
+  - family-names: Toprak
+    given-names: Alaeddin Gazi
+    affiliation: "Department of Computer Engineering, Haliç University"
+  - family-names: Souri
+    given-names: Alireza
+    affiliation: "Department of Computer Engineering, Haliç University"
+abstract: "Reproducibility package for a null-baseline evaluation of CPU-only UAV fire detection, its learned-baseline diagnosis, and a MobileNetV3-Small deep edge replacement evaluated on a clip-level partition of a 483-clip real aerial corpus."
+license: MIT
+repository-code: "https://github.com/gazitoprak06/iov-supported-drone-fire-detection"
+url: "https://github.com/gazitoprak06/iov-supported-drone-fire-detection"

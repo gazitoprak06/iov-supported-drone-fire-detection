@@ -1,0 +1,23 @@
+{
+  "host_cpu": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "torch_version": "2.14.0+cpu",
+  "threads": 1,
+  "input_resolution": "640x480 source, resized to 224x224",
+  "forward_only": {
+    "mean_ms": 10.89,
+    "median_ms": 10.96,
+    "p95_ms": 12.91,
+    "min_ms": 8.35,
+    "max_ms": 22.72,
+    "n": 300
+  },
+  "preprocess_plus_forward": {
+    "mean_ms": 13.26,
+    "median_ms": 13.18,
+    "p95_ms": 15.48,
+    "min_ms": 10.95,
+    "max_ms": 25.04,
+    "n": 300
+  }
+}

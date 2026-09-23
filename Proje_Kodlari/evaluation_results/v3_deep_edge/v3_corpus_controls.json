@@ -1,0 +1,146 @@
+{
+  "_protocol": {
+    "experiment": "Section 4.5 - source and event-level controls on the clip corpus",
+    "n_clips": 483,
+    "n_held_out": 194,
+    "boreal_prefixes": [
+      "evo",
+      "heinola",
+      "karkkila",
+      "ruokolahti"
+    ],
+    "event_definition": "filename with the trailing clip index removed",
+    "environment": {
+      "python": "3.10.12",
+      "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+      "cpu": "x86_64",
+      "argv": [
+        "tools/corpus_controls.py"
+      ],
+      "opencv": "4.13.0",
+      "numpy": "2.2.6"
+    }
+  },
+  "composition": {
+    "fire/Boreal": 86,
+    "fire/ERA": 84,
+    "no_fire/ERA": 313
+  },
+  "n_distinct_events": 395,
+  "source_control": {
+    "held_out_fire_by_source": {
+      "Boreal": {
+        "N_clips": 34,
+        "N_fire": 34,
+        "N_no_fire": 0,
+        "TP": 34,
+        "TN": 0,
+        "FP": 0,
+        "FN": 0,
+        "Accuracy": 100.0,
+        "Recall_TPR": 100.0,
+        "Precision": 100.0,
+        "F1": 100.0,
+        "FPR": null,
+        "Recall_TPR_wilson": [
+          89.85,
+          100.0
+        ]
+      },
+      "ERA": {
+        "N_clips": 34,
+        "N_fire": 34,
+        "N_no_fire": 0,
+        "TP": 29,
+        "TN": 0,
+        "FP": 0,
+        "FN": 5,
+        "Accuracy": 85.29,
+        "Recall_TPR": 85.29,
+        "Precision": 100.0,
+        "F1": 92.06,
+        "FPR": null,
+        "Recall_TPR_wilson": [
+          69.87,
+          93.55
+        ]
+      }
+    },
+    "era_only_held_out": {
+      "N_clips": 160,
+      "N_fire": 34,
+      "N_no_fire": 126,
+      "TP": 29,
+      "TN": 125,
+      "FP": 1,
+      "FN": 5,
+      "Accuracy": 96.25,
+      "Recall_TPR": 85.29,
+      "Precision": 96.67,
+      "F1": 90.62,
+      "FPR": 0.79,
+      "Recall_TPR_wilson": [
+        69.87,
+        93.55
+      ]
+    },
+    "note": "every negative is ERA, so the ERA-only row holds the source constant and no source signal can contribute to it"
+  },
+  "event_control": {
+    "n_events_spanning_partitions": 56,
+    "held_out_all": {
+      "N_clips": 194,
+      "N_fire": 68,
+      "N_no_fire": 126,
+      "TP": 63,
+      "TN": 125,
+      "FP": 1,
+      "FN": 5,
+      "Accuracy": 96.91,
+      "Recall_TPR": 92.65,
+      "Precision": 98.44,
+      "F1": 95.45,
+      "FPR": 0.79,
+      "Recall_TPR_wilson": [
+        83.91,
+        96.82
+      ]
+    },
+    "held_out_event_unseen_in_training": {
+      "N_clips": 141,
+      "N_fire": 48,
+      "N_no_fire": 93,
+      "TP": 44,
+      "TN": 92,
+      "FP": 1,
+      "FN": 4,
+      "Accuracy": 96.45,
+      "Recall_TPR": 91.67,
+      "Precision": 97.78,
+      "F1": 94.62,
+      "FPR": 1.08,
+      "Recall_TPR_wilson": [
+        80.45,
+        96.71
+      ]
+    },
+    "held_out_event_also_in_training": {
+      "N_clips": 53,
+      "N_fire": 20,
+      "N_no_fire": 33,
+      "TP": 19,
+      "TN": 33,
+      "FP": 0,
+      "FN": 1,
+      "Accuracy": 98.11,
+      "Recall_TPR": 95.0,
+      "Precision": 100.0,
+      "F1": 97.44,
+      "FPR": 0.0,
+      "Recall_TPR_wilson": [
+        76.39,
+        99.11
+      ]
+    }
+  }
+}

@@ -1,0 +1,3882 @@
+{
+  "schema_version": "1.0",
+  "description": "Per-clip labels, SHA-256 hashes and cohort assignments for the 483-clip aerial corpus used in Section 4.8.",
+  "summary": {
+    "total_clips": 483,
+    "by_label": {
+      "fire": 170,
+      "no_fire": 313
+    },
+    "by_split": {
+      "train": 289,
+      "test": 98,
+      "validation": 96
+    }
+  },
+  "clips": [
+    {
+      "id": "VID000",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "21430f48a5616c1cae9677db64cfd092fdc42ef8d6efdd6739550d505622116c",
+      "path": "data/videos/fire/Conflict_002 _1624.mp4"
+    },
+    {
+      "id": "VID001",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "833746765ac31f7f8ca5a66ee0dc24cef1de40a8a997ea58a674d7139f03767e",
+      "path": "data/videos/fire/evo_11_2866.mp4"
+    },
+    {
+      "id": "VID002",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "0234c01d9d77c084f6a9ab0289128e055f6f8288f7157676d7f018eb7fd9d409",
+      "path": "data/videos/fire/evo_12_2867.mp4"
+    },
+    {
+      "id": "VID003",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "4e955389df0844ca456bb9517ed7864e27979a94122c1458102b44e1d825c763",
+      "path": "data/videos/fire/evo_13_2868.mp4"
+    },
+    {
+      "id": "VID004",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "02d6a83027638625b10a613ee34a606dccf9ebeb5fd82549c939452f11a517d8",
+      "path": "data/videos/fire/evo_14_2869.mp4"
+    },
+    {
+      "id": "VID005",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "fbd01543684d146bfa6fe463b82c2a885a4d38231c268bb98364d1c9bc3ee645",
+      "path": "data/videos/fire/evo_15_2870.mp4"
+    },
+    {
+      "id": "VID006",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "660cb28bcbfa22fe5fcccb54944bf3eed35c29eb555527f2d18b11be8e19c479",
+      "path": "data/videos/fire/evo_16_2871.mp4"
+    },
+    {
+      "id": "VID007",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "a2a92ff18f69e4238afb69e45b49852b84bd31afd4dc896bd3c793b7403ff57b",
+      "path": "data/videos/fire/evo_17_2872.mp4"
+    },
+    {
+      "id": "VID008",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "c118193d4a2b58a76bac3b0699b3496e81e6e3be598447e89a0dacb87d24f86d",
+      "path": "data/videos/fire/evo_18_2873.mp4"
+    },
+    {
+      "id": "VID009",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "d13bf57792f981dd6fc0cb2c3160b52fe1c65a996755cf5b101f0c3850898716",
+      "path": "data/videos/fire/evo_19_2874.mp4"
+    },
+    {
+      "id": "VID010",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "e280a17943f71e3d89a37cf0104d60e75ca543ed233f3ccbb3f8dd1136bd96a5",
+      "path": "data/videos/fire/evo_1_2864.mp4"
+    },
+    {
+      "id": "VID011",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "c441ce9524b820509823a94505239e2f99fc11699aad15ac89dd45aab49c7a3b",
+      "path": "data/videos/fire/evo_26_2882.mp4"
+    },
+    {
+      "id": "VID012",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "6f17a8241347a5f6f2e995c943c94333e60b2a6545578ad8430f3ff3f6bf08f1",
+      "path": "data/videos/fire/evo_27_2883.mp4"
+    },
+    {
+      "id": "VID013",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "8f24054a09d6667d2d9339b44818e504b7a83ee5a23f50df1d488aea3a35bae2",
+      "path": "data/videos/fire/evo_28_2884.mp4"
+    },
+    {
+      "id": "VID014",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "2b3e5a71601ba124d5d24ba454bc05aac8f8ffbe98f4478155ecf01544c1d4e6",
+      "path": "data/videos/fire/evo_30_2887.mp4"
+    },
+    {
+      "id": "VID015",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "414f2c2898014f73a30830ff49aef22c1b9fe7f777d9e64043b7e862546000d9",
+      "path": "data/videos/fire/evo_31_2888.mp4"
+    },
+    {
+      "id": "VID016",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "82656355cca8aa1a22549ccf1b371bab5c5c60ae0728af087fb9d5fbb1c949b0",
+      "path": "data/videos/fire/evo_4_2889.mp4"
+    },
+    {
+      "id": "VID017",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "cc716322693106e22100ed8ade7d868bc68c70ac3ef1c4c9e247de15c01814e9",
+      "path": "data/videos/fire/evo_5_2890.mp4"
+    },
+    {
+      "id": "VID018",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "4aac25a89f9d86822e27ece393d7753bfc0506b514d531056102686a023250d3",
+      "path": "data/videos/fire/evo_6_2891.mp4"
+    },
+    {
+      "id": "VID019",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "e3c42ee0ba1890364b1fa43a432ee7ee6c3a55614334f1ade2e537a3096e0470",
+      "path": "data/videos/fire/evo_8_2893.mp4"
+    },
+    {
+      "id": "VID020",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "00cb21531d91b9145fb6b8f795a9cb119a14d858a28fab3e034acf303b988a5e",
+      "path": "data/videos/fire/Fire_002 _1764.mp4"
+    },
+    {
+      "id": "VID021",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "1751ddc59489749fbe831d258ab54f615d3df6a3b2708ce96565fce097220c58",
+      "path": "data/videos/fire/Fire_002 _355.mp4"
+    },
+    {
+      "id": "VID022",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "667e881ca4200e2a6f3d7d921a898b211cb51d62d3965c548d05564eb412b88d",
+      "path": "data/videos/fire/Fire_003 _356.mp4"
+    },
+    {
+      "id": "VID023",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "5e2acc1aa083f2bc5775172374bc62b560f07404a2887ba86cee0001288cfe44",
+      "path": "data/videos/fire/Fire_004 _1766.mp4"
+    },
+    {
+      "id": "VID024",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "17612fd5eb0e47b6c0180461e8707f63b1f0a449cd88deb5a053f7fbbac030c8",
+      "path": "data/videos/fire/Fire_004 _357.mp4"
+    },
+    {
+      "id": "VID025",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "d62fe437cede9a07acecfb196920dcc121c26255323bd21ba0449e97d8198d03",
+      "path": "data/videos/fire/Fire_005 _1767.mp4"
+    },
+    {
+      "id": "VID026",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "c173c98a8ae656fb6fbab28a4deaa3c0f8687b0af9027df309fe78b76bd99df8",
+      "path": "data/videos/fire/Fire_005 _358.mp4"
+    },
+    {
+      "id": "VID027",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "39bb849e8151eb07939e06fde0be1d2827be32bf2ad73aa8de4dd92f66f7ad79",
+      "path": "data/videos/fire/Fire_006 _1768.mp4"
+    },
+    {
+      "id": "VID028",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "759ad8e0ff386d57b823deacbe59f672cbf412fceb7fe100dfe83460265fa6f7",
+      "path": "data/videos/fire/Fire_007 _1769.mp4"
+    },
+    {
+      "id": "VID029",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "3a1bfeafa0b8e95d6e3d18a4d920c4b1c2e20d0d152f59677fe5cbb172fcf506",
+      "path": "data/videos/fire/Fire_008 _1770.mp4"
+    },
+    {
+      "id": "VID030",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "4874d59bc25c1cfde69889658d85a21e98e01b3f5e8d5bf05d9828a10f00a7be",
+      "path": "data/videos/fire/Fire_008 _361.mp4"
+    },
+    {
+      "id": "VID031",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "a9aecd76f4576c678a6fa2e4fe470cdc6f5a8122b7c54b684bbf7962be37d223",
+      "path": "data/videos/fire/Fire_009 _1771.mp4"
+    },
+    {
+      "id": "VID032",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "052fd8810de7ceeb0973a9cbad9b89c5662e2bb785d76f9796a39248eaa690c1",
+      "path": "data/videos/fire/Fire_009 _362.mp4"
+    },
+    {
+      "id": "VID033",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "6bc96c30aa5fc4a301cc7b5a6548f4655ec44afc72c9b8276a1857f37d511397",
+      "path": "data/videos/fire/Fire_010 _1772.mp4"
+    },
+    {
+      "id": "VID034",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "d7fa0c61aa2f5617800cb2290a2b8043b43c49fb32532e5422324f00d2c5c313",
+      "path": "data/videos/fire/Fire_011 _1773.mp4"
+    },
+    {
+      "id": "VID035",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "6554edd352ff13c301729fcd8ab74750c35111a6b43bdc99d80304d1456fea8a",
+      "path": "data/videos/fire/Fire_013 _1775.mp4"
+    },
+    {
+      "id": "VID036",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "2fbb4a9f0f1113bdf14bf246ecff89c1ff6946f14962b9729ac0e9f0302cfa3f",
+      "path": "data/videos/fire/Fire_013 _366.mp4"
+    },
+    {
+      "id": "VID037",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "b5c2859e7c0f11805dd22b45eb46026721e4a91dc7e15579fee6a57d430dc86b",
+      "path": "data/videos/fire/Fire_014 _1776.mp4"
+    },
+    {
+      "id": "VID038",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "4dfbdf5bd32c45af1b910a3df82f8d5272ae78df15a50a274458fe62777fb32c",
+      "path": "data/videos/fire/Fire_016 _1778.mp4"
+    },
+    {
+      "id": "VID039",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "fe798bf806763d2380ed9364b0b5d4f42cb4d797c316a5d99ecf448bad9409a7",
+      "path": "data/videos/fire/Fire_016 _369.mp4"
+    },
+    {
+      "id": "VID040",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "2c4b46845f90386f08b1d31eaa272ee3a0678e9aab95f58554002609c1085543",
+      "path": "data/videos/fire/Fire_017 _1779.mp4"
+    },
+    {
+      "id": "VID041",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "78f1126a8ab68ae605eaef722fb41ebb964ae6b3d5e09e47baa9c542547eed4a",
+      "path": "data/videos/fire/Fire_017 _370.mp4"
+    },
+    {
+      "id": "VID042",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "423340f1e4e818f5bdf376fae6f0882148e32252a2422ec77a24a6182143f6c1",
+      "path": "data/videos/fire/Fire_018 _371.mp4"
+    },
+    {
+      "id": "VID043",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "a1221d8cf28dcdfb13eda8029a0f9fcd4d23f819726c1f0e0ccf4f9a21e12626",
+      "path": "data/videos/fire/Fire_019 _1781.mp4"
+    },
+    {
+      "id": "VID044",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "dfe9a9a5447cc2c01f4476d84bd62852827e79d9fb023a2f5ca5500383d1742b",
+      "path": "data/videos/fire/Fire_020 _1782.mp4"
+    },
+    {
+      "id": "VID045",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "5795d33fb120106a402b769af31506231eba4fa3baec8ccca5dbac80150dbb0f",
+      "path": "data/videos/fire/Fire_021 _1783.mp4"
+    },
+    {
+      "id": "VID046",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "c5f1a44a7761a1b468c9167e189fba33673581f87a5081f11bb3d2a72fd05efd",
+      "path": "data/videos/fire/Fire_021 _374.mp4"
+    },
+    {
+      "id": "VID047",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "4898b1b360eb4599e87f738a5a5c12a645c3e644d5ce6f50bc3d9fef5ea65f24",
+      "path": "data/videos/fire/Fire_022 _1784.mp4"
+    },
+    {
+      "id": "VID048",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "0b0d9af8bbb5f49aa93534f7d93bc55c0faf5f5b9446d1a97dfac19c9309ac36",
+      "path": "data/videos/fire/Fire_023 _376.mp4"
+    },
+    {
+      "id": "VID049",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "82ee89f7e036048d7e770c0dd33f3a3d1c45a71ffc7b5548554651276a380088",
+      "path": "data/videos/fire/Fire_024 _1786.mp4"
+    },
+    {
+      "id": "VID050",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "b3db06a3296683e2ee0559a9bd8637be57b3e2f5046b6612263e7b48bfc2f4eb",
+      "path": "data/videos/fire/Fire_024 _377.mp4"
+    },
+    {
+      "id": "VID051",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "b398b17c58c5cfc8e98a48b0970250d7ce78fe9e4ce3a4421cc3b21b09ac2e9b",
+      "path": "data/videos/fire/Fire_026 _1788.mp4"
+    },
+    {
+      "id": "VID052",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "463b2fc4aa3d8665f9303b7edae483c53b49ba2a104ba7b26e5ec82592a66ade",
+      "path": "data/videos/fire/Fire_026 _379.mp4"
+    },
+    {
+      "id": "VID053",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "3513e85d068fcf498af19d1ebf761742e1941c0db749ce194651cbbe3ade3306",
+      "path": "data/videos/fire/Fire_027 _380.mp4"
+    },
+    {
+      "id": "VID054",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "c71809004c7f161dc7e3e5af563ef0a7534d83fa0e056d5eef1f012067cc6533",
+      "path": "data/videos/fire/Fire_029 _1791.mp4"
+    },
+    {
+      "id": "VID055",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "6cdbe2f85936b50b3114edf69c74f3ed5d40fcde3a821ae69bc6e8c47d7b0a83",
+      "path": "data/videos/fire/Fire_030 _1792.mp4"
+    },
+    {
+      "id": "VID056",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "6f1d0a328207b40a519229cec6bce7289739bd11a7f718229fc9011de484234a",
+      "path": "data/videos/fire/Fire_031 _1793.mp4"
+    },
+    {
+      "id": "VID057",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "47e284ece3bd91f47ffcf393813203851869e40d32657c2a42ce0a013f03b0ca",
+      "path": "data/videos/fire/Fire_031 _384.mp4"
+    },
+    {
+      "id": "VID058",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "f6ea24288423f906387c8ab1d41faebf7d0bbe1b602b8be511039398ce211046",
+      "path": "data/videos/fire/Fire_032 _1794.mp4"
+    },
+    {
+      "id": "VID059",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "a3803aee620b6efbb20dff26475bc1331d1ab0be8b9008f474d70147ad1ecc0c",
+      "path": "data/videos/fire/Fire_032 _385.mp4"
+    },
+    {
+      "id": "VID060",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "01adced2b0ed0b6cf4d72898f816bd8e56bca3c18fd79e568a3b2a05ac3a86de",
+      "path": "data/videos/fire/Fire_033 _1795.mp4"
+    },
+    {
+      "id": "VID061",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "e8c6556768f720a7775b0595fbc44c7ae5c543be9ef3384eae7b717cdc705175",
+      "path": "data/videos/fire/Fire_033 _386.mp4"
+    },
+    {
+      "id": "VID062",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "9f840b4547694ac83f81e31f7169c2b89c6c6b213d8665e4cc4db11e4e856c50",
+      "path": "data/videos/fire/Fire_034 _1796.mp4"
+    },
+    {
+      "id": "VID063",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "e7d9b918d7eda1fc0e520855c8ae58d0bfed8b89c5752c6d387e111445fae57d",
+      "path": "data/videos/fire/Fire_034 _387.mp4"
+    },
+    {
+      "id": "VID064",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "4d27a660a99849f682f38eea70239c4348bdec4cfe3aab6ebddc362c6bd0911a",
+      "path": "data/videos/fire/Fire_035 _1797.mp4"
+    },
+    {
+      "id": "VID065",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "4599f932fb05755901551dd0cb9ae59a98818c2f60568e4349deeb469d189d8f",
+      "path": "data/videos/fire/Fire_035 _388.mp4"
+    },
+    {
+      "id": "VID066",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "ed560268f52474d03bf9553afc52416445c277e079b661850a8aac1da1de75f4",
+      "path": "data/videos/fire/Fire_036 _389.mp4"
+    },
+    {
+      "id": "VID067",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "d9e853add59da7ed34994d6ad182633a20deb12144d9444857d77daaacbb5733",
+      "path": "data/videos/fire/Fire_037 _390.mp4"
+    },
+    {
+      "id": "VID068",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "2e70cb7f74095e79def5e219eada06f840af701797881ecd5cb4268fb9009c8a",
+      "path": "data/videos/fire/Fire_039 _392.mp4"
+    },
+    {
+      "id": "VID069",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "4f9710064d8cb3864f9e8245af8299c5ecfd19fbab6bea13c9cf5c413707f503",
+      "path": "data/videos/fire/Fire_040 _1802.mp4"
+    },
+    {
+      "id": "VID070",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "fd42ade72057366dde143073245fa4a5e4887cb16361e872f146247a4625532d",
+      "path": "data/videos/fire/Fire_040 _393.mp4"
+    },
+    {
+      "id": "VID071",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "4774fbf2e109aad604dfe7a441dccea1174f384aafd75bad707d4529539a4638",
+      "path": "data/videos/fire/Fire_041 _394.mp4"
+    },
+    {
+      "id": "VID072",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "4f26d01f8e43cf6f00d4a239c3be4c823f3bb7eaa1b9dae8d59d0c1de92d2d7c",
+      "path": "data/videos/fire/Fire_043 _1805.mp4"
+    },
+    {
+      "id": "VID073",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "4da09fa739138fa7c9e06d033129f97c921be47fb375285d9ae82fff26fbee36",
+      "path": "data/videos/fire/Fire_043 _396.mp4"
+    },
+    {
+      "id": "VID074",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "db19e2c4eef5bd33efc5d6590c43ac9ad09f23bc2178824129cf658b3d46fa84",
+      "path": "data/videos/fire/Fire_044 _1806.mp4"
+    },
+    {
+      "id": "VID075",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "ef18632357ed8de27438345df2b16ac78928b12d6c716b4507ae69beba7040a2",
+      "path": "data/videos/fire/Fire_045 _1807.mp4"
+    },
+    {
+      "id": "VID076",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "7c20ac1bf94d72075f30e76b35545530b56e9133169613a781552f3e98ce2b32",
+      "path": "data/videos/fire/Fire_045 _398.mp4"
+    },
+    {
+      "id": "VID077",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "54530b21b2a90e4dc7d4d67c607ec98dc70b1bb6d373b349bbf0f5871d63f8e1",
+      "path": "data/videos/fire/Fire_046 _1808.mp4"
+    },
+    {
+      "id": "VID078",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "176dcea23c0c51c7cb0807605fac44a97a6a9ce8c4abd63561876e12b42a6392",
+      "path": "data/videos/fire/Fire_047 _1809.mp4"
+    },
+    {
+      "id": "VID079",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "0b12d7622654b2fe3580fb8074e3b8f0cca431f96bb27a7fca3bdacfcb4edec5",
+      "path": "data/videos/fire/Fire_047 _400.mp4"
+    },
+    {
+      "id": "VID080",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "366d6d7114df9f1053b1f98e99184c23a4f015b3746d64b5303822ef8a70a0d5",
+      "path": "data/videos/fire/Fire_048 _401.mp4"
+    },
+    {
+      "id": "VID081",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "2f0ed98ca424738e4782c603876d5f802721a5053161b5b878f39aa60c4eb978",
+      "path": "data/videos/fire/Fire_049 _1811.mp4"
+    },
+    {
+      "id": "VID082",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "6e4634ed1d7361b3890cd3131f9e406bd1a285215b3c9d5fb91775ac9537dbbb",
+      "path": "data/videos/fire/Fire_050 _1812.mp4"
+    },
+    {
+      "id": "VID083",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "636985b6ab61ad899617a2a515df323c2e8890a8c35bf84cec0bd9b1b59a4842",
+      "path": "data/videos/fire/Fire_050 _403.mp4"
+    },
+    {
+      "id": "VID084",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "860203dc2f3afe7c1a4830a09c8821613ca0826fb18db93eac0fe0d2014eda0b",
+      "path": "data/videos/fire/Fire_051 _1813.mp4"
+    },
+    {
+      "id": "VID085",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "3b7abe0d7f0f26703e7797e6a5c0c17fd0f602809895b6e814e84499745fb198",
+      "path": "data/videos/fire/Fire_051 _404.mp4"
+    },
+    {
+      "id": "VID086",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "57457dc0c90c529427494e191f2f34bab0156480580d88e45e7ab58eccb632b2",
+      "path": "data/videos/fire/Fire_052 _1814.mp4"
+    },
+    {
+      "id": "VID087",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "c5486d25b8b84966bb4c614ec76220a2efce0a81151efe1fdc3e2ca738136295",
+      "path": "data/videos/fire/Fire_053 _406.mp4"
+    },
+    {
+      "id": "VID088",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "8e048b1ddccb14a379eaf9120f87a810f9fd9516a0ba22d8d974c3354c34c4d5",
+      "path": "data/videos/fire/Fire_054 _1816.mp4"
+    },
+    {
+      "id": "VID089",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "3667e01895036df211d88af58352c0b084a628d799814c92ea261ab027b36dc8",
+      "path": "data/videos/fire/Fire_056 _1818.mp4"
+    },
+    {
+      "id": "VID090",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "5170ed609916beafdf25f45b5448a80ad7548795742c298080f76a763e444856",
+      "path": "data/videos/fire/Fire_057 _1819.mp4"
+    },
+    {
+      "id": "VID091",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "8205f4f8c2bb17a76b8d70508793c071b5c3d76be1a7a728265ca509d5b2b853",
+      "path": "data/videos/fire/Fire_058 _1820.mp4"
+    },
+    {
+      "id": "VID092",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "2eb816f6139bd32e9bad7cb2a8b5b0db36d0ba2684d9ab55d4e924ca1632d4bd",
+      "path": "data/videos/fire/heinola_29_2942.mp4"
+    },
+    {
+      "id": "VID093",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "34675b016c54902b67640018646659639fe40ec5fd160e53adba9d962662c50b",
+      "path": "data/videos/fire/heinola_30_2944.mp4"
+    },
+    {
+      "id": "VID094",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "348c80dc12394afd72b339aca4b3c990f9c8ea5845c223c7856d9bfc1c7e621a",
+      "path": "data/videos/fire/heinola_33_2947.mp4"
+    },
+    {
+      "id": "VID095",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "9769053350095654872624a5cebfccf2d10d0c03ab068492a8dfcbd7e13cf270",
+      "path": "data/videos/fire/heinola_34_2948.mp4"
+    },
+    {
+      "id": "VID096",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "bc96b457a1ec16b43a62b507670639d458e7a19c3b8c94d5f3b5e366d8e84de4",
+      "path": "data/videos/fire/heinola_36_2950.mp4"
+    },
+    {
+      "id": "VID097",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "818c878fe00a926a8ffdc0578cf4b308e94f5ba6053755db3233e0f6cd2fb897",
+      "path": "data/videos/fire/heinola_42_2957.mp4"
+    },
+    {
+      "id": "VID098",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "15eac407a6ee5c2ccf2f370544baa3e4b3f07083d6d5e1c1ee893495736f979b",
+      "path": "data/videos/fire/heinola_46_2961.mp4"
+    },
+    {
+      "id": "VID099",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "243fb46e3b823f1eb2a7932b2d5e6efed2173c873ad0c5a2af95ec0ffb7c45ed",
+      "path": "data/videos/fire/heinola_47_2962.mp4"
+    },
+    {
+      "id": "VID100",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "2485b7172af7e1c8902b7049e66ebcd0eef4a53672e9284b149d1d24c36bbee0",
+      "path": "data/videos/fire/heinola_48_2963.mp4"
+    },
+    {
+      "id": "VID101",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "7e8df7a6ec0e4f8e81902bc3e1db94d84ffd3815f07def1b44ef4ad3d5e136d1",
+      "path": "data/videos/fire/heinola_50_2966.mp4"
+    },
+    {
+      "id": "VID102",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "ebdc02956d8c67846440ed14ad0bd9891621884b7059ea2dcfdaf15f082f5194",
+      "path": "data/videos/fire/heinola_51_2967.mp4"
+    },
+    {
+      "id": "VID103",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "b43a82a2f35a32d4f00c7ad63013077f1755b5a1c0253f0aff6f08fdf5f844ae",
+      "path": "data/videos/fire/heinola_52_2968.mp4"
+    },
+    {
+      "id": "VID104",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "7bd808000e1dc7430731cd4c5610e8f7902ef70dca6db97cf5e8bef564fa9222",
+      "path": "data/videos/fire/heinola_54_2970.mp4"
+    },
+    {
+      "id": "VID105",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "e8b1d5d420aa07378967a282f936d1ff543152a6800804b79d1f8c348c3b3c62",
+      "path": "data/videos/fire/heinola_55_2971.mp4"
+    },
+    {
+      "id": "VID106",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "f9a0f1741fb5a1774c90ec6bbf8082726cc2c7b34dc9d82f54dc8757dae54e1e",
+      "path": "data/videos/fire/heinola_56_2972.mp4"
+    },
+    {
+      "id": "VID107",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "2a026667957e30c1d1ffe9dbdb3b04c13b54fbff409ae091ef520a2af14bc66b",
+      "path": "data/videos/no_fire/Baseball_007 _6.mp4"
+    },
+    {
+      "id": "VID108",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "2697d790c70f601f8c130fc7c8c200446c0af4f597c21e6567e8fd15922def11",
+      "path": "data/videos/no_fire/Baseball_008 _7.mp4"
+    },
+    {
+      "id": "VID109",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "362bd1b2c1bb8fbca274bc8366937fc5650af221ef39f620eade5cdf66501095",
+      "path": "data/videos/no_fire/Baseball_016 _15.mp4"
+    },
+    {
+      "id": "VID110",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "9b4dd8127a7a492413e6a971752ae5433dddd357ebd53758f6232053e8445b84",
+      "path": "data/videos/no_fire/Baseball_022 _1412.mp4"
+    },
+    {
+      "id": "VID111",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "b9803ead686b01693212442adf47c787bf46ef4e1e96fdb923c52219d7336453",
+      "path": "data/videos/no_fire/Baseball_023 _1413.mp4"
+    },
+    {
+      "id": "VID112",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "17c3ae991685cf4c9006b2038174a8934d16d9712016d2dfc2bd1d3a290348ff",
+      "path": "data/videos/no_fire/Baseball_024 _1414.mp4"
+    },
+    {
+      "id": "VID113",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "fa0a6fa20c5f496c0e615f0bd96551290c8a0687bf7ef0b21e27b42194d8eb5b",
+      "path": "data/videos/no_fire/Baseball_024 _23.mp4"
+    },
+    {
+      "id": "VID114",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "df0cff8b8cdcb5da9c0afd63728e591b13c20b6a9606645896781877062129ca",
+      "path": "data/videos/no_fire/Baseball_025 _1415.mp4"
+    },
+    {
+      "id": "VID115",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "71a56ee723651610804b4ccef1a6241bdb19d173e3c06ed2d3ae9998e5574965",
+      "path": "data/videos/no_fire/Baseball_026 _25.mp4"
+    },
+    {
+      "id": "VID116",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "80f4273025264f5e4c69ebd68436836ef36eb711a05da299e56bca3d21d027b0",
+      "path": "data/videos/no_fire/Baseball_027 _1417.mp4"
+    },
+    {
+      "id": "VID117",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "b6557d06084846058be23085c6a08a1768d94cd669746be845a986c34796d89b",
+      "path": "data/videos/no_fire/Baseball_028 _27.mp4"
+    },
+    {
+      "id": "VID118",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "5992e89cd450640c46382ad5bf00a75f34e20d9349ccb721f3cbf19cec0df3c9",
+      "path": "data/videos/no_fire/Baseball_029 _1419.mp4"
+    },
+    {
+      "id": "VID119",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "27c221fbeb07eae044b4aa1d3c0ff4509d6bb997bcbb38502b242871246592f4",
+      "path": "data/videos/no_fire/Baseball_029 _28.mp4"
+    },
+    {
+      "id": "VID120",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "518a3cb4a3fabab8938d35bf0ea6709dba8058033eee25c2472296725af43ff5",
+      "path": "data/videos/no_fire/Baseball_046 _1436.mp4"
+    },
+    {
+      "id": "VID121",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "ca2c4b05ee31db1ee7e8e67540f16bb430a063279233b63d529b0be72d11e43c",
+      "path": "data/videos/no_fire/Baseball_047 _1437.mp4"
+    },
+    {
+      "id": "VID122",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "cbf848ff0059ff85df14e56785c33bc41dbaaf437354d652c62e078aed8ab9ff",
+      "path": "data/videos/no_fire/Basketball_019 _1460.mp4"
+    },
+    {
+      "id": "VID123",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "16d2a7a62c5eb46c708469a5430ee06f51743a2b79642df57033900d06f6e013",
+      "path": "data/videos/no_fire/Basketball_020 _1461.mp4"
+    },
+    {
+      "id": "VID124",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "ccd16aedf3b64152b7f0e7b09d80874fbe5cf0ba08d08249c17237baa185ff75",
+      "path": "data/videos/no_fire/Basketball_020 _69.mp4"
+    },
+    {
+      "id": "VID125",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "3ba4b898fa278125d84da42ef1317b4a48fdc56ce465ad676d321158b25ef956",
+      "path": "data/videos/no_fire/Basketball_022 _1463.mp4"
+    },
+    {
+      "id": "VID126",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "0680d695f39a00818b5e336d15f3a8464ed5dbbf94f39342b10c273447740138",
+      "path": "data/videos/no_fire/Basketball_023 _1464.mp4"
+    },
+    {
+      "id": "VID127",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "4580909e3c8607bec9ba51e0a1b22f9488d764dd0054f76031f5989e4ffa47e4",
+      "path": "data/videos/no_fire/Basketball_024 _1465.mp4"
+    },
+    {
+      "id": "VID128",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "02cea2c9a069ddd27aeba7f4d3dce092d94a6483d51a851d32c13a57d242fa7f",
+      "path": "data/videos/no_fire/Basketball_025 _1466.mp4"
+    },
+    {
+      "id": "VID129",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "77b093191876b8aae5be8f2eae86d18f4f2a45b8f9b3773478e327488f340b8b",
+      "path": "data/videos/no_fire/Basketball_025 _74.mp4"
+    },
+    {
+      "id": "VID130",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "0a3584b2bb347921a2086e75135df5b91072d9c1f4fa5b4b8bbd9705de33aae8",
+      "path": "data/videos/no_fire/Basketball_027 _1468.mp4"
+    },
+    {
+      "id": "VID131",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "e364e2fafc7376dcb5df4370bd78ce1118f8aff70785ba8d8034039b80774bb7",
+      "path": "data/videos/no_fire/Basketball_028 _77.mp4"
+    },
+    {
+      "id": "VID132",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "b86d42ca9f8ed48baa87339384b5dbe608a2f143b96948fc1da3a9a408e3d3b0",
+      "path": "data/videos/no_fire/Basketball_029 _1470.mp4"
+    },
+    {
+      "id": "VID133",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "b7164fe1712b13f1cc616102c558ed0627f539ddec8a800078ae369b2e6171ed",
+      "path": "data/videos/no_fire/Basketball_031 _1472.mp4"
+    },
+    {
+      "id": "VID134",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "60448009134b3f37dabbacc2d5b5f15285e27bc46ebf268286e39a8f7a3a8339",
+      "path": "data/videos/no_fire/Basketball_031 _80.mp4"
+    },
+    {
+      "id": "VID135",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "da67f7d80762cd3bb8369cf9c35789e2a76bba8ad43401ddef82f25e3ca638be",
+      "path": "data/videos/no_fire/Basketball_032 _81.mp4"
+    },
+    {
+      "id": "VID136",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "8cf28d1e6b1569b57b480b36fe672eb176bbbd796a261c919043a4c21cc55135",
+      "path": "data/videos/no_fire/Basketball_033 _1474.mp4"
+    },
+    {
+      "id": "VID137",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "4d91e8c7cd825da91e36d9b1cb52706742d678590f88e48e1b2ce16527e3125a",
+      "path": "data/videos/no_fire/Basketball_033 _82.mp4"
+    },
+    {
+      "id": "VID138",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "f1a55901d9dda80df081afa43c74bea8153c8168158d0a9ab30483dde8488083",
+      "path": "data/videos/no_fire/Basketball_034 _1475.mp4"
+    },
+    {
+      "id": "VID139",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "1aee83bf16892bae28f3c9a5fef32becf1041c2365883094424eb804f345569a",
+      "path": "data/videos/no_fire/Basketball_034 _83.mp4"
+    },
+    {
+      "id": "VID140",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "7314bf4362502b83abe0ca3507a6e60f8e425909debd80a250a40ce6aab021f3",
+      "path": "data/videos/no_fire/Basketball_036 _85.mp4"
+    },
+    {
+      "id": "VID141",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "54d1918955334eb1cff635bfb932070e4910c5e8b7adef17504da0a62fdab7c5",
+      "path": "data/videos/no_fire/Basketball_037 _86.mp4"
+    },
+    {
+      "id": "VID142",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "b79ac6fd01c9b858fcb9e40165bae7f47b95b5a354b9f0625e2674ed80e2c3ff",
+      "path": "data/videos/no_fire/Basketball_038 _87.mp4"
+    },
+    {
+      "id": "VID143",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "7dd03e7dcabacebec78e8abb5fcb267332f3b05f24c89c271de5195c79f48661",
+      "path": "data/videos/no_fire/Basketball_039 _1480.mp4"
+    },
+    {
+      "id": "VID144",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "4903c0abd3215a3af2ae6665ed30d8d24c2a33f95e4a50d7daa07038e665ad12",
+      "path": "data/videos/no_fire/Basketball_039 _88.mp4"
+    },
+    {
+      "id": "VID145",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "f68526485f72e95696229019961cba65f057efc50d1e45d38200c4bd23aa1d62",
+      "path": "data/videos/no_fire/Basketball_041 _90.mp4"
+    },
+    {
+      "id": "VID146",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "3ccf8eedf19aac4009bda38ac39cd2fcced629a8099448d4ea44669c81f56f6b",
+      "path": "data/videos/no_fire/Basketball_042 _1483.mp4"
+    },
+    {
+      "id": "VID147",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "09b17616564f68ff76e0c643e33231b0c661b790385716276f6777c8030a981b",
+      "path": "data/videos/no_fire/Basketball_042 _91.mp4"
+    },
+    {
+      "id": "VID148",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "6af2b7dc26297fa4345892954830e08f1ad28e93cb630a5f41bf28dd5b3a9c97",
+      "path": "data/videos/no_fire/Basketball_043 _1484.mp4"
+    },
+    {
+      "id": "VID149",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "f7da1639468761c7858bce781902dc4c38118ee95cf8fce71079b0085b06a163",
+      "path": "data/videos/no_fire/Basketball_043 _92.mp4"
+    },
+    {
+      "id": "VID150",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "9777986368c114466c70964dc0ae8d0388edbb56cd1e3c48a50d5347c9a173bc",
+      "path": "data/videos/no_fire/Basketball_044 _1485.mp4"
+    },
+    {
+      "id": "VID151",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "f096f74e20fa72e26c3b999ac3892e4ce2acf44549a32b2c0f4305d1c009a026",
+      "path": "data/videos/no_fire/Basketball_044 _93.mp4"
+    },
+    {
+      "id": "VID152",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "2781718cc1bd3fe07fa4b533ea1ee263eb3d4bac570f0261cec6d742c34e9dbf",
+      "path": "data/videos/no_fire/Basketball_045 _1486.mp4"
+    },
+    {
+      "id": "VID153",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "8d086ae403f808fe8b9a1c4114f958d15f6a419ec74ceae12881627ca3b1beea",
+      "path": "data/videos/no_fire/Basketball_045 _94.mp4"
+    },
+    {
+      "id": "VID154",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "342df316fa354d204eb2e8b1f8b40f57a2c882b2271a35bfb461898b9e975b7d",
+      "path": "data/videos/no_fire/Basketball_046 _1487.mp4"
+    },
+    {
+      "id": "VID155",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "ccb59584c313b56e912270354081771331d763cb3e8898dd8a69f72a9dd0b9d0",
+      "path": "data/videos/no_fire/Basketball_046 _95.mp4"
+    },
+    {
+      "id": "VID156",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "ce4484ef536a80ecdbd01f74c7a3fcf3228455a696aa339d3614e15c1d741a79",
+      "path": "data/videos/no_fire/Basketball_047 _1488.mp4"
+    },
+    {
+      "id": "VID157",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "e44855ec69011536ea241994c963220a2dda20a328f46d9c1959ff287beee379",
+      "path": "data/videos/no_fire/Basketball_047 _96.mp4"
+    },
+    {
+      "id": "VID158",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "d161a781636dfeeebd51ce3bf3876dcc5ea974e3515288c37efe4a9edca6b8c8",
+      "path": "data/videos/no_fire/Basketball_050 _1491.mp4"
+    },
+    {
+      "id": "VID159",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "540081931b7f8e439dc2ad96d56a4ca8bc799f136e202cb1d6c81fdf052f34f4",
+      "path": "data/videos/no_fire/Boating_001 _1494.mp4"
+    },
+    {
+      "id": "VID160",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "03ec8005f5a46f6a292cb51e367727f73ba619a5c45581b39c61b73307bb3d54",
+      "path": "data/videos/no_fire/Boating_001 _98.mp4"
+    },
+    {
+      "id": "VID161",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "68cc955046af948a8a27d5de5f22dea9d6d1c71450c7dad1f5038ea5280ee6b9",
+      "path": "data/videos/no_fire/Boating_003 _100.mp4"
+    },
+    {
+      "id": "VID162",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "233363e3efce56530c5cea762fc64974b8c1d9059289272412a372cff0889b47",
+      "path": "data/videos/no_fire/Boating_003 _1496.mp4"
+    },
+    {
+      "id": "VID163",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "9088f74671478beec907a6c024b8c0d94e24d52aea206d056adc2094aa1dee99",
+      "path": "data/videos/no_fire/Boating_005 _102.mp4"
+    },
+    {
+      "id": "VID164",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "71d4b794315ba2454ac9dd9d84ad3ecf2d6b797d701df1beb64ce1bb9e455153",
+      "path": "data/videos/no_fire/Boating_005 _1498.mp4"
+    },
+    {
+      "id": "VID165",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "61fec7a09008612f1e50bd718fade50363869eba0fdfff377529c5929a244c10",
+      "path": "data/videos/no_fire/Boating_008 _1501.mp4"
+    },
+    {
+      "id": "VID166",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "ef9b417011a2890aabedcdc1b346275edbff3ef50b2bf8ba4ee0220979563327",
+      "path": "data/videos/no_fire/Boating_009 _1502.mp4"
+    },
+    {
+      "id": "VID167",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "12fd3e7b479ed0647049b5aedf09411c2f01fe1ba333a2dc9dd02ee8d29da053",
+      "path": "data/videos/no_fire/Boating_010 _107.mp4"
+    },
+    {
+      "id": "VID168",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "6c5bc1bef24873dad59c81e65b919f4be0493e3493747e11b7255653bb34cf45",
+      "path": "data/videos/no_fire/Boating_011 _1504.mp4"
+    },
+    {
+      "id": "VID169",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "0bc7cda26c6195812adb5a149ece6af4ab3ec74f4d23dd9cb833b932270e702a",
+      "path": "data/videos/no_fire/Boating_012 _109.mp4"
+    },
+    {
+      "id": "VID170",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "a47d19370c88c24d20c751b32fc7c7a818b7ed2ada7339498b66a4feb9f0ed0b",
+      "path": "data/videos/no_fire/Boating_013 _110.mp4"
+    },
+    {
+      "id": "VID171",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "3b814720966f3eb13e052b69351ee69da351466b5e7fff69b97cac9e73345a40",
+      "path": "data/videos/no_fire/Boating_013 _1506.mp4"
+    },
+    {
+      "id": "VID172",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "378fc7902db64de6f8d2bb06c1e86eea064b7008138bfa430449933ad6f44372",
+      "path": "data/videos/no_fire/Boating_014 _1507.mp4"
+    },
+    {
+      "id": "VID173",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "9c9e0b630540d1cc8ea8506147edc1dc6d5b2124cfabcc69748b5f142c3518b5",
+      "path": "data/videos/no_fire/Boating_015 _112.mp4"
+    },
+    {
+      "id": "VID174",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "0f20930fb05faea2ca2000eefb49a5cb82517fa482b1c10c6acffca04b763855",
+      "path": "data/videos/no_fire/Boating_015 _1508.mp4"
+    },
+    {
+      "id": "VID175",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "50e62d6a08d51b9531c26d2fca5a6fcc75aaf964611ff64b1ff201554d11215c",
+      "path": "data/videos/no_fire/Boating_016 _113.mp4"
+    },
+    {
+      "id": "VID176",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "c1c17027a357c163b7617b6c03271fe2c7f700da9d58bd66552834744ee87793",
+      "path": "data/videos/no_fire/Boating_017 _1510.mp4"
+    },
+    {
+      "id": "VID177",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "cb219156c00093a27b9a1883106e29b3b2c2c09c1c0150cf77cdd99ed7c68510",
+      "path": "data/videos/no_fire/Boating_018 _1511.mp4"
+    },
+    {
+      "id": "VID178",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "3f3c1cba5a79781681f2a906a0dfe95ea5107713a07a44e3157a9256154b89bd",
+      "path": "data/videos/no_fire/Boating_020 _117.mp4"
+    },
+    {
+      "id": "VID179",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "ccd55010c9fb511da4722a460c177c90587ce7f47b31654c2b1cb5f2b737c5a5",
+      "path": "data/videos/no_fire/Boating_021 _1514.mp4"
+    },
+    {
+      "id": "VID180",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "826d2561a020554ed65e725dc70784dd6c379f28ecc617d2c001c8fcca118b96",
+      "path": "data/videos/no_fire/Boating_022 _119.mp4"
+    },
+    {
+      "id": "VID181",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "23e3d4d43781b4b04841c4d7e18822855fde143c337f49a0c20b33874a3d6a0e",
+      "path": "data/videos/no_fire/Boating_022 _1515.mp4"
+    },
+    {
+      "id": "VID182",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "2693057349905b624fe93604049a4ecc8ffd4f89737408ef5e496c469e1af023",
+      "path": "data/videos/no_fire/Boating_023 _120.mp4"
+    },
+    {
+      "id": "VID183",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "bd7bdcca6e091b25ecd52ff38a8c5676b210fa8ef874f0e328ab994829f5aa52",
+      "path": "data/videos/no_fire/Boating_024 _121.mp4"
+    },
+    {
+      "id": "VID184",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "25d19e25c8306adf683d7fa5dc6f68c196fd090039075444e7293a8636f41f75",
+      "path": "data/videos/no_fire/Boating_026 _123.mp4"
+    },
+    {
+      "id": "VID185",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "8e0d70689e5d8fa523a77592ef405e3240a9ce6f3039dc726766120f1527d107",
+      "path": "data/videos/no_fire/Boating_027 _124.mp4"
+    },
+    {
+      "id": "VID186",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "569dedc2e10d50483e5b1c5615ff4c08b6a5791df44a88ad16bfb64a8556f8aa",
+      "path": "data/videos/no_fire/Boating_028 _1521.mp4"
+    },
+    {
+      "id": "VID187",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "88d40a98b8bbcdd4b4a99094c035681ffc876d85945a741d085421567c4f7a24",
+      "path": "data/videos/no_fire/Boating_029 _1522.mp4"
+    },
+    {
+      "id": "VID188",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "fc70cb79a729c659205a334f04532e9534e93857c0d76d8a2e98d19fee818a76",
+      "path": "data/videos/no_fire/Boating_030 _127.mp4"
+    },
+    {
+      "id": "VID189",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "19d67f79ea50f3facfe1d82a75a43863d7c91f624413271fe110d99e3dc2f2ba",
+      "path": "data/videos/no_fire/Boating_032 _129.mp4"
+    },
+    {
+      "id": "VID190",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "48907dac039c1c2bc51b40a2fcd99ca983e4e92e29fc75e7bd8405d256243ba3",
+      "path": "data/videos/no_fire/Boating_033 _130.mp4"
+    },
+    {
+      "id": "VID191",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "4d344eec46d4ddb883ede8b43c2585d908a35fb7b7fb19e4e964c6d6e8f51cf6",
+      "path": "data/videos/no_fire/Boating_034 _1527.mp4"
+    },
+    {
+      "id": "VID192",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "ef2374558713bb513cef76882eca7a3e76db6b108f3e4747af9d72c363162a2a",
+      "path": "data/videos/no_fire/Boating_035 _132.mp4"
+    },
+    {
+      "id": "VID193",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "4b0d5b604c6c075e9617a9d2953a34c007ca81a118a9659ea4a7acda4a55bb17",
+      "path": "data/videos/no_fire/Boating_037 _1530.mp4"
+    },
+    {
+      "id": "VID194",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "b3fe969bdafa2f3d4e56afd2fb499ca9a4dacbe01678fa87a33952090072417d",
+      "path": "data/videos/no_fire/Boating_038 _135.mp4"
+    },
+    {
+      "id": "VID195",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "fbac19bdbf88fe7d3010ee9030d5ff6acd96b289accac6e797838aaf15202e8a",
+      "path": "data/videos/no_fire/Boating_038 _1531.mp4"
+    },
+    {
+      "id": "VID196",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "91d6ab9e7edb7ab4a291395e84b599a15c46128bcbc06bdffadc21e8cf49903d",
+      "path": "data/videos/no_fire/Boating_039 _1532.mp4"
+    },
+    {
+      "id": "VID197",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "cf2e04afc76aed983039030a352e867f24be152deae7ffe24a4a6aaaaf01716d",
+      "path": "data/videos/no_fire/Boating_040 _137.mp4"
+    },
+    {
+      "id": "VID198",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "55a41cecfe4ce10ca52e57fe39a0c8cae2135ee966257abf146b4299e5b79237",
+      "path": "data/videos/no_fire/Boating_040 _1533.mp4"
+    },
+    {
+      "id": "VID199",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "70125d362a12cbe0b52c2c2497de140770d95ec978d366ab954aa26371523696",
+      "path": "data/videos/no_fire/Boating_042 _139.mp4"
+    },
+    {
+      "id": "VID200",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "f271d7053ccedc3f2ecf14548bb71ef6eff14574966dc1303ec24f8a60471777",
+      "path": "data/videos/no_fire/Boating_043 _140.mp4"
+    },
+    {
+      "id": "VID201",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "2de76b34b9c6c5bfde93d54997a9987d74bf182693ca2f649b82bc5c1c7dac93",
+      "path": "data/videos/no_fire/Boating_044 _141.mp4"
+    },
+    {
+      "id": "VID202",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "6374def3b2a29cc87e81a4d5f10c1e36b4550172350f3c66b703548258f6905e",
+      "path": "data/videos/no_fire/Boating_044 _1537.mp4"
+    },
+    {
+      "id": "VID203",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "d1303fdfbc3bd62d233148dc5d16df8d2371322bf862139e32b04090048cc79c",
+      "path": "data/videos/no_fire/CarRacing_004 _152.mp4"
+    },
+    {
+      "id": "VID204",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "ca5fd470b4fad8626a8bde6c54eeda13c7ebc7e39237cf8e13dbf28580a93c5b",
+      "path": "data/videos/no_fire/CarRacing_004 _1549.mp4"
+    },
+    {
+      "id": "VID205",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "c992c483c07a3267630403b35fd5f283906ac8995df3db092b576f4586e2a9a3",
+      "path": "data/videos/no_fire/CarRacing_005 _1550.mp4"
+    },
+    {
+      "id": "VID206",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "e3ea56c19abfd52568aeed58aee6daf41e362ef3e4ee5d230c5a2e6495877ff4",
+      "path": "data/videos/no_fire/CarRacing_007 _1552.mp4"
+    },
+    {
+      "id": "VID207",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "0eff730c01654d3a5b5a7ff1bca1f7a704d7143eb542a8857e2d193ee3eeef4f",
+      "path": "data/videos/no_fire/CarRacing_008 _156.mp4"
+    },
+    {
+      "id": "VID208",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "318c0478472b84f04f7f9627dc44f78cfcabfc9c1febeb478b3a4d2d2fa049bc",
+      "path": "data/videos/no_fire/CarRacing_009 _1554.mp4"
+    },
+    {
+      "id": "VID209",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "8adbd961fc06633e437c1a114a20941b4729252080a315eda433c4815fe88af5",
+      "path": "data/videos/no_fire/CarRacing_009 _157.mp4"
+    },
+    {
+      "id": "VID210",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "e8703a0e2155e94c76a2ddd4d1f561d00501af7eabddd319d832056775ffd3c5",
+      "path": "data/videos/no_fire/CarRacing_010 _1555.mp4"
+    },
+    {
+      "id": "VID211",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "9e6ffb20709dd7daa717719533240c64569b852711687ac8125eb195b2f142e6",
+      "path": "data/videos/no_fire/CarRacing_010 _158.mp4"
+    },
+    {
+      "id": "VID212",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "25eaf6410557f5173d55b4ab1d69a30e73dcdd5f35f5d711df6c695cea62a50b",
+      "path": "data/videos/no_fire/CarRacing_011 _1556.mp4"
+    },
+    {
+      "id": "VID213",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "b2850c34bbcdba57d85399d99663e9f9fd48b48bb9592da6bfb506d6c5e4705c",
+      "path": "data/videos/no_fire/CarRacing_012 _1557.mp4"
+    },
+    {
+      "id": "VID214",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "ef0266459d4ea83161a7340e49e50113feced5c9a053c7f99de65d45bbd35f5a",
+      "path": "data/videos/no_fire/CarRacing_012 _160.mp4"
+    },
+    {
+      "id": "VID215",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "710a7138d83d8d962eabfa7a0664e0a81cbe80dabfa23a47ff8ef98050c69fff",
+      "path": "data/videos/no_fire/CarRacing_014 _1559.mp4"
+    },
+    {
+      "id": "VID216",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "8369012d6348369e4f326530749d4207c2e45d931b9d0d8dbe2836e180ca3fb8",
+      "path": "data/videos/no_fire/CarRacing_014 _162.mp4"
+    },
+    {
+      "id": "VID217",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "0fd8ae018d6fed6fad542d197be3b02cffd612c18d0d3f4d6b425eb5428f5981",
+      "path": "data/videos/no_fire/Cycling_004 _1710.mp4"
+    },
+    {
+      "id": "VID218",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "ac1de78094838edafdd9ab3b5672300407af491f3cd9ddcce53f3df990257e28",
+      "path": "data/videos/no_fire/Cycling_005 _305.mp4"
+    },
+    {
+      "id": "VID219",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "b4919201403f0d6a6f9a576357b6adde1ea3609ec2ce8edc5116ee7c5cbbd568",
+      "path": "data/videos/no_fire/Cycling_023 _1729.mp4"
+    },
+    {
+      "id": "VID220",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "578ad6ec50887a56563e391ae5386f6237f71ca63a41da08ebd4215e3ce8241e",
+      "path": "data/videos/no_fire/Cycling_024 _1730.mp4"
+    },
+    {
+      "id": "VID221",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "5d3615dfe929a0276388169085353e18647ffb16df51d7bf9c4be5521f8eaf78",
+      "path": "data/videos/no_fire/Cycling_025 _1731.mp4"
+    },
+    {
+      "id": "VID222",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "9250c023e018cf1e6013407428e675a44bdde53c6d7cc81eb4b3ef1d3387f395",
+      "path": "data/videos/no_fire/Cycling_043 _1749.mp4"
+    },
+    {
+      "id": "VID223",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "91994b4297155845eb50cfc0bb3248e8aafd46a067ca92987d887050556ed414",
+      "path": "data/videos/no_fire/Cycling_043 _343.mp4"
+    },
+    {
+      "id": "VID224",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "084dffd4377c673d6e0cb3fe538701ed088414b8d5a74ea2287761bde720fc28",
+      "path": "data/videos/no_fire/Cycling_044 _1750.mp4"
+    },
+    {
+      "id": "VID225",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "e9c254f039478f5d5896753bddecc74d0f9be12d3bb0c2fb62914e44992c4c24",
+      "path": "data/videos/no_fire/Flood_034 _443.mp4"
+    },
+    {
+      "id": "VID226",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "a07e96aeaa21e1d858f9bb2811e6aff31fc350ed12ecf9d1358ba1aec9115da3",
+      "path": "data/videos/no_fire/Flood_035 _1855.mp4"
+    },
+    {
+      "id": "VID227",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "82836d884947f04c88895af6d9392764a0236fa4908d61434309d38185a1b119",
+      "path": "data/videos/no_fire/Flood_040 _449.mp4"
+    },
+    {
+      "id": "VID228",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "e4a9e99a8b2d972eb51d045d7326cbc6d61776e0243b2be22ec99d9cc12203e3",
+      "path": "data/videos/no_fire/Harvesting_002 _460.mp4"
+    },
+    {
+      "id": "VID229",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "65f915dacf5c08744c1ac47156a3136064bcf73f94de3775e1542d798b3b07bb",
+      "path": "data/videos/no_fire/Harvesting_015 _473.mp4"
+    },
+    {
+      "id": "VID230",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "40f04be54104b2fb2369febe5baf165d477219a675637f4107eb53f27e58c116",
+      "path": "data/videos/no_fire/Harvesting_061 _1932.mp4"
+    },
+    {
+      "id": "VID231",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "a1c6a93426c38869a2099281ae1a9de9cc54dfb8df495effdd90772337822b7d",
+      "path": "data/videos/no_fire/NonEvent_072 _2114.mp4"
+    },
+    {
+      "id": "VID232",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "800043d7d5ea602880cffb0ef54c4f65511c2c4f5f69db8e1940ec2dacb9448b",
+      "path": "data/videos/no_fire/NonEvent_072 _694.mp4"
+    },
+    {
+      "id": "VID233",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "badda16012074274f062848c0e0d7ab71fadebb990c01bc11c8922e7289d5fc2",
+      "path": "data/videos/no_fire/NonEvent_079 _2121.mp4"
+    },
+    {
+      "id": "VID234",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "d69f93db52329e0c8aa608b1d894ea0171f29482b208fa046d46297dffbaa5c6",
+      "path": "data/videos/no_fire/NonEvent_080 _2122.mp4"
+    },
+    {
+      "id": "VID235",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "2857efba32690cbb4c5c477fbe82d59a7999d94b17b546a3c23bf17cbecc587e",
+      "path": "data/videos/no_fire/NonEvent_080 _702.mp4"
+    },
+    {
+      "id": "VID236",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "246458c99623b5101517c48edd4ef8bfd7048e4ebc217b10bacc9e42eaf2f287",
+      "path": "data/videos/no_fire/NonEvent_086 _2128.mp4"
+    },
+    {
+      "id": "VID237",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "992079f1bad3455495c267855d06a27a185f9f2782f878f3def7f168abebb77c",
+      "path": "data/videos/no_fire/Swimming_034 _1270.mp4"
+    },
+    {
+      "id": "VID238",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "3cdaae9d57794a3da688623678f02c385d25dadb907fae656e5f7f4f8e0fed58",
+      "path": "data/videos/no_fire/Swimming_034 _2738.mp4"
+    },
+    {
+      "id": "VID239",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "77b4265ded0db0ced620f06953d7cbb51d421456832dfa01e31a54fc5938d3b1",
+      "path": "data/videos/no_fire/Swimming_036 _1272.mp4"
+    },
+    {
+      "id": "VID240",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "c5e28a4965c9a5992b7f0a5204af6433f66ee5ce15a58178f44933c9f1adad3e",
+      "path": "data/videos/no_fire/Swimming_036 _2740.mp4"
+    },
+    {
+      "id": "VID241",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "19d8c8b30f7a7d5451b7c5a48da63fd34e425faa78a6fe1ce8eb851f3540b7cb",
+      "path": "data/videos/no_fire/TrafficCongestion_025 _2836.mp4"
+    },
+    {
+      "id": "VID242",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "d55b34ea2dc9be4bb71b75e4374c97b8f5202c2b43ae2c908e6413c21269798d",
+      "path": "data/videos/no_fire/TrafficCongestion_026 _1366.mp4"
+    },
+    {
+      "id": "VID243",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "5016a519b49611df6e4bd6179e4921f866d7e3a688463def2e089c6257f02c12",
+      "path": "data/videos/no_fire/TrafficCongestion_026 _2837.mp4"
+    },
+    {
+      "id": "VID244",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "9feb951c176b2479be09eacfa7a4720f0734143c7f10a7e98b164479380f65ee",
+      "path": "data/videos/no_fire/TrafficCongestion_028 _1368.mp4"
+    },
+    {
+      "id": "VID245",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "f56089839802d9100370a5681bad8f3de5ac5a54525fff30da491d403ef1cf3a",
+      "path": "data/videos/no_fire/TrafficCongestion_031 _1371.mp4"
+    },
+    {
+      "id": "VID246",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "25843511ca4c395429cc6ca1f8464f8ce5544a0049a1750c5019aa3b571e0f09",
+      "path": "data/videos/no_fire/TrafficCongestion_031 _2842.mp4"
+    },
+    {
+      "id": "VID247",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "a066f9f2ae93df1879cfa525e84db9226269a988899635ce428fb5ec3ec1727a",
+      "path": "data/videos/no_fire/TrafficCongestion_032 _1372.mp4"
+    },
+    {
+      "id": "VID248",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "48adbca254fa1d05e924a43a3ed695f6203a5cf505f0069799c3b7ee22ccaafa",
+      "path": "data/videos/no_fire/TrafficCongestion_033 _1373.mp4"
+    },
+    {
+      "id": "VID249",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "b9ce81a306c186609292ddab381636dba033e6c308d7deda9e00a5d67480ca83",
+      "path": "data/videos/no_fire/TrafficCongestion_033 _2844.mp4"
+    },
+    {
+      "id": "VID250",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "0deb43365ac868e31191030a75fc4e11f374f5536bf74d46372cff832dd6dbef",
+      "path": "data/videos/no_fire/TrafficCongestion_034 _2845.mp4"
+    },
+    {
+      "id": "VID251",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "2d39a31ee3344f3fd8646e1e963d4a7605af4a36fb430d569f0ac0dce4d22e1a",
+      "path": "data/videos/no_fire/TrafficCongestion_035 _1375.mp4"
+    },
+    {
+      "id": "VID252",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "973bdcb44e291b0eeb64f7e864e6d8526a9d448a4ce1727eba6e7fb55c3073af",
+      "path": "data/videos/no_fire/TrafficCongestion_035 _2846.mp4"
+    },
+    {
+      "id": "VID253",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "4a9f24b6378f653859fdc23d28006fddb442c74269566338bda349fdbb2236fa",
+      "path": "data/videos/no_fire/TrafficCongestion_036 _1376.mp4"
+    },
+    {
+      "id": "VID254",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "20c1ba65942baf6abf1bb2a7dad2334960bc1e006b7e359d659cef0750caffa7",
+      "path": "data/videos/no_fire/TrafficCongestion_036 _2847.mp4"
+    },
+    {
+      "id": "VID255",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "47d9b01b34af0d0f77096920b5d89c768f03e0cc162dd8d86fa122f5caaa8cd9",
+      "path": "data/videos/no_fire/TrafficCongestion_037 _1377.mp4"
+    },
+    {
+      "id": "VID256",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "f183b1c3d82e5197016e8ced58f0947dd88c77f464c8cb94d47e2fb226b773c3",
+      "path": "data/videos/no_fire/TrafficCongestion_038 _2849.mp4"
+    },
+    {
+      "id": "VID257",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "37fd46edc919fe4dbe730e4adc37ce0e24ff7722072e8158227c849795798698",
+      "path": "data/videos/no_fire/TrafficCongestion_041 _1381.mp4"
+    },
+    {
+      "id": "VID258",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "ecc354e3f550dd91a0d1e63225919e7d0acc77c676dd542483b1eb08db9c4581",
+      "path": "data/videos/no_fire/TrafficCongestion_041 _2852.mp4"
+    },
+    {
+      "id": "VID259",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "fc615d2161874c5db1d0e761c51e1d4ada6f263c312fa7fb68e7cc3106bc46b8",
+      "path": "data/videos/no_fire/TrafficCongestion_042 _1382.mp4"
+    },
+    {
+      "id": "VID260",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "a36f8a8800789c08b9f54d826ea832675a176718296975d2dd0693d9c582777b",
+      "path": "data/videos/no_fire/TrafficCongestion_042 _2853.mp4"
+    },
+    {
+      "id": "VID261",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "77faeabbdb2b1e2b3992996be8bfe51463abb9677c39f2a82cefb25dd73f2db7",
+      "path": "data/videos/no_fire/TrafficCongestion_044 _1384.mp4"
+    },
+    {
+      "id": "VID262",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "58aa535db087d85c8f06d3564b0a4d0ad1c384fc06f697343009ba236f5c7017",
+      "path": "data/videos/no_fire/TrafficCongestion_044 _2855.mp4"
+    },
+    {
+      "id": "VID263",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "898159e6755fac692c37a40635e539aaed12b9e43abc40c77924a68369b115f3",
+      "path": "data/videos/no_fire/TrafficCongestion_046 _2857.mp4"
+    },
+    {
+      "id": "VID264",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "4ce3ca5146c22c987568003f7e0156e50780292d321309acc4bb16d25f33d0bb",
+      "path": "data/videos/no_fire/TrafficCongestion_047 _2858.mp4"
+    },
+    {
+      "id": "VID265",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "75e783aebbd5602541ba46056359fc5069bf579a025c2ba2303868e4c117d0f1",
+      "path": "data/videos/fire/evo_2_2875.mp4"
+    },
+    {
+      "id": "VID266",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "7c8502fe7350778f55b54d8b1844106bb10252f629a321358882d2dd7c3f64a1",
+      "path": "data/videos/fire/evo_7_2892.mp4"
+    },
+    {
+      "id": "VID267",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "056c8441b0fc4f29c773207cc52e75db2cb31fd029a99a9a2501b47e57e8bd50",
+      "path": "data/videos/fire/Fire_007 _360.mp4"
+    },
+    {
+      "id": "VID268",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "d10c1fdb72928b508afcaf2ca7085daddc88a2dd53dfd9bfc4883ac29dd48c79",
+      "path": "data/videos/fire/Fire_018 _1780.mp4"
+    },
+    {
+      "id": "VID269",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "e0aeb17ffa0f1aa4c828d820025504aa13e4325647b7a8ae48bb021ad029919a",
+      "path": "data/videos/fire/Fire_037 _1799.mp4"
+    },
+    {
+      "id": "VID270",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "122e1ebefbc2f67ba76f8f7bf0a7252a0e219f5994cde5d177ef5f89447c02b5",
+      "path": "data/videos/fire/Fire_039 _1801.mp4"
+    },
+    {
+      "id": "VID271",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "852964620d95dd6052eaf630346d3329dbee3b5f0e9cbfd9a1a2c260c977d380",
+      "path": "data/videos/fire/heinola_106_2903.mp4"
+    },
+    {
+      "id": "VID272",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "0ea1c2b2043cde48d15553b645471db7378127749c6b2487bc31ead6772edd4f",
+      "path": "data/videos/fire/heinola_107_2904.mp4"
+    },
+    {
+      "id": "VID273",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "897a80d539fad6c161d3cdbf4468532791e2d5d7f0752ea2a9fdfff0ed87a951",
+      "path": "data/videos/fire/heinola_118_2916.mp4"
+    },
+    {
+      "id": "VID274",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "7f89261bc1bb4e5e362dee3e6760d7fb959c1c7c679318af62eaa42ad9fb2cc3",
+      "path": "data/videos/fire/heinola_19_2931.mp4"
+    },
+    {
+      "id": "VID275",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "6ce24d2cbef0ed265cc570e60f5dcafeb4efc49ff6123e88cd0922894daa06cf",
+      "path": "data/videos/fire/heinola_28_2941.mp4"
+    },
+    {
+      "id": "VID276",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "709cfc898619f38992a31148c46968e77d0af7d645c3d36345363bf7a38a38cd",
+      "path": "data/videos/fire/heinola_35_2949.mp4"
+    },
+    {
+      "id": "VID277",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "975bacedf29a2c05213ca654ff882b0ee6605fb44558a1de5537ba39a340e391",
+      "path": "data/videos/fire/heinola_39_2953.mp4"
+    },
+    {
+      "id": "VID278",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "356fd15f2d94a50e740700e5d60f2a6c3773f166f8dabf6d21e11ec4dc79ac98",
+      "path": "data/videos/fire/heinola_44_2959.mp4"
+    },
+    {
+      "id": "VID279",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "46644e9e613c6037c615712d8152386719c3bb337f5f360e3a0bb8ee4c96f98d",
+      "path": "data/videos/fire/heinola_85_3004.mp4"
+    },
+    {
+      "id": "VID280",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "52532ea7956f7e73d2636c4a6e9577da60ca56393349fea118bbc8e22ec48c77",
+      "path": "data/videos/fire/karkkila_31_3044.mp4"
+    },
+    {
+      "id": "VID281",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "25d455e832c2da2e1d45f786c7ee62ba1390ef5380a766da310a9c9f5672a009",
+      "path": "data/videos/fire/karkkila_33_3046.mp4"
+    },
+    {
+      "id": "VID282",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "5ca6ca5f7fe362ef367aadaef7bb5286b57378eff9f8b1ac7ec6d09958f4d55f",
+      "path": "data/videos/fire/karkkila_34_3047.mp4"
+    },
+    {
+      "id": "VID283",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "4a3fe5ba1d9aa2f816f7166f1c5e3bfac28f53f7caf9efb43cc00b1bc80c265e",
+      "path": "data/videos/fire/karkkila_35_3048.mp4"
+    },
+    {
+      "id": "VID284",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "301c9b72e35e961c2fe370d7752040f5d2aedf6973596afb7a626974266b3714",
+      "path": "data/videos/fire/karkkila_37_3050.mp4"
+    },
+    {
+      "id": "VID285",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "26f393b28c5ef49e5d3207be6cadf7aa872a667466721d2f4ba866a0af16df1d",
+      "path": "data/videos/fire/karkkila_47_3061.mp4"
+    },
+    {
+      "id": "VID286",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "9dd78e9d848ab705af4e8bec1a357563158fe6867b6399b45fe95f27f5ffe3cf",
+      "path": "data/videos/fire/karkkila_4_3053.mp4"
+    },
+    {
+      "id": "VID287",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "1638f7323789b4fe6c331975de0525f8a9107b5d5cdae9056c006a44a8d2eaf9",
+      "path": "data/videos/fire/karkkila_63_3079.mp4"
+    },
+    {
+      "id": "VID288",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "a15e52961a4dd596fcf9ee1497a76b72895fd46a30ee63d38ed1083abe8ef51a",
+      "path": "data/videos/fire/karkkila_65_3081.mp4"
+    },
+    {
+      "id": "VID289",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "30dedcd6e2cccff8cea8bc3694af5f7529f6c291c583341c275d4befb07c4ad6",
+      "path": "data/videos/fire/karkkila_71_3088.mp4"
+    },
+    {
+      "id": "VID290",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "b11056e4c8233377ce95176983e6ae8c2c213ac6015950205507ad70b05cc611",
+      "path": "data/videos/fire/ruokolahti_14_3100.mp4"
+    },
+    {
+      "id": "VID291",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "c855e16385212241c07e40c9ae150804455f593e00740478a02c27fa6f95250a",
+      "path": "data/videos/fire/ruokolahti_16_3102.mp4"
+    },
+    {
+      "id": "VID292",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "60b43614eed098a3d0c13ac7dd24f5304817ae7afebd23a5b43e3096012c11fd",
+      "path": "data/videos/fire/ruokolahti_23_3110.mp4"
+    },
+    {
+      "id": "VID293",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "6d7a1730dcda9e91b10edeab9b8d5fc177f54f3cbd8db6ec5f98d296e2ae0b70",
+      "path": "data/videos/fire/ruokolahti_40_3129.mp4"
+    },
+    {
+      "id": "VID294",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "7fb9e7ae39c5e5b5fc3172546d94ce7291237a9202741711e72f39a53aafbe1c",
+      "path": "data/videos/no_fire/Baseball_001 _1391.mp4"
+    },
+    {
+      "id": "VID295",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "8e96fb11156adef3e43b0ef8b1943ae834970737ffa0994c3dd287661ca775c9",
+      "path": "data/videos/no_fire/Baseball_009 _1399.mp4"
+    },
+    {
+      "id": "VID296",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "bcc7920768e4bbe070458749a0069ad611a34ec5150abbfe06414578a056e2a1",
+      "path": "data/videos/no_fire/Baseball_013 _1403.mp4"
+    },
+    {
+      "id": "VID297",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "26f02be5e870c2daf91dbd5e46a420b10c256accd6ef0f3d78a8ea8fc4d9bf75",
+      "path": "data/videos/no_fire/Baseball_015 _1405.mp4"
+    },
+    {
+      "id": "VID298",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "a27c8c9581bd9ad7414288275166241a4467d21c47ab31f1d205505f55d2b72c",
+      "path": "data/videos/no_fire/Baseball_019 _1409.mp4"
+    },
+    {
+      "id": "VID299",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "39c663f2b87e7ed5ad5ba1fe476c2f79c1341d6f7be7770160a6e9c08960eae0",
+      "path": "data/videos/no_fire/Baseball_019 _18.mp4"
+    },
+    {
+      "id": "VID300",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "1ebc125b5d5a2792967802caef704629932962fe1cd802b87b86e5208e22b7b2",
+      "path": "data/videos/no_fire/Baseball_023 _22.mp4"
+    },
+    {
+      "id": "VID301",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "fbc6faf069671ceaa4e0e461d498ac8f4ca7511012e08b8ce7b2ca44a97b0e8a",
+      "path": "data/videos/no_fire/Baseball_033 _1423.mp4"
+    },
+    {
+      "id": "VID302",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "2d9355b0c8ad03450e4a91221973ecafecaa47c82244df5cb71a87264d0c01fc",
+      "path": "data/videos/no_fire/Baseball_036 _1426.mp4"
+    },
+    {
+      "id": "VID303",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "5de72c540658d184e9c51377722c604a174d68d8e29fe9035cb95d010a10d2f9",
+      "path": "data/videos/no_fire/Baseball_039 _1429.mp4"
+    },
+    {
+      "id": "VID304",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "6d868b1a3d795ee2139186043286dd6587f5927be011b031fceadef504bc5919",
+      "path": "data/videos/no_fire/Baseball_041 _40.mp4"
+    },
+    {
+      "id": "VID305",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "9dc29f5514a90d8c8d91447771acdf79242443102b400e07ef10f53bddde7626",
+      "path": "data/videos/no_fire/Basketball_002 _51.mp4"
+    },
+    {
+      "id": "VID306",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "70528a2b03d42396319368541f7616d199835b878576fceb3246ddca1283dcce",
+      "path": "data/videos/no_fire/Basketball_017 _1458.mp4"
+    },
+    {
+      "id": "VID307",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "a93cdd485311f16f7089f53246b3ce521f99bfa87897962ad3bcb53c534d7fc9",
+      "path": "data/videos/no_fire/Basketball_023 _72.mp4"
+    },
+    {
+      "id": "VID308",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "c8e3ec0a5e957a36796e66b8f99a6ea86d52b63c6bd904161592e1ce89b49990",
+      "path": "data/videos/no_fire/Basketball_051 _1492.mp4"
+    },
+    {
+      "id": "VID309",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "36835aa596b68532d9e208110a13bfad05ed62d5c090b811d4ad20a24e748353",
+      "path": "data/videos/no_fire/Boating_017 _114.mp4"
+    },
+    {
+      "id": "VID310",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "ab4ba475b0a5c8ab3c854889c603e1085193dd07bf12fbad5430195f03595e6f",
+      "path": "data/videos/no_fire/Boating_019 _116.mp4"
+    },
+    {
+      "id": "VID311",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "51cf85976bbc9e2b1c367c6af9b946967e336f05d9854a7a9233dd9499980f9a",
+      "path": "data/videos/no_fire/Boating_020 _1513.mp4"
+    },
+    {
+      "id": "VID312",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "1b206d394ad8c83139f0531594a8a248159476edaec61f87e690e9ce593b092f",
+      "path": "data/videos/no_fire/Boating_024 _1517.mp4"
+    },
+    {
+      "id": "VID313",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "9c02535fbfb26ca10451fb46c0f050640f18836a0ba79ec30a740bea3ce41d6a",
+      "path": "data/videos/no_fire/Boating_031 _128.mp4"
+    },
+    {
+      "id": "VID314",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "8d637a4b529d93ed009b3795cd7de41e0e391733ca2345fbd6cd3c321e792084",
+      "path": "data/videos/no_fire/Boating_035 _1528.mp4"
+    },
+    {
+      "id": "VID315",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "b9ce22f5f544db01bed1c08e25d6e1e9172666d949f505efd53c51adb6dfd6bd",
+      "path": "data/videos/no_fire/Boating_036 _133.mp4"
+    },
+    {
+      "id": "VID316",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "c8ecb1e630efa14a6b15b91ea8cfa6c9522993e9f93a163420a41f19d03e417c",
+      "path": "data/videos/no_fire/Boating_048 _1541.mp4"
+    },
+    {
+      "id": "VID317",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "1af93d2c996ff26a5847d7cb0f4284aeb7cd3317edde3a5503f69d5ae4249a91",
+      "path": "data/videos/no_fire/CarRacing_002 _1547.mp4"
+    },
+    {
+      "id": "VID318",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "e5ad8198fa335cd182d5927bf252ca9996f3bcee9f96fb23d0d7cd6a458e2da7",
+      "path": "data/videos/no_fire/Constructing_023 _1670.mp4"
+    },
+    {
+      "id": "VID319",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "2ef3a39d14a76586c34b03984f10d6211f1b1cb0ecb34fcc6e7e4ff003ee73c1",
+      "path": "data/videos/no_fire/Constructing_030 _271.mp4"
+    },
+    {
+      "id": "VID320",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "d2ee0fc2b609c1a9a14769ce1c3e12f5791d8e11ae6ee882df6212c5d9b26371",
+      "path": "data/videos/no_fire/Constructing_031 _272.mp4"
+    },
+    {
+      "id": "VID321",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "702d66c8b26c7eb7bd32c7cd33fb82bebb15c68fd09012aff8d0468749dfdbce",
+      "path": "data/videos/no_fire/Constructing_037 _1684.mp4"
+    },
+    {
+      "id": "VID322",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "108774bd15eecbcf2cdccdcff322a930fa4944340fd2e7820614ec1d2ff59a3e",
+      "path": "data/videos/no_fire/Constructing_058 _1705.mp4"
+    },
+    {
+      "id": "VID323",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "f44f210d21e053209fc71e322ee17f9c35fedee6fd7304141c97f302dc4140f9",
+      "path": "data/videos/no_fire/Cycling_006 _306.mp4"
+    },
+    {
+      "id": "VID324",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "ce0f71f515ff11483cdab95fddcb2b131a86ab849972b5d94d4f330c026e4d4f",
+      "path": "data/videos/no_fire/Cycling_039 _1745.mp4"
+    },
+    {
+      "id": "VID325",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "52e7d83ec0233d092cb7434810b65382f634167e148d086b8c57594fc4777b79",
+      "path": "data/videos/no_fire/Cycling_046 _1752.mp4"
+    },
+    {
+      "id": "VID326",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "09e244c64b4ddbfd9078fce167098b7c0fe05648bb5fc593e0d238648c4622f1",
+      "path": "data/videos/no_fire/Running_003 _1091.mp4"
+    },
+    {
+      "id": "VID327",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "faecff30691354ccfa8a09777cb96e85a548ff31fdb22b9e11071267dbe9b518",
+      "path": "data/videos/no_fire/Running_003 _2557.mp4"
+    },
+    {
+      "id": "VID328",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "21e6e4b674ce6bb429470a4b4bffd45799e0cbc59d7476376d69080e145cb9ce",
+      "path": "data/videos/no_fire/Running_026 _2580.mp4"
+    },
+    {
+      "id": "VID329",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "992a4c32d514e338d493bc14901f8c06b0977ce9f9daf7188a1725914bd1f20e",
+      "path": "data/videos/no_fire/Running_031 _1119.mp4"
+    },
+    {
+      "id": "VID330",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "281ba6d1540145c61bc059054e82204646bed92ff83501ba7d35cd38cc51c2aa",
+      "path": "data/videos/no_fire/Running_035 _2589.mp4"
+    },
+    {
+      "id": "VID331",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "51fdf2e98b03c431076f6f976e01c7be4536c081c2fca1a2d710f5ff2e19b61c",
+      "path": "data/videos/no_fire/Running_038 _2592.mp4"
+    },
+    {
+      "id": "VID332",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "97e1d8beed1456503ee5394f3bb6c23c986fff0014bbc9d78b9c01dd0263d195",
+      "path": "data/videos/no_fire/Running_052 _1140.mp4"
+    },
+    {
+      "id": "VID333",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "b91a03fa95c992240af6692c174f77e1604f171756ebc240a818e9024e03be4e",
+      "path": "data/videos/no_fire/Running_056 _1144.mp4"
+    },
+    {
+      "id": "VID334",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "b02649664ecab5ac73f5b0271d4df82ece4cb0e2fb2862baa15d98100fc5dfd3",
+      "path": "data/videos/no_fire/Running_059 _1147.mp4"
+    },
+    {
+      "id": "VID335",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "c5513a1bfc1f87d10db9ab875adae2dc73985f22bcdfa8939912f8a0a5040676",
+      "path": "data/videos/no_fire/Running_065 _1153.mp4"
+    },
+    {
+      "id": "VID336",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "3862cf86e4c34adcb503bb0c51d734fbfe7a1219d1c7c52726ca3743e05bf4fb",
+      "path": "data/videos/no_fire/Running_069 _1157.mp4"
+    },
+    {
+      "id": "VID337",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "ab0c33a053bda8284943245e62791ef6001d9ec88b1449d704ca73a9864cf425",
+      "path": "data/videos/no_fire/Running_069 _2623.mp4"
+    },
+    {
+      "id": "VID338",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "6a530b43e83e9e18b4aa485fe6583c5a87484211a9e280fdc18d369d09a92929",
+      "path": "data/videos/no_fire/Running_075 _2629.mp4"
+    },
+    {
+      "id": "VID339",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "fad56353874a97b55ffb1122c0d4e0ec1c770dcee13455da02457fc783bca5c7",
+      "path": "data/videos/no_fire/Running_080 _1168.mp4"
+    },
+    {
+      "id": "VID340",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "1241c90d72d4d46dca2618fd9344569949f28fe7407005df8a46ad555f5808be",
+      "path": "data/videos/no_fire/Soccer_002 _2643.mp4"
+    },
+    {
+      "id": "VID341",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "bcd9cb07454f6b85730af539784ccc1785d018836e154a5ce159f98d8184a542",
+      "path": "data/videos/no_fire/Soccer_005 _1179.mp4"
+    },
+    {
+      "id": "VID342",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "779b9b7c7f94d3e8012a50dcfe465682343fb417ab0059729b1dcf5a56c00067",
+      "path": "data/videos/no_fire/Soccer_022 _2663.mp4"
+    },
+    {
+      "id": "VID343",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "c79d1262dbc403d8c30b0f76fdb3edf77860e49d4a90038cc47a87ed1badb98c",
+      "path": "data/videos/no_fire/Soccer_024 _1198.mp4"
+    },
+    {
+      "id": "VID344",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "7fe9d547ed0b31ede0457dc177ce35e7db75f5069970efa69dc95cdb8bc9692c",
+      "path": "data/videos/no_fire/Soccer_026 _1200.mp4"
+    },
+    {
+      "id": "VID345",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "4597efcdf0cfb99c27c576d5129d001e49c22d74d4fae36ceed5ffb97eca885e",
+      "path": "data/videos/no_fire/Soccer_030 _1204.mp4"
+    },
+    {
+      "id": "VID346",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "b459091c44df088becb1c7cface91d4a7a39620aa6d394aaf6fd1877525ebb9f",
+      "path": "data/videos/no_fire/Soccer_042 _2683.mp4"
+    },
+    {
+      "id": "VID347",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "a6cf6369e91a0db85f74dd3d5c83757c9da5ec3f8727f46a9d1d5711984b7b4f",
+      "path": "data/videos/no_fire/Soccer_043 _2684.mp4"
+    },
+    {
+      "id": "VID348",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "f70a64e1d29cb770dca3d5e0acc4db8f42107f11ea0843a4e0bcf17ae54b2878",
+      "path": "data/videos/no_fire/Soccer_048 _1222.mp4"
+    },
+    {
+      "id": "VID349",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "ce6f3b3916f578bfe6e93290ef3c314ffde6f84007624a7c03d5abe75c0eb516",
+      "path": "data/videos/no_fire/Soccer_050 _2691.mp4"
+    },
+    {
+      "id": "VID350",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "724c6abcf1cedaa5c44e48bb95a536f63e411e38ddfd1e24b973168db9eeb701",
+      "path": "data/videos/no_fire/Soccer_051 _1225.mp4"
+    },
+    {
+      "id": "VID351",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "fe0ffdd6a11c575215ef9d539c08ec8c92b2eef48dca399e6b8f3e387f0f6eb2",
+      "path": "data/videos/no_fire/Soccer_054 _2695.mp4"
+    },
+    {
+      "id": "VID352",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "e3342622901f3b8d676acb31cc963608ac40798669029534e46666c6eaa4a587",
+      "path": "data/videos/no_fire/Soccer_056 _1230.mp4"
+    },
+    {
+      "id": "VID353",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "f3cedbc5e8812845e06ba3899d5bc00a65efb8695aeaa769c61289974be2794a",
+      "path": "data/videos/no_fire/Soccer_061 _1235.mp4"
+    },
+    {
+      "id": "VID354",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "9cd78a25e2bf3e234834bdb75eedb2241a2bf38a54bdd36858f29d852fd8e5d6",
+      "path": "data/videos/no_fire/Swimming_004 _1240.mp4"
+    },
+    {
+      "id": "VID355",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "323ba2c30aafb141ab1d282bc5230c7d769c729cd058f0a565f0d6078e5b7cc0",
+      "path": "data/videos/no_fire/Swimming_005 _1241.mp4"
+    },
+    {
+      "id": "VID356",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "0082e1fa98a70400ef1ec8ae1543165b91f24d331a41389302123c87e321d96c",
+      "path": "data/videos/no_fire/Swimming_006 _2710.mp4"
+    },
+    {
+      "id": "VID357",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "84f044e43ba2dc8904b03a2bf00838eecc5d2b50493a2c8a5659e6aeeac74423",
+      "path": "data/videos/no_fire/Swimming_018 _2722.mp4"
+    },
+    {
+      "id": "VID358",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "75f5fd4266ef51a909ae5b0ab756721f9bdf5d7e10c8439cedec932708ffed1b",
+      "path": "data/videos/no_fire/Swimming_024 _1260.mp4"
+    },
+    {
+      "id": "VID359",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "2baabd6158d62a125638c85c5783e29a9407515ddc9ae8b4f1601fee0c0d3310",
+      "path": "data/videos/no_fire/Swimming_025 _1261.mp4"
+    },
+    {
+      "id": "VID360",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "f6fdb941462506df206461cdf06507d2d54119241302cffd7bb6a3fa3ccf16a9",
+      "path": "data/videos/no_fire/Swimming_028 _1264.mp4"
+    },
+    {
+      "id": "VID361",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "50138101b7940267ee2d505ce3755d7144ec5228c6dfed80c238f35d8b5453d2",
+      "path": "data/videos/no_fire/Swimming_035 _1271.mp4"
+    },
+    {
+      "id": "VID362",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "5ba1a9c028107b5781f764b8c5d5bc2b94e037af16c3354de9fdb1cdcdda7e2e",
+      "path": "data/videos/no_fire/Swimming_043 _1279.mp4"
+    },
+    {
+      "id": "VID363",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "d6bbc35acdea8c8bb2cbd6f0788f0cc43dd698693bed3bd4b5708c3241254955",
+      "path": "data/videos/no_fire/Swimming_047 _2751.mp4"
+    },
+    {
+      "id": "VID364",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "e675ee53efe1462318c2cb754e0253819f6924ea159d804bd737601ba94122ce",
+      "path": "data/videos/no_fire/TrafficCollision_001 _1288.mp4"
+    },
+    {
+      "id": "VID365",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "9fdb5b4eddebd8fcf699426424280422cb4694963a91086170ea2b51a475404d",
+      "path": "data/videos/no_fire/TrafficCollision_001 _2756.mp4"
+    },
+    {
+      "id": "VID366",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "a1d17384e5dc4adc028130f83161bdaa39b1013736389264ddccf8b61f8f9aa0",
+      "path": "data/videos/no_fire/TrafficCollision_005 _2760.mp4"
+    },
+    {
+      "id": "VID367",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "4e267b46a547a62e4cc3458f7edceb20abe0e16a49b8412cea14be4f95b6d734",
+      "path": "data/videos/no_fire/TrafficCollision_017 _2772.mp4"
+    },
+    {
+      "id": "VID368",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "ab65d58abe5a6f43b1df5ea593caef222ba7e413778cffb6c53cbe7fb6be2fe8",
+      "path": "data/videos/no_fire/TrafficCollision_018 _2773.mp4"
+    },
+    {
+      "id": "VID369",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "572b14f873b3064c91be0186bdaea32fc55b2cd1ea0666856f9ad1bc6c292086",
+      "path": "data/videos/no_fire/TrafficCollision_021 _1308.mp4"
+    },
+    {
+      "id": "VID370",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "12b3ab5e0955f1b8e9c9ae2dd36ac19523129901dd8a63c448c8b689f5c713bc",
+      "path": "data/videos/no_fire/TrafficCollision_027 _1314.mp4"
+    },
+    {
+      "id": "VID371",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "2b57f0305e1388f4c69edfb83df4d3fb34c4b2135b57cc8a315a361b6db1526c",
+      "path": "data/videos/no_fire/TrafficCollision_028 _2783.mp4"
+    },
+    {
+      "id": "VID372",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "dbd0585149d34386cb4035dd832ead6b66ed7e6a5f034fd45f9cee90e9159ae8",
+      "path": "data/videos/no_fire/TrafficCollision_030 _1317.mp4"
+    },
+    {
+      "id": "VID373",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "43bc763ea3edd3de376e882f51861af23fd982175fb3616e549f7488348bf8b9",
+      "path": "data/videos/no_fire/TrafficCollision_033 _1320.mp4"
+    },
+    {
+      "id": "VID374",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "b6f4cab2c7bca5498b1bf65f845c03c15e618174b81a9f0647b376db4fd3f89b",
+      "path": "data/videos/no_fire/TrafficCollision_046 _1333.mp4"
+    },
+    {
+      "id": "VID375",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "978622e378afadfd769951e86104b9fa6d93bc3e895aa2eaef755fcaf8dcd29e",
+      "path": "data/videos/no_fire/TrafficCollision_049 _2804.mp4"
+    },
+    {
+      "id": "VID376",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "ec121a6a7b7f2d7f73a941a057d1620307af2f39d736eeded1f30d4e8d779154",
+      "path": "data/videos/no_fire/TrafficCongestion_003 _2814.mp4"
+    },
+    {
+      "id": "VID377",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "3fd50f5463804a691f84f42497c780d58d3b4e16399ebc8773424e74600bfa68",
+      "path": "data/videos/no_fire/TrafficCongestion_005 _2816.mp4"
+    },
+    {
+      "id": "VID378",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "44ae4439361de59811be311ef3c75aff89778a070305e0c54b8ce560a9592012",
+      "path": "data/videos/no_fire/TrafficCongestion_008 _2819.mp4"
+    },
+    {
+      "id": "VID379",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "69deb500f75d90ab87eba4c98a26892e1f7afe571ee3f9a6d3d1801ea7d329eb",
+      "path": "data/videos/no_fire/TrafficCongestion_009 _1349.mp4"
+    },
+    {
+      "id": "VID380",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "47e4c5e67fd035a47ae49467772029559e84323d29947d92aa98b441941d88b5",
+      "path": "data/videos/no_fire/TrafficCongestion_012 _2823.mp4"
+    },
+    {
+      "id": "VID381",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "82e0fe66b6022cd48fc50890ef24b6c72c3f737ba403ebd295939448823b354b",
+      "path": "data/videos/no_fire/TrafficCongestion_015 _2826.mp4"
+    },
+    {
+      "id": "VID382",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "b9ce5ddf71311a9fda7eb46ebee18effed444aea5f7c902a6cc3eabf6fa19980",
+      "path": "data/videos/no_fire/TrafficCongestion_018 _2829.mp4"
+    },
+    {
+      "id": "VID383",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "280eaeae62a3126ca703900f4adb962686cbc5d057ce95373af93e0c2158db05",
+      "path": "data/videos/no_fire/TrafficCongestion_023 _2834.mp4"
+    },
+    {
+      "id": "VID384",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "f8702b4314398de17f4c597879059660a43277f451f01a4b9ce3d5834cc91d75",
+      "path": "data/videos/no_fire/TrafficCongestion_032 _2843.mp4"
+    },
+    {
+      "id": "VID385",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "5c4128bdcb8325687631d1e54f452c9307662309d1eee7f8ebe707b0a8c6d4ee",
+      "path": "data/videos/no_fire/TrafficCongestion_034 _1374.mp4"
+    },
+    {
+      "id": "VID386",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "100aedad7b67e1f88ee2403b3f046a27ab19876caecbb209e5e02e38d96889ed",
+      "path": "data/videos/no_fire/TrafficCongestion_040 _2851.mp4"
+    },
+    {
+      "id": "VID387",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "e844a5036b4c3fd348cf1dfa7ca39f8305c40fc9db08dcda7561b90bd9908f37",
+      "path": "data/videos/no_fire/TrafficCongestion_043 _2854.mp4"
+    },
+    {
+      "id": "VID388",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "7f1dc4451426b1d2f8390cdf5cf6044871431e3ea2d69b59a1a176dab1deffb7",
+      "path": "data/videos/no_fire/TrafficCongestion_045 _2856.mp4"
+    },
+    {
+      "id": "VID389",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "bb636dce908dac90f91489e67bb5b279168570e31257f584db7d1b8a9e796471",
+      "path": "data/videos/no_fire/TrafficCongestion_048 _1388.mp4"
+    },
+    {
+      "id": "VID390",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "b121507d77d433477e0de45b02f89ed4da58101bdf4d2129b66d99d07353f78b",
+      "path": "data/videos/fire/evo_10_2865.mp4"
+    },
+    {
+      "id": "VID391",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "9e53ba28b9532ee561ffbfa65dc8304c797b340250b44b0b7a119bf9423d9ecd",
+      "path": "data/videos/fire/evo_20_2876.mp4"
+    },
+    {
+      "id": "VID392",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "e742d14ec759236a608e1134ca8eecd008c25b365b818a6506a4f4428ca50228",
+      "path": "data/videos/fire/evo_22_2878.mp4"
+    },
+    {
+      "id": "VID393",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "67970fa97d307ffba3223f7eb7a322335357bcd1ea8e9142ee03225ed5afc439",
+      "path": "data/videos/fire/evo_29_2885.mp4"
+    },
+    {
+      "id": "VID394",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "2c2b264b943f6278982d3d1c28149bdc9cd972c4561c56dc3fd143426eb649a4",
+      "path": "data/videos/fire/evo_3_2886.mp4"
+    },
+    {
+      "id": "VID395",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "2cb9a4c96f88c32ef750a6d05b35378446dc2e97ead38113cf08c210d785c5d7",
+      "path": "data/videos/fire/evo_9_2894.mp4"
+    },
+    {
+      "id": "VID396",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "ab5b0db8b9ed9a03f6a36d935a822359e3c41bae8fd96c23dd10c9213ee04f15",
+      "path": "data/videos/fire/Fire_012 _1774.mp4"
+    },
+    {
+      "id": "VID397",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "46cd0fb39a64cd7274c176ef0412f1102f1baa0f70dadbfafdd56f3c3b6e4ba0",
+      "path": "data/videos/fire/Fire_025 _1787.mp4"
+    },
+    {
+      "id": "VID398",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "0731fb425430ded36a36e807627f06036a8845546da9c7b97ffbefa72e03bd0e",
+      "path": "data/videos/fire/Fire_027 _1789.mp4"
+    },
+    {
+      "id": "VID399",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "50060adf9e3c05e6892cb024d484719db89ae951785d69020a783b5428c612d9",
+      "path": "data/videos/fire/Fire_030 _383.mp4"
+    },
+    {
+      "id": "VID400",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "565e0b21d8cf994ffb90a891ac1b358f8d3d44b703b4174d4640e0e663fe6f43",
+      "path": "data/videos/fire/Fire_038 _391.mp4"
+    },
+    {
+      "id": "VID401",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "97d8aa416a5c5be46b2aad91fa88a2bace9ffba83782b3fd46bf0ff6e7bd780f",
+      "path": "data/videos/fire/Fire_048 _1810.mp4"
+    },
+    {
+      "id": "VID402",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "8abebe3936ec71cf42271f341fa91cff8dccf7b8a600647af2f650a86eb901e9",
+      "path": "data/videos/fire/Fire_049 _402.mp4"
+    },
+    {
+      "id": "VID403",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "12bcc94d9e50e8f1dffe860fbae215bf41b5816e5ad8d842c166886d579e4dea",
+      "path": "data/videos/fire/heinola_111_2909.mp4"
+    },
+    {
+      "id": "VID404",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "bcd1f71b3a5e44f428c4e21856acbaa8b3eef40fa5d58933fbf2e9a7c8e01a7f",
+      "path": "data/videos/fire/heinola_112_2910.mp4"
+    },
+    {
+      "id": "VID405",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "5d9fd089a9d5f96fa646c6b008724ed1205add558efb2c656051d4c3b3ad4eb1",
+      "path": "data/videos/fire/heinola_115_2913.mp4"
+    },
+    {
+      "id": "VID406",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "ad806d7c0df04d6a413fdd51d83d011b1a253667cda7391bbfc3d4881ad0a865",
+      "path": "data/videos/fire/heinola_59_2975.mp4"
+    },
+    {
+      "id": "VID407",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "aba80ceae413557139a6f2433ae06b52d0f3e406be8f22257051de13dc866030",
+      "path": "data/videos/fire/heinola_75_2993.mp4"
+    },
+    {
+      "id": "VID408",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "a453da1f587e336ed012a55aeebecd7218548c8ef692fb551d5e74e6f7f32a0c",
+      "path": "data/videos/fire/heinola_90_3010.mp4"
+    },
+    {
+      "id": "VID409",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "8ca00c9ab6d1db41654ec8fd6c01a28976ea2aa75f86c3f779cf5518703058c8",
+      "path": "data/videos/fire/heinola_92_3012.mp4"
+    },
+    {
+      "id": "VID410",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "e899d8bb9c4bd6fdca19022683e07660063da161636e4c149f091a53a46607e3",
+      "path": "data/videos/fire/heinola_96_3016.mp4"
+    },
+    {
+      "id": "VID411",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "4363b31af07d61077d1250e6800dd2c8dabbaa2743f1162675d60e67b2ed1ec0",
+      "path": "data/videos/fire/karkkila_12_3023.mp4"
+    },
+    {
+      "id": "VID412",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "aacbe7478dee3755ecd33a6f2f13809f9180a7e338fe2c2cab004ed47f776c48",
+      "path": "data/videos/fire/karkkila_14_3025.mp4"
+    },
+    {
+      "id": "VID413",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "986655ebc54ee51c81fa73351983649a5e9dc4846fab75e260d65ee6c63951a7",
+      "path": "data/videos/fire/karkkila_2_3031.mp4"
+    },
+    {
+      "id": "VID414",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "0d2b656b9e33a8de841dd405ae9b28ef123921873003bf1258594d376af50de7",
+      "path": "data/videos/fire/karkkila_66_3082.mp4"
+    },
+    {
+      "id": "VID415",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "4792843a248ec95114380bbeebe71448d853aac449a06fd6525d4676787a9d0f",
+      "path": "data/videos/fire/karkkila_67_3083.mp4"
+    },
+    {
+      "id": "VID416",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "a66c605a57bae3addc57a4e5742565a511a8a53d6de1c2fe7826df400602e115",
+      "path": "data/videos/fire/karkkila_70_3087.mp4"
+    },
+    {
+      "id": "VID417",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "b238005e7866f856559a8ebf2662776395c158c2297e5b8b9bcf6c0a6888225f",
+      "path": "data/videos/fire/karkkila_7_3086.mp4"
+    },
+    {
+      "id": "VID418",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "aadc09db3a8bb5738624573422ae8c098ac6472389fbf288b22dad423a03f45b",
+      "path": "data/videos/fire/ruokolahti_19_3105.mp4"
+    },
+    {
+      "id": "VID419",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "4fb191500d543bfa6e620e8ccb2dac822c1e01d3361a78e8b5d95a31854c0e93",
+      "path": "data/videos/fire/ruokolahti_24_3111.mp4"
+    },
+    {
+      "id": "VID420",
+      "label": "fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "0538ffe7d35479b45542107e4d3c07d77dbf90c38d2d8c37c78a11cae03a1ab0",
+      "path": "data/videos/fire/ruokolahti_38_3126.mp4"
+    },
+    {
+      "id": "VID421",
+      "label": "fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "a50324ba2294287bdc62b8b7884ba69db23ae0727692c038bddf078036588b64",
+      "path": "data/videos/fire/ruokolahti_43_3132.mp4"
+    },
+    {
+      "id": "VID422",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "8ab90dad77ba4701f31659ce94aa07620fa0b9fc8c719de7538a31bd16a2269d",
+      "path": "data/videos/fire/ruokolahti_6_3149.mp4"
+    },
+    {
+      "id": "VID423",
+      "label": "fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "a0045bfc5ce6923bc7cc5e590934a97fc5c799fcef162e2d28444ec21181c153",
+      "path": "data/videos/fire/ruokolahti_9_3152.mp4"
+    },
+    {
+      "id": "VID424",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "95c2c06f3d633890650aeaf5f7a9f513f3a6a2433a7960499964eb4b56049002",
+      "path": "data/videos/no_fire/Baseball_014 _1404.mp4"
+    },
+    {
+      "id": "VID425",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "25197cf7d4e9e06c490cf37029ec91e9a2df9138857a44254f6238cb21ede478",
+      "path": "data/videos/no_fire/Baseball_034 _1424.mp4"
+    },
+    {
+      "id": "VID426",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "64fc0dcecafb05cb0debd07bdb69d37bd348309954417037f2d55dd5aa4cab43",
+      "path": "data/videos/no_fire/Boating_007 _104.mp4"
+    },
+    {
+      "id": "VID427",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "8db7e3e6730cd3f763aa09382ca7941e0dd80a5468adc676eb6840781a6849cc",
+      "path": "data/videos/no_fire/Boating_032 _1525.mp4"
+    },
+    {
+      "id": "VID428",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "d7d967372d027d73d6209171a8b5c51a42e9138a4b8afc91cf6b3f36343bbaa0",
+      "path": "data/videos/no_fire/Boating_051 _148.mp4"
+    },
+    {
+      "id": "VID429",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "e472f19a65a9924222f968a4529862019d7e700d26865400d8027275a0a6c4ff",
+      "path": "data/videos/no_fire/Boating_052 _1545.mp4"
+    },
+    {
+      "id": "VID430",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "12815f5fa94175525c7b29b9e34ede3ce1927e92284a2ce15be11fff28813771",
+      "path": "data/videos/no_fire/Cycling_008 _1714.mp4"
+    },
+    {
+      "id": "VID431",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "f056f39f372bb3e9e384863024cdedfa675288f7a403004ff27f7194aca15f2e",
+      "path": "data/videos/no_fire/Cycling_009 _1715.mp4"
+    },
+    {
+      "id": "VID432",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "9b5befca08e4772b93fb170a22b5415454abc7a7d1c3cb203e8733035d79664b",
+      "path": "data/videos/no_fire/Cycling_015 _315.mp4"
+    },
+    {
+      "id": "VID433",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "3818a7d9e5b4592600111279d65b07ef11db0dfce919bcfe3f9d196f608f8aa3",
+      "path": "data/videos/no_fire/Harvesting_037 _1908.mp4"
+    },
+    {
+      "id": "VID434",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "90338a025a3c57b1c26cb9cd9230ccf3f9082768789286fa2e8bba4a9010b86e",
+      "path": "data/videos/no_fire/Harvesting_042 _500.mp4"
+    },
+    {
+      "id": "VID435",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "5f51a675893b78394d42d2291b32d8b0ebdb379cead568eecd0fa5050aded204",
+      "path": "data/videos/no_fire/NonEvent_087 _709.mp4"
+    },
+    {
+      "id": "VID436",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "2db8510396c3dd5c88a88430fc3c6912cee8c10c6ab3efd03fae9cc942a03222",
+      "path": "data/videos/no_fire/NonEvent_123 _2165.mp4"
+    },
+    {
+      "id": "VID437",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "107c0be6d547243438edd9fe2cbc014b042c38fb43daa8c255d9160647e36722",
+      "path": "data/videos/no_fire/NonEvent_137 _759.mp4"
+    },
+    {
+      "id": "VID438",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "8a55c9729cb2a447ff76018ac29600ff2f70bc383e278e00304698e6b363ffc4",
+      "path": "data/videos/no_fire/NonEvent_168 _2210.mp4"
+    },
+    {
+      "id": "VID439",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "10b1ac8c43148da68e78942b6f8cf34f2deb1cb8cfe92f0a0c16487ed9c408b2",
+      "path": "data/videos/no_fire/ParadeProtest_005 _782.mp4"
+    },
+    {
+      "id": "VID440",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "d8b027194163865a62c64e937a633504db427949a64c224971b614525c81a4e7",
+      "path": "data/videos/no_fire/Party_010 _836.mp4"
+    },
+    {
+      "id": "VID441",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "9a3ee3e137a3aca734f8c98be2f4b7d6a099ad8425890ac2fe6cb576158327cd",
+      "path": "data/videos/no_fire/Party_023 _849.mp4"
+    },
+    {
+      "id": "VID442",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "8ed64e72da445c69e7f33edfd46bcc05ab25b64c73432e008420c8a97f1af8e9",
+      "path": "data/videos/no_fire/Ploughing_005 _881.mp4"
+    },
+    {
+      "id": "VID443",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "b7d8d9b6f9074462afbd50b8585c8b37073bed2f5be5da3bba2ef816084f5f0f",
+      "path": "data/videos/no_fire/PoliceChase_001 _929.mp4"
+    },
+    {
+      "id": "VID444",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "8f1dcf5736e9d0c1b77b252764048d7be4bcf81bc1728ef1d7bc6284bff72acf",
+      "path": "data/videos/no_fire/PoliceChase_005 _2393.mp4"
+    },
+    {
+      "id": "VID445",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "d38073ea021c8d44059c3e077bad3df91d446b51587ec016e479787090062a8f",
+      "path": "data/videos/no_fire/PoliceChase_014 _942.mp4"
+    },
+    {
+      "id": "VID446",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "975242ed38785d47143471f54428bd1cf90204675255ea5edbf8d893b64e1782",
+      "path": "data/videos/no_fire/PostEarthquake_003 _982.mp4"
+    },
+    {
+      "id": "VID447",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "4847cdacd42ae0fc2f25a4b4f09dedc5a56163827dba25784d938e51293c6986",
+      "path": "data/videos/no_fire/PostEarthquake_025 _2466.mp4"
+    },
+    {
+      "id": "VID448",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "0dcea5302fccd4454ae91dfa9708267dbcc164f159d806350823ef526add631e",
+      "path": "data/videos/no_fire/PostEarthquake_028 _1007.mp4"
+    },
+    {
+      "id": "VID449",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "c68a3ea45b68aebc72407a33d2df9942afdb1ef58ba916ac9a40a1f08f4bbc39",
+      "path": "data/videos/no_fire/PostEarthquake_054 _2495.mp4"
+    },
+    {
+      "id": "VID450",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "6534920cd497a6a7276fe44b8f39f5d6df0f76cd57d04483421a9f15ea1126ef",
+      "path": "data/videos/no_fire/ReligiousActivity_049 _1083.mp4"
+    },
+    {
+      "id": "VID451",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "6427b17210b5b6384cb6a24e2794f9c91889d707396e577095255f3daa729912",
+      "path": "data/videos/no_fire/Running_010 _2564.mp4"
+    },
+    {
+      "id": "VID452",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "79ef8626fa61e5296ff68e599cc5125a699a302a5f862f3b44a6d38dc1fb8fb0",
+      "path": "data/videos/no_fire/Running_023 _2577.mp4"
+    },
+    {
+      "id": "VID453",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "b2d830ac98f160310bbee1f023cf33ed0bba700ad14c5aa0646486408f0202dd",
+      "path": "data/videos/no_fire/Running_085 _2639.mp4"
+    },
+    {
+      "id": "VID454",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "1125e15597f9923ae7d72718cbc418850def1eeaa66038aeda8f33ab4f35c74e",
+      "path": "data/videos/no_fire/Soccer_007 _1181.mp4"
+    },
+    {
+      "id": "VID455",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "cf8428e5ef7b1dc07e3da56ab9215f622968647bfa96605e23917aa3115657fd",
+      "path": "data/videos/no_fire/Soccer_008 _1182.mp4"
+    },
+    {
+      "id": "VID456",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "944c60712561744dc47952143830e379964ba2188d0ba22578baeac82e4abb44",
+      "path": "data/videos/no_fire/Soccer_009 _2650.mp4"
+    },
+    {
+      "id": "VID457",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "39e8ff82cf506fe4230317bd3831a0b133b6f6ce405473ef16035fbdd2ad479a",
+      "path": "data/videos/no_fire/Soccer_011 _1185.mp4"
+    },
+    {
+      "id": "VID458",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "d5cbb3fb6a0ab36f31097777919cd50d1b8160e89c534d662ec102be31c58768",
+      "path": "data/videos/no_fire/Soccer_013 _2654.mp4"
+    },
+    {
+      "id": "VID459",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "65d769b61350061f6973b6deb7b7e30542e0d1a4fc36720d0e99fb965a277f3c",
+      "path": "data/videos/no_fire/Soccer_025 _1199.mp4"
+    },
+    {
+      "id": "VID460",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "a7f58fcc739e77c0a77d819eff02b6e870ddfa32655f16cc8dbdf8ac18512b5c",
+      "path": "data/videos/no_fire/Soccer_031 _1205.mp4"
+    },
+    {
+      "id": "VID461",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "45c6865d22e63a8fe70eaf83c42ba79ceb6994c4c5fbe030f90a9e74932030df",
+      "path": "data/videos/no_fire/Soccer_036 _1210.mp4"
+    },
+    {
+      "id": "VID462",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "63c13215d995e3beb7c280ac397107bf25819b62fc5212a54954f266f2e90b26",
+      "path": "data/videos/no_fire/Soccer_039 _2680.mp4"
+    },
+    {
+      "id": "VID463",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "ca3903f26ad9a0b4f13796969a4c332781764b19da25e633e445b0b7e718a07a",
+      "path": "data/videos/no_fire/Soccer_041 _1215.mp4"
+    },
+    {
+      "id": "VID464",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "c6c398b5f36732f851c37be68ef7082e25f59d121164558cd161f5e99b96a907",
+      "path": "data/videos/no_fire/Soccer_048 _2689.mp4"
+    },
+    {
+      "id": "VID465",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "3601a5eb0210af8f2c37b3f93b6fe92c009ea0dd0fbb37c3851336e81d91a9cc",
+      "path": "data/videos/no_fire/Soccer_053 _2694.mp4"
+    },
+    {
+      "id": "VID466",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "a67f7d92ccf5c2bbb2097168e4df9d346fe7534846ca7f515485ea7c10efc54c",
+      "path": "data/videos/no_fire/Soccer_054 _1228.mp4"
+    },
+    {
+      "id": "VID467",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "7fd6c8fd525b5a71518da169b0957ab911b4b3cfd02692b4d6d62f95dfbd4dbb",
+      "path": "data/videos/no_fire/Soccer_057 _1231.mp4"
+    },
+    {
+      "id": "VID468",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "11e06c2d67b1c592cb9039f98a8cd1f95567294b1c021d9c22117304291b83ff",
+      "path": "data/videos/no_fire/Soccer_059 _2700.mp4"
+    },
+    {
+      "id": "VID469",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "8e545bd936674b616fd4d6d16bc2eb81dff05cbd28a151d7b97eb7814c5b76b2",
+      "path": "data/videos/no_fire/Soccer_062 _2703.mp4"
+    },
+    {
+      "id": "VID470",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "d8abffb8fc398120bdc03e884ce09cd8d8098d97fd54385819c08ab71fcef2e1",
+      "path": "data/videos/no_fire/Swimming_009 _2713.mp4"
+    },
+    {
+      "id": "VID471",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "bad11fa0d5cadf3f602c2127bff9e59867b0bcf6026a18b44122dac5753ecaa6",
+      "path": "data/videos/no_fire/Swimming_012 _1248.mp4"
+    },
+    {
+      "id": "VID472",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "701e09ea9c459d855c920123b4033a9d29e6cb5b9c283359b1d00250350b2808",
+      "path": "data/videos/no_fire/Swimming_035 _2739.mp4"
+    },
+    {
+      "id": "VID473",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "d067193e4a467b22cb7cb09d54dfd531062d91daad359d819b2a6319d3e2ce79",
+      "path": "data/videos/no_fire/Swimming_040 _2744.mp4"
+    },
+    {
+      "id": "VID474",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "27d259313395ba2810074314de4a8f8b0a9365538aae668c120f5c25fd7821eb",
+      "path": "data/videos/no_fire/TrafficCollision_003 _2758.mp4"
+    },
+    {
+      "id": "VID475",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "ab885902ed9f3e3ce8d5e34811c5512cc283e65a1371a56f7e29a8f46be5b286",
+      "path": "data/videos/no_fire/TrafficCollision_011 _2766.mp4"
+    },
+    {
+      "id": "VID476",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "14d1b58b3413f067b839e9286e9b3f7015c74ea1eece4d76a6ee547bc9f54920",
+      "path": "data/videos/no_fire/TrafficCollision_034 _2789.mp4"
+    },
+    {
+      "id": "VID477",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "68467e152a10187d4f0667d14c40cffe04d05310182d17eb996907f2e30a926b",
+      "path": "data/videos/no_fire/TrafficCongestion_010 _1350.mp4"
+    },
+    {
+      "id": "VID478",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "8ad8b6b9ea480521365ed09d17282b0bc41c457236fbb1f2a4bdddbe83e0a17c",
+      "path": "data/videos/no_fire/TrafficCongestion_015 _1355.mp4"
+    },
+    {
+      "id": "VID479",
+      "label": "no_fire",
+      "split": "validation",
+      "role": "untouched",
+      "sha256": "d3e8e2454800bb18d3cab085aa711dc566449bc7bd7d67d7bbb559b21451e498",
+      "path": "data/videos/no_fire/TrafficCongestion_016 _2827.mp4"
+    },
+    {
+      "id": "VID480",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "bee56ab295f41df026dbf2537351dc62a76624e873d32f6719d7beae936aae29",
+      "path": "data/videos/no_fire/TrafficCongestion_022 _1362.mp4"
+    },
+    {
+      "id": "VID481",
+      "label": "no_fire",
+      "split": "test",
+      "role": "epoch_monitor",
+      "sha256": "c14cb3b546c7f4d341792e58e351ecde4ddc6fe069c47b6a484d2cdc9ef5d5cd",
+      "path": "data/videos/no_fire/TrafficCongestion_027 _1367.mp4"
+    },
+    {
+      "id": "VID482",
+      "label": "no_fire",
+      "split": "train",
+      "role": "gradient_train",
+      "sha256": "f7dccb682c308391ee72ff6ea57635687c8b0216fdad162cfa8e58d532fe0ffc",
+      "path": "data/videos/no_fire/TrafficCongestion_029 _1369.mp4"
+    }
+  ]
+}

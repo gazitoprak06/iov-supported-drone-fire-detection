@@ -1,0 +1,890 @@
+{
+  "_protocol": {
+    "experiment": "Section 4.5 - seed variance of the deep edge detector",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "varying": "loader shuffle, brightness and contrast jitter, and initialisation of the two-class head",
+    "held_fixed": "splits, three epochs, Adam at 1e-4, batch size 32, and the alarm rule of Section 4.5",
+    "deviation": "population standard deviation over the seeds",
+    "environment": {
+      "python": "3.12.7",
+      "platform": "Windows-10-10.0.19045-SP0",
+      "cpu": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+      "argv": [
+        "tools\\multiseed_v3.py",
+        "--seeds",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "opencv": "5.0.0",
+      "numpy": "2.5.1"
+    }
+  },
+  "per_seed": {
+    "0": {
+      "unseen_by_gradient": {
+        "TP": 63,
+        "TN": 126,
+        "FP": 0,
+        "FN": 5,
+        "N_clips": 194,
+        "N_fire": 68,
+        "N_no_fire": 126,
+        "Accuracy": 97.42,
+        "Recall_TPR": 92.65,
+        "Precision": 100.0,
+        "F1": 96.18,
+        "FPR": 0.0,
+        "Recall_TPR_wilson": [
+          83.91,
+          96.82
+        ],
+        "FPR_wilson": [
+          0.0,
+          2.96
+        ]
+      },
+      "untouched": {
+        "TP": 33,
+        "TN": 62,
+        "FP": 0,
+        "FN": 1,
+        "N_clips": 96,
+        "N_fire": 34,
+        "N_no_fire": 62,
+        "Accuracy": 98.96,
+        "Recall_TPR": 97.06,
+        "Precision": 100.0,
+        "F1": 98.51,
+        "FPR": 0.0,
+        "Recall_TPR_wilson": [
+          85.08,
+          99.48
+        ],
+        "FPR_wilson": [
+          0.0,
+          5.83
+        ]
+      },
+      "epoch_monitor": {
+        "TP": 30,
+        "TN": 64,
+        "FP": 0,
+        "FN": 4,
+        "N_clips": 98,
+        "N_fire": 34,
+        "N_no_fire": 64,
+        "Accuracy": 95.92,
+        "Recall_TPR": 88.24,
+        "Precision": 100.0,
+        "F1": 93.75,
+        "FPR": 0.0,
+        "Recall_TPR_wilson": [
+          73.38,
+          95.33
+        ],
+        "FPR_wilson": [
+          0.0,
+          5.66
+        ]
+      },
+      "gradient_train": {
+        "TP": 102,
+        "TN": 187,
+        "FP": 0,
+        "FN": 0,
+        "N_clips": 289,
+        "N_fire": 102,
+        "N_no_fire": 187,
+        "Accuracy": 100.0,
+        "Recall_TPR": 100.0,
+        "Precision": 100.0,
+        "F1": 100.0,
+        "FPR": 0.0,
+        "Recall_TPR_wilson": [
+          96.37,
+          100.0
+        ],
+        "FPR_wilson": [
+          0.0,
+          2.01
+        ]
+      },
+      "full_manifest_CONTAMINATED": {
+        "TP": 165,
+        "TN": 313,
+        "FP": 0,
+        "FN": 5,
+        "N_clips": 483,
+        "N_fire": 170,
+        "N_no_fire": 313,
+        "Accuracy": 98.96,
+        "Recall_TPR": 97.06,
+        "Precision": 100.0,
+        "F1": 98.51,
+        "FPR": 0.0,
+        "Recall_TPR_wilson": [
+          93.3,
+          98.74
+        ],
+        "FPR_wilson": [
+          0.0,
+          1.21
+        ]
+      }
+    },
+    "1": {
+      "unseen_by_gradient": {
+        "TP": 64,
+        "TN": 126,
+        "FP": 0,
+        "FN": 4,
+        "N_clips": 194,
+        "N_fire": 68,
+        "N_no_fire": 126,
+        "Accuracy": 97.94,
+        "Recall_TPR": 94.12,
+        "Precision": 100.0,
+        "F1": 96.97,
+        "FPR": 0.0,
+        "Recall_TPR_wilson": [
+          85.83,
+          97.69
+        ],
+        "FPR_wilson": [
+          0.0,
+          2.96
+        ]
+      },
+      "untouched": {
+        "TP": 33,
+        "TN": 62,
+        "FP": 0,
+        "FN": 1,
+        "N_clips": 96,
+        "N_fire": 34,
+        "N_no_fire": 62,
+        "Accuracy": 98.96,
+        "Recall_TPR": 97.06,
+        "Precision": 100.0,
+        "F1": 98.51,
+        "FPR": 0.0,
+        "Recall_TPR_wilson": [
+          85.08,
+          99.48
+        ],
+        "FPR_wilson": [
+          0.0,
+          5.83
+        ]
+      },
+      "epoch_monitor": {
+        "TP": 31,
+        "TN": 64,
+        "FP": 0,
+        "FN": 3,
+        "N_clips": 98,
+        "N_fire": 34,
+        "N_no_fire": 64,
+        "Accuracy": 96.94,
+        "Recall_TPR": 91.18,
+        "Precision": 100.0,
+        "F1": 95.38,
+        "FPR": 0.0,
+        "Recall_TPR_wilson": [
+          77.04,
+          96.95
+        ],
+        "FPR_wilson": [
+          0.0,
+          5.66
+        ]
+      },
+      "gradient_train": {
+        "TP": 102,
+        "TN": 187,
+        "FP": 0,
+        "FN": 0,
+        "N_clips": 289,
+        "N_fire": 102,
+        "N_no_fire": 187,
+        "Accuracy": 100.0,
+        "Recall_TPR": 100.0,
+        "Precision": 100.0,
+        "F1": 100.0,
+        "FPR": 0.0,
+        "Recall_TPR_wilson": [
+          96.37,
+          100.0
+        ],
+        "FPR_wilson": [
+          0.0,
+          2.01
+        ]
+      },
+      "full_manifest_CONTAMINATED": {
+        "TP": 166,
+        "TN": 313,
+        "FP": 0,
+        "FN": 4,
+        "N_clips": 483,
+        "N_fire": 170,
+        "N_no_fire": 313,
+        "Accuracy": 99.17,
+        "Recall_TPR": 97.65,
+        "Precision": 100.0,
+        "F1": 98.81,
+        "FPR": 0.0,
+        "Recall_TPR_wilson": [
+          94.11,
+          99.08
+        ],
+        "FPR_wilson": [
+          0.0,
+          1.21
+        ]
+      }
+    },
+    "2": {
+      "unseen_by_gradient": {
+        "TP": 64,
+        "TN": 126,
+        "FP": 0,
+        "FN": 4,
+        "N_clips": 194,
+        "N_fire": 68,
+        "N_no_fire": 126,
+        "Accuracy": 97.94,
+        "Recall_TPR": 94.12,
+        "Precision": 100.0,
+        "F1": 96.97,
+        "FPR": 0.0,
+        "Recall_TPR_wilson": [
+          85.83,
+          97.69
+        ],
+        "FPR_wilson": [
+          0.0,
+          2.96
+        ]
+      },
+      "untouched": {
+        "TP": 33,
+        "TN": 62,
+        "FP": 0,
+        "FN": 1,
+        "N_clips": 96,
+        "N_fire": 34,
+        "N_no_fire": 62,
+        "Accuracy": 98.96,
+        "Recall_TPR": 97.06,
+        "Precision": 100.0,
+        "F1": 98.51,
+        "FPR": 0.0,
+        "Recall_TPR_wilson": [
+          85.08,
+          99.48
+        ],
+        "FPR_wilson": [
+          0.0,
+          5.83
+        ]
+      },
+      "epoch_monitor": {
+        "TP": 31,
+        "TN": 64,
+        "FP": 0,
+        "FN": 3,
+        "N_clips": 98,
+        "N_fire": 34,
+        "N_no_fire": 64,
+        "Accuracy": 96.94,
+        "Recall_TPR": 91.18,
+        "Precision": 100.0,
+        "F1": 95.38,
+        "FPR": 0.0,
+        "Recall_TPR_wilson": [
+          77.04,
+          96.95
+        ],
+        "FPR_wilson": [
+          0.0,
+          5.66
+        ]
+      },
+      "gradient_train": {
+        "TP": 102,
+        "TN": 187,
+        "FP": 0,
+        "FN": 0,
+        "N_clips": 289,
+        "N_fire": 102,
+        "N_no_fire": 187,
+        "Accuracy": 100.0,
+        "Recall_TPR": 100.0,
+        "Precision": 100.0,
+        "F1": 100.0,
+        "FPR": 0.0,
+        "Recall_TPR_wilson": [
+          96.37,
+          100.0
+        ],
+        "FPR_wilson": [
+          0.0,
+          2.01
+        ]
+      },
+      "full_manifest_CONTAMINATED": {
+        "TP": 166,
+        "TN": 313,
+        "FP": 0,
+        "FN": 4,
+        "N_clips": 483,
+        "N_fire": 170,
+        "N_no_fire": 313,
+        "Accuracy": 99.17,
+        "Recall_TPR": 97.65,
+        "Precision": 100.0,
+        "F1": 98.81,
+        "FPR": 0.0,
+        "Recall_TPR_wilson": [
+          94.11,
+          99.08
+        ],
+        "FPR_wilson": [
+          0.0,
+          1.21
+        ]
+      }
+    },
+    "3": {
+      "unseen_by_gradient": {
+        "TP": 64,
+        "TN": 126,
+        "FP": 0,
+        "FN": 4,
+        "N_clips": 194,
+        "N_fire": 68,
+        "N_no_fire": 126,
+        "Accuracy": 97.94,
+        "Recall_TPR": 94.12,
+        "Precision": 100.0,
+        "F1": 96.97,
+        "FPR": 0.0,
+        "Recall_TPR_wilson": [
+          85.83,
+          97.69
+        ],
+        "FPR_wilson": [
+          0.0,
+          2.96
+        ]
+      },
+      "untouched": {
+        "TP": 33,
+        "TN": 62,
+        "FP": 0,
+        "FN": 1,
+        "N_clips": 96,
+        "N_fire": 34,
+        "N_no_fire": 62,
+        "Accuracy": 98.96,
+        "Recall_TPR": 97.06,
+        "Precision": 100.0,
+        "F1": 98.51,
+        "FPR": 0.0,
+        "Recall_TPR_wilson": [
+          85.08,
+          99.48
+        ],
+        "FPR_wilson": [
+          0.0,
+          5.83
+        ]
+      },
+      "epoch_monitor": {
+        "TP": 31,
+        "TN": 64,
+        "FP": 0,
+        "FN": 3,
+        "N_clips": 98,
+        "N_fire": 34,
+        "N_no_fire": 64,
+        "Accuracy": 96.94,
+        "Recall_TPR": 91.18,
+        "Precision": 100.0,
+        "F1": 95.38,
+        "FPR": 0.0,
+        "Recall_TPR_wilson": [
+          77.04,
+          96.95
+        ],
+        "FPR_wilson": [
+          0.0,
+          5.66
+        ]
+      },
+      "gradient_train": {
+        "TP": 102,
+        "TN": 187,
+        "FP": 0,
+        "FN": 0,
+        "N_clips": 289,
+        "N_fire": 102,
+        "N_no_fire": 187,
+        "Accuracy": 100.0,
+        "Recall_TPR": 100.0,
+        "Precision": 100.0,
+        "F1": 100.0,
+        "FPR": 0.0,
+        "Recall_TPR_wilson": [
+          96.37,
+          100.0
+        ],
+        "FPR_wilson": [
+          0.0,
+          2.01
+        ]
+      },
+      "full_manifest_CONTAMINATED": {
+        "TP": 166,
+        "TN": 313,
+        "FP": 0,
+        "FN": 4,
+        "N_clips": 483,
+        "N_fire": 170,
+        "N_no_fire": 313,
+        "Accuracy": 99.17,
+        "Recall_TPR": 97.65,
+        "Precision": 100.0,
+        "F1": 98.81,
+        "FPR": 0.0,
+        "Recall_TPR_wilson": [
+          94.11,
+          99.08
+        ],
+        "FPR_wilson": [
+          0.0,
+          1.21
+        ]
+      }
+    },
+    "4": {
+      "unseen_by_gradient": {
+        "TP": 64,
+        "TN": 124,
+        "FP": 2,
+        "FN": 4,
+        "N_clips": 194,
+        "N_fire": 68,
+        "N_no_fire": 126,
+        "Accuracy": 96.91,
+        "Recall_TPR": 94.12,
+        "Precision": 96.97,
+        "F1": 95.52,
+        "FPR": 1.59,
+        "Recall_TPR_wilson": [
+          85.83,
+          97.69
+        ],
+        "FPR_wilson": [
+          0.44,
+          5.6
+        ]
+      },
+      "untouched": {
+        "TP": 33,
+        "TN": 61,
+        "FP": 1,
+        "FN": 1,
+        "N_clips": 96,
+        "N_fire": 34,
+        "N_no_fire": 62,
+        "Accuracy": 97.92,
+        "Recall_TPR": 97.06,
+        "Precision": 97.06,
+        "F1": 97.06,
+        "FPR": 1.61,
+        "Recall_TPR_wilson": [
+          85.08,
+          99.48
+        ],
+        "FPR_wilson": [
+          0.29,
+          8.59
+        ]
+      },
+      "epoch_monitor": {
+        "TP": 31,
+        "TN": 63,
+        "FP": 1,
+        "FN": 3,
+        "N_clips": 98,
+        "N_fire": 34,
+        "N_no_fire": 64,
+        "Accuracy": 95.92,
+        "Recall_TPR": 91.18,
+        "Precision": 96.88,
+        "F1": 93.94,
+        "FPR": 1.56,
+        "Recall_TPR_wilson": [
+          77.04,
+          96.95
+        ],
+        "FPR_wilson": [
+          0.28,
+          8.33
+        ]
+      },
+      "gradient_train": {
+        "TP": 102,
+        "TN": 187,
+        "FP": 0,
+        "FN": 0,
+        "N_clips": 289,
+        "N_fire": 102,
+        "N_no_fire": 187,
+        "Accuracy": 100.0,
+        "Recall_TPR": 100.0,
+        "Precision": 100.0,
+        "F1": 100.0,
+        "FPR": 0.0,
+        "Recall_TPR_wilson": [
+          96.37,
+          100.0
+        ],
+        "FPR_wilson": [
+          0.0,
+          2.01
+        ]
+      },
+      "full_manifest_CONTAMINATED": {
+        "TP": 166,
+        "TN": 311,
+        "FP": 2,
+        "FN": 4,
+        "N_clips": 483,
+        "N_fire": 170,
+        "N_no_fire": 313,
+        "Accuracy": 98.76,
+        "Recall_TPR": 97.65,
+        "Precision": 98.81,
+        "F1": 98.22,
+        "FPR": 0.64,
+        "Recall_TPR_wilson": [
+          94.11,
+          99.08
+        ],
+        "FPR_wilson": [
+          0.18,
+          2.3
+        ]
+      }
+    }
+  },
+  "summary": {
+    "unseen_by_gradient": {
+      "Recall_TPR": {
+        "mean": 93.83,
+        "sd": 0.59,
+        "min": 92.65,
+        "max": 94.12,
+        "range": 1.47,
+        "values": [
+          92.65,
+          94.12,
+          94.12,
+          94.12,
+          94.12
+        ]
+      },
+      "FPR": {
+        "mean": 0.32,
+        "sd": 0.64,
+        "min": 0.0,
+        "max": 1.59,
+        "range": 1.59,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.59
+        ]
+      },
+      "F1": {
+        "mean": 96.52,
+        "sd": 0.59,
+        "min": 95.52,
+        "max": 96.97,
+        "range": 1.45,
+        "values": [
+          96.18,
+          96.97,
+          96.97,
+          96.97,
+          95.52
+        ]
+      },
+      "Accuracy": {
+        "mean": 97.63,
+        "sd": 0.41,
+        "min": 96.91,
+        "max": 97.94,
+        "range": 1.03,
+        "values": [
+          97.42,
+          97.94,
+          97.94,
+          97.94,
+          96.91
+        ]
+      },
+      "n_seeds": 5
+    },
+    "untouched": {
+      "Recall_TPR": {
+        "mean": 97.06,
+        "sd": 0.0,
+        "min": 97.06,
+        "max": 97.06,
+        "range": 0.0,
+        "values": [
+          97.06,
+          97.06,
+          97.06,
+          97.06,
+          97.06
+        ]
+      },
+      "FPR": {
+        "mean": 0.32,
+        "sd": 0.64,
+        "min": 0.0,
+        "max": 1.61,
+        "range": 1.61,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.61
+        ]
+      },
+      "F1": {
+        "mean": 98.22,
+        "sd": 0.58,
+        "min": 97.06,
+        "max": 98.51,
+        "range": 1.45,
+        "values": [
+          98.51,
+          98.51,
+          98.51,
+          98.51,
+          97.06
+        ]
+      },
+      "Accuracy": {
+        "mean": 98.75,
+        "sd": 0.42,
+        "min": 97.92,
+        "max": 98.96,
+        "range": 1.04,
+        "values": [
+          98.96,
+          98.96,
+          98.96,
+          98.96,
+          97.92
+        ]
+      },
+      "n_seeds": 5
+    },
+    "epoch_monitor": {
+      "Recall_TPR": {
+        "mean": 90.59,
+        "sd": 1.18,
+        "min": 88.24,
+        "max": 91.18,
+        "range": 2.94,
+        "values": [
+          88.24,
+          91.18,
+          91.18,
+          91.18,
+          91.18
+        ]
+      },
+      "FPR": {
+        "mean": 0.31,
+        "sd": 0.62,
+        "min": 0.0,
+        "max": 1.56,
+        "range": 1.56,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.56
+        ]
+      },
+      "F1": {
+        "mean": 94.77,
+        "sd": 0.75,
+        "min": 93.75,
+        "max": 95.38,
+        "range": 1.63,
+        "values": [
+          93.75,
+          95.38,
+          95.38,
+          95.38,
+          93.94
+        ]
+      },
+      "Accuracy": {
+        "mean": 96.53,
+        "sd": 0.5,
+        "min": 95.92,
+        "max": 96.94,
+        "range": 1.02,
+        "values": [
+          95.92,
+          96.94,
+          96.94,
+          96.94,
+          95.92
+        ]
+      },
+      "n_seeds": 5
+    },
+    "gradient_train": {
+      "Recall_TPR": {
+        "mean": 100.0,
+        "sd": 0.0,
+        "min": 100.0,
+        "max": 100.0,
+        "range": 0.0,
+        "values": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ]
+      },
+      "FPR": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "F1": {
+        "mean": 100.0,
+        "sd": 0.0,
+        "min": 100.0,
+        "max": 100.0,
+        "range": 0.0,
+        "values": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ]
+      },
+      "Accuracy": {
+        "mean": 100.0,
+        "sd": 0.0,
+        "min": 100.0,
+        "max": 100.0,
+        "range": 0.0,
+        "values": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ]
+      },
+      "n_seeds": 5
+    },
+    "full_manifest_CONTAMINATED": {
+      "Recall_TPR": {
+        "mean": 97.53,
+        "sd": 0.24,
+        "min": 97.06,
+        "max": 97.65,
+        "range": 0.59,
+        "values": [
+          97.06,
+          97.65,
+          97.65,
+          97.65,
+          97.65
+        ]
+      },
+      "FPR": {
+        "mean": 0.13,
+        "sd": 0.26,
+        "min": 0.0,
+        "max": 0.64,
+        "range": 0.64,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.64
+        ]
+      },
+      "F1": {
+        "mean": 98.63,
+        "sd": 0.24,
+        "min": 98.22,
+        "max": 98.81,
+        "range": 0.59,
+        "values": [
+          98.51,
+          98.81,
+          98.81,
+          98.81,
+          98.22
+        ]
+      },
+      "Accuracy": {
+        "mean": 99.05,
+        "sd": 0.16,
+        "min": 98.76,
+        "max": 99.17,
+        "range": 0.41,
+        "values": [
+          98.96,
+          99.17,
+          99.17,
+          99.17,
+          98.76
+        ]
+      },
+      "n_seeds": 5
+    }
+  }
+}

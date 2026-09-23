@@ -1,0 +1,40 @@
+# Reproduction environment for
+#   UAV Fire Detection: Null-Baseline Auditing, the Location of Failure in the
+#   Decision Rule, and a Deep Edge Replacement
+#
+# The manuscript records two environments and which experiment ran in which
+# (Section 4). This file pins the audited versions of Environment A, the
+# Windows 10 / Python 3.12.7 target machine that produced Sections 4.1, 4.2 and
+# 4.4. Environment B, a containerised Linux host with Python 3.10.12, OpenCV
+# 4.13.0 and scikit-learn 1.7.2, produced the resolution control of Section 4.3
+# and the clip-level evaluation of Section 4.5.
+#
+# Two cautions carry over from the manuscript:
+#   * random-forest figures are specific to the scikit-learn version, because a
+#     forest fitted with a fixed seed depends on the order in which its
+#     estimator consumes pseudo-random numbers, and that order changes between
+#     releases. The logistic regressions are deterministic and do not.
+#   * PyTorch is needed only for train_v3.py, evaluate_v3_videos.py and
+#     Proje_Kodlari/visualize_v3.py. The clip-level verdicts reported in the
+#     paper were produced by the torch-free NumPy path
+#     (tools/eval_clips_numpy.py), which needs nothing below beyond NumPy and
+#     Pillow, so a reviewer can reproduce Section 4.5 without installing torch.
+
+# --- core: needed by every experiment -------------------------------------
+numpy==2.5.1
+# The manuscript quotes the OpenCV library version, 5.0.0, which is what
+# cv2.__version__ returns. The PyPI wheel carries a fourth component, so the
+# pin below is the package version that ships that library.
+opencv-python==5.0.0.93
+Pillow==11.3.0
+
+# --- Sections 4.2 and 4.4: the learned baselines and the cascade -----------
+scikit-learn==1.9.0
+
+# --- Fig. 6 ---------------------------------------------------------------
+matplotlib==3.10.6
+
+# --- Section 4.5: training and the PyTorch reference evaluator only --------
+# Omit these two if you only intend to run the torch-free path.
+torch==2.14.0
+torchvision==0.29.0

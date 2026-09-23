@@ -1,0 +1,1938 @@
+{
+  "_partial_roles": null,
+  "_evaluator": "torch",
+  "verdicts": {
+    "VID000": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID001": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID002": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID003": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID004": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID005": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID006": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID007": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID008": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID009": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID010": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID011": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID012": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID013": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID014": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID015": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID016": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID017": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID018": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID019": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID020": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID021": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID022": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID023": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID024": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID025": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID026": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID027": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID028": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID029": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID030": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID031": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID032": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID033": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID034": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID035": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID036": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID037": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID038": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID039": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID040": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID041": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID042": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID043": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID044": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID045": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID046": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID047": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID048": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID049": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID050": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID051": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID052": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID053": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID054": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID055": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID056": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID057": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID058": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID059": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID060": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID061": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID062": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID063": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID064": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID065": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID066": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID067": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID068": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID069": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID070": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID071": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID072": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID073": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID074": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID075": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID076": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID077": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID078": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID079": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID080": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID081": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID082": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID083": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID084": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID085": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID086": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID087": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID088": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID089": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID090": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID091": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID092": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID093": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID094": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID095": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID096": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID097": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID098": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID099": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID100": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID101": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID102": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID103": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID104": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID105": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID106": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID107": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID108": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID109": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID110": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID111": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID112": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID113": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID114": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID115": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID116": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID117": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID118": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID119": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID120": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID121": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID122": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID123": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID124": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID125": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID126": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID127": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID128": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID129": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID130": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID131": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID132": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID133": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID134": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID135": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID136": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID137": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID138": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID139": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID140": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID141": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID142": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID143": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID144": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID145": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID146": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID147": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID148": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID149": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID150": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID151": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID152": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID153": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID154": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID155": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID156": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID157": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID158": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID159": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID160": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID161": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID162": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID163": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID164": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID165": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID166": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID167": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID168": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID169": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID170": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID171": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID172": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID173": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID174": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID175": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID176": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID177": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID178": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID179": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID180": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID181": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID182": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID183": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID184": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID185": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID186": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID187": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID188": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID189": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID190": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID191": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID192": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID193": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID194": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID195": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID196": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID197": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID198": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID199": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID200": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID201": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID202": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID203": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID204": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID205": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID206": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID207": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID208": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID209": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID210": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID211": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID212": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID213": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID214": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID215": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID216": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID217": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID218": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID219": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID220": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID221": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID222": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID223": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID224": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID225": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID226": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID227": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID228": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID229": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID230": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID231": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID232": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID233": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID234": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID235": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID236": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID237": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID238": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID239": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID240": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID241": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID242": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID243": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID244": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID245": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID246": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID247": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID248": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID249": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID250": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID251": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID252": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID253": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID254": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID255": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID256": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID257": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID258": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID259": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID260": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID261": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID262": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID263": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID264": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID265": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID266": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID267": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID268": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID269": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID270": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID271": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID272": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID273": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID274": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID275": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID276": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID277": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID278": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID279": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID280": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID281": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID282": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID283": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID284": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID285": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID286": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID287": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID288": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID289": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID290": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID291": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID292": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID293": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID294": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID295": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID296": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID297": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID298": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID299": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID300": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID301": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID302": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID303": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID304": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID305": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID306": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID307": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID308": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID309": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID310": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID311": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID312": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID313": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID314": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID315": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID316": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID317": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID318": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID319": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID320": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID321": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID322": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID323": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID324": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID325": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID326": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID327": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID328": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID329": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID330": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID331": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID332": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID333": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID334": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID335": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID336": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID337": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID338": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID339": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID340": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID341": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID342": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID343": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID344": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID345": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID346": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID347": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID348": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID349": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID350": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID351": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID352": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID353": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID354": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID355": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID356": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID357": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID358": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID359": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID360": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID361": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID362": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID363": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID364": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID365": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID366": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID367": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID368": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID369": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID370": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID371": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID372": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID373": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID374": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID375": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID376": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID377": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID378": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID379": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID380": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID381": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID382": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID383": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID384": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID385": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID386": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID387": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID388": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID389": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID390": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID391": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID392": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID393": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID394": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID395": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID396": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID397": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID398": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID399": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID400": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID401": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID402": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID403": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID404": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID405": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID406": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID407": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID408": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID409": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID410": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID411": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID412": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID413": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID414": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID415": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID416": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID417": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID418": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID419": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID420": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID421": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID422": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID423": {
+      "alarm": true,
+      "evaluator": "torch"
+    },
+    "VID424": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID425": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID426": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID427": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID428": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID429": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID430": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID431": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID432": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID433": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID434": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID435": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID436": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID437": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID438": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID439": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID440": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID441": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID442": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID443": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID444": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID445": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID446": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID447": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID448": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID449": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID450": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID451": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID452": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID453": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID454": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID455": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID456": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID457": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID458": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID459": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID460": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID461": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID462": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID463": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID464": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID465": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID466": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID467": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID468": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID469": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID470": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID471": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID472": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID473": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID474": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID475": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID476": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID477": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID478": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID479": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID480": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID481": {
+      "alarm": false,
+      "evaluator": "torch"
+    },
+    "VID482": {
+      "alarm": false,
+      "evaluator": "torch"
+    }
+  }
+}

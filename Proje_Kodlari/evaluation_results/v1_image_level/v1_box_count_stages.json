@@ -1,0 +1,39 @@
+{
+  "_protocol": {
+    "experiment": "Section 4.3 spurious-box totals by pipeline stage",
+    "split": "test",
+    "n_no_fire_images": 251,
+    "environment": {
+      "python": "3.10.12",
+      "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+      "cpu": "x86_64",
+      "argv": [
+        "tools/box_count_stages.py",
+        "--max-seconds",
+        "140"
+      ],
+      "opencv": "4.13.0",
+      "numpy": "2.2.6"
+    }
+  },
+  "native": {
+    "pre_nms": 11122,
+    "post_nms": 7657,
+    "post_merge": 1461
+  },
+  "resized": {
+    "pre_nms": 645,
+    "post_nms": 577,
+    "post_merge": 231
+  },
+  "removed_by_resize": {
+    "pre_nms": 10477,
+    "post_nms": 7080,
+    "post_merge": 1230
+  },
+  "removed_pct": {
+    "pre_nms": 94.2,
+    "post_nms": 92.46,
+    "post_merge": 84.19
+  }
+}

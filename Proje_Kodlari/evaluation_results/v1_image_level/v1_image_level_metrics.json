@@ -1,0 +1,162 @@
+{
+  "_protocol": {
+    "experiment": "Sections 4.1 and 4.2 - image-level null baselines and colour-space ablation",
+    "split": "test",
+    "n_images": 410,
+    "n_fire": 159,
+    "n_no_fire": 251,
+    "input": "decoded at native resolution, no normalization or augmentation",
+    "altitude_m": 50.0,
+    "temporal_layer": "disabled (still images, prev_frame=None)",
+    "decision_rule": "image is positive iff the detector emits at least one box",
+    "disabled_mask_convention": "a disabled colour space contributes an all-pass mask to the intersection; the white-hot bypass is not one of the three colour spaces and stays active in every row",
+    "environment": {
+      "python": "3.10.12",
+      "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+      "cpu": "x86_64",
+      "argv": [
+        "tools/eval_image_level.py",
+        "--whitehot",
+        "follows_rgb",
+        "--max-seconds",
+        "140"
+      ],
+      "opencv": "4.13.0",
+      "numpy": "2.2.6"
+    },
+    "whitehot_convention": "follows_rgb"
+  },
+  "null_baselines": {
+    "constant_positive": {
+      "TP": 159,
+      "TN": 0,
+      "FP": 251,
+      "FN": 0,
+      "Accuracy": 38.78,
+      "Precision": 38.78,
+      "Recall": 100.0,
+      "F1": 55.89,
+      "Specificity": 0.0,
+      "FPR": 100.0
+    },
+    "constant_negative": {
+      "TP": 0,
+      "TN": 251,
+      "FP": 0,
+      "FN": 159,
+      "Accuracy": 61.22,
+      "Precision": null,
+      "Recall": 0.0,
+      "F1": null,
+      "Specificity": 100.0,
+      "FPR": 0.0
+    }
+  },
+  "ablation": {
+    "HSV only": {
+      "TP": 131,
+      "TN": 51,
+      "FP": 200,
+      "FN": 28,
+      "Accuracy": 44.39,
+      "Precision": 39.58,
+      "Recall": 82.39,
+      "F1": 53.47,
+      "Specificity": 20.32,
+      "FPR": 79.68
+    },
+    "RGB only": {
+      "TP": 148,
+      "TN": 25,
+      "FP": 226,
+      "FN": 11,
+      "Accuracy": 42.2,
+      "Precision": 39.57,
+      "Recall": 93.08,
+      "F1": 55.53,
+      "Specificity": 9.96,
+      "FPR": 90.04
+    },
+    "YCbCr only": {
+      "TP": 127,
+      "TN": 44,
+      "FP": 207,
+      "FN": 32,
+      "Accuracy": 41.71,
+      "Precision": 38.02,
+      "Recall": 79.87,
+      "F1": 51.52,
+      "Specificity": 17.53,
+      "FPR": 82.47
+    },
+    "HSV + RGB": {
+      "TP": 136,
+      "TN": 38,
+      "FP": 213,
+      "FN": 23,
+      "Accuracy": 42.44,
+      "Precision": 38.97,
+      "Recall": 85.53,
+      "F1": 53.54,
+      "Specificity": 15.14,
+      "FPR": 84.86
+    },
+    "HSV + YCbCr": {
+      "TP": 115,
+      "TN": 69,
+      "FP": 182,
+      "FN": 44,
+      "Accuracy": 44.88,
+      "Precision": 38.72,
+      "Recall": 72.33,
+      "F1": 50.44,
+      "Specificity": 27.49,
+      "FPR": 72.51
+    },
+    "RGB + YCbCr": {
+      "TP": 129,
+      "TN": 49,
+      "FP": 202,
+      "FN": 30,
+      "Accuracy": 43.41,
+      "Precision": 38.97,
+      "Recall": 81.13,
+      "F1": 52.65,
+      "Specificity": 19.52,
+      "FPR": 80.48
+    },
+    "HSV + RGB + YCbCr (proposed)": {
+      "TP": 129,
+      "TN": 49,
+      "FP": 202,
+      "FN": 30,
+      "Accuracy": 43.41,
+      "Precision": 38.97,
+      "Recall": 81.13,
+      "F1": 52.65,
+      "Specificity": 19.52,
+      "FPR": 80.48
+    }
+  },
+  "spurious_boxes_on_no_fire": {
+    "HSV only": 1594,
+    "RGB only": 1719,
+    "YCbCr only": 1586,
+    "HSV + RGB": 1730,
+    "HSV + YCbCr": 1299,
+    "RGB + YCbCr": 1461,
+    "HSV + RGB + YCbCr (proposed)": 1461
+  },
+  "released_configuration": {
+    "TP": 129,
+    "TN": 49,
+    "FP": 202,
+    "FN": 30,
+    "Accuracy": 43.41,
+    "Precision": 38.97,
+    "Recall": 81.13,
+    "F1": 52.65,
+    "Specificity": 19.52,
+    "FPR": 80.48
+  }
+}

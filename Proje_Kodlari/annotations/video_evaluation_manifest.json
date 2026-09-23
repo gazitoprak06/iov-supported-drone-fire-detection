@@ -1,0 +1,2904 @@
+{
+  "schema_version": 1,
+  "description": "User manual videos",
+  "videos": [
+    {
+      "id": "VID000",
+      "label": "fire",
+      "path": "data/videos/fire/Conflict_002 _1624.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID001",
+      "label": "fire",
+      "path": "data/videos/fire/evo_11_2866.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID002",
+      "label": "fire",
+      "path": "data/videos/fire/evo_12_2867.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID003",
+      "label": "fire",
+      "path": "data/videos/fire/evo_13_2868.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID004",
+      "label": "fire",
+      "path": "data/videos/fire/evo_14_2869.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID005",
+      "label": "fire",
+      "path": "data/videos/fire/evo_15_2870.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID006",
+      "label": "fire",
+      "path": "data/videos/fire/evo_16_2871.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID007",
+      "label": "fire",
+      "path": "data/videos/fire/evo_17_2872.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID008",
+      "label": "fire",
+      "path": "data/videos/fire/evo_18_2873.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID009",
+      "label": "fire",
+      "path": "data/videos/fire/evo_19_2874.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID010",
+      "label": "fire",
+      "path": "data/videos/fire/evo_1_2864.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID011",
+      "label": "fire",
+      "path": "data/videos/fire/evo_26_2882.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID012",
+      "label": "fire",
+      "path": "data/videos/fire/evo_27_2883.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID013",
+      "label": "fire",
+      "path": "data/videos/fire/evo_28_2884.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID014",
+      "label": "fire",
+      "path": "data/videos/fire/evo_30_2887.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID015",
+      "label": "fire",
+      "path": "data/videos/fire/evo_31_2888.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID016",
+      "label": "fire",
+      "path": "data/videos/fire/evo_4_2889.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID017",
+      "label": "fire",
+      "path": "data/videos/fire/evo_5_2890.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID018",
+      "label": "fire",
+      "path": "data/videos/fire/evo_6_2891.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID019",
+      "label": "fire",
+      "path": "data/videos/fire/evo_8_2893.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID020",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_002 _1764.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID021",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_002 _355.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID022",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_003 _356.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID023",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_004 _1766.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID024",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_004 _357.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID025",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_005 _1767.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID026",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_005 _358.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID027",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_006 _1768.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID028",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_007 _1769.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID029",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_008 _1770.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID030",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_008 _361.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID031",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_009 _1771.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID032",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_009 _362.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID033",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_010 _1772.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID034",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_011 _1773.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID035",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_013 _1775.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID036",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_013 _366.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID037",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_014 _1776.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID038",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_016 _1778.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID039",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_016 _369.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID040",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_017 _1779.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID041",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_017 _370.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID042",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_018 _371.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID043",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_019 _1781.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID044",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_020 _1782.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID045",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_021 _1783.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID046",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_021 _374.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID047",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_022 _1784.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID048",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_023 _376.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID049",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_024 _1786.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID050",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_024 _377.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID051",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_026 _1788.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID052",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_026 _379.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID053",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_027 _380.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID054",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_029 _1791.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID055",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_030 _1792.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID056",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_031 _1793.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID057",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_031 _384.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID058",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_032 _1794.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID059",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_032 _385.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID060",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_033 _1795.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID061",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_033 _386.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID062",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_034 _1796.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID063",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_034 _387.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID064",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_035 _1797.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID065",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_035 _388.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID066",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_036 _389.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID067",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_037 _390.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID068",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_039 _392.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID069",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_040 _1802.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID070",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_040 _393.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID071",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_041 _394.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID072",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_043 _1805.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID073",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_043 _396.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID074",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_044 _1806.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID075",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_045 _1807.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID076",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_045 _398.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID077",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_046 _1808.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID078",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_047 _1809.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID079",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_047 _400.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID080",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_048 _401.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID081",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_049 _1811.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID082",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_050 _1812.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID083",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_050 _403.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID084",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_051 _1813.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID085",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_051 _404.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID086",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_052 _1814.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID087",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_053 _406.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID088",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_054 _1816.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID089",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_056 _1818.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID090",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_057 _1819.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID091",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_058 _1820.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID092",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_29_2942.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID093",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_30_2944.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID094",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_33_2947.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID095",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_34_2948.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID096",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_36_2950.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID097",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_42_2957.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID098",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_46_2961.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID099",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_47_2962.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID100",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_48_2963.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID101",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_50_2966.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID102",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_51_2967.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID103",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_52_2968.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID104",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_54_2970.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID105",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_55_2971.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID106",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_56_2972.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID107",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_007 _6.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID108",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_008 _7.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID109",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_016 _15.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID110",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_022 _1412.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID111",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_023 _1413.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID112",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_024 _1414.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID113",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_024 _23.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID114",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_025 _1415.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID115",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_026 _25.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID116",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_027 _1417.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID117",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_028 _27.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID118",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_029 _1419.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID119",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_029 _28.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID120",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_046 _1436.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID121",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_047 _1437.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID122",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_019 _1460.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID123",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_020 _1461.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID124",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_020 _69.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID125",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_022 _1463.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID126",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_023 _1464.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID127",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_024 _1465.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID128",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_025 _1466.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID129",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_025 _74.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID130",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_027 _1468.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID131",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_028 _77.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID132",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_029 _1470.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID133",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_031 _1472.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID134",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_031 _80.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID135",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_032 _81.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID136",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_033 _1474.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID137",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_033 _82.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID138",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_034 _1475.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID139",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_034 _83.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID140",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_036 _85.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID141",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_037 _86.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID142",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_038 _87.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID143",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_039 _1480.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID144",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_039 _88.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID145",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_041 _90.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID146",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_042 _1483.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID147",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_042 _91.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID148",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_043 _1484.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID149",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_043 _92.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID150",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_044 _1485.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID151",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_044 _93.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID152",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_045 _1486.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID153",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_045 _94.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID154",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_046 _1487.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID155",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_046 _95.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID156",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_047 _1488.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID157",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_047 _96.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID158",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_050 _1491.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID159",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_001 _1494.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID160",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_001 _98.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID161",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_003 _100.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID162",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_003 _1496.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID163",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_005 _102.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID164",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_005 _1498.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID165",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_008 _1501.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID166",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_009 _1502.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID167",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_010 _107.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID168",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_011 _1504.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID169",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_012 _109.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID170",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_013 _110.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID171",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_013 _1506.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID172",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_014 _1507.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID173",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_015 _112.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID174",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_015 _1508.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID175",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_016 _113.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID176",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_017 _1510.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID177",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_018 _1511.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID178",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_020 _117.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID179",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_021 _1514.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID180",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_022 _119.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID181",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_022 _1515.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID182",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_023 _120.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID183",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_024 _121.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID184",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_026 _123.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID185",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_027 _124.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID186",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_028 _1521.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID187",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_029 _1522.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID188",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_030 _127.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID189",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_032 _129.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID190",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_033 _130.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID191",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_034 _1527.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID192",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_035 _132.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID193",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_037 _1530.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID194",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_038 _135.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID195",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_038 _1531.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID196",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_039 _1532.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID197",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_040 _137.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID198",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_040 _1533.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID199",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_042 _139.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID200",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_043 _140.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID201",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_044 _141.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID202",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_044 _1537.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID203",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/CarRacing_004 _152.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID204",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/CarRacing_004 _1549.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID205",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/CarRacing_005 _1550.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID206",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/CarRacing_007 _1552.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID207",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/CarRacing_008 _156.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID208",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/CarRacing_009 _1554.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID209",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/CarRacing_009 _157.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID210",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/CarRacing_010 _1555.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID211",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/CarRacing_010 _158.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID212",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/CarRacing_011 _1556.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID213",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/CarRacing_012 _1557.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID214",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/CarRacing_012 _160.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID215",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/CarRacing_014 _1559.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID216",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/CarRacing_014 _162.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID217",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Cycling_004 _1710.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID218",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Cycling_005 _305.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID219",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Cycling_023 _1729.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID220",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Cycling_024 _1730.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID221",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Cycling_025 _1731.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID222",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Cycling_043 _1749.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID223",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Cycling_043 _343.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID224",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Cycling_044 _1750.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID225",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Flood_034 _443.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID226",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Flood_035 _1855.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID227",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Flood_040 _449.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID228",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Harvesting_002 _460.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID229",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Harvesting_015 _473.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID230",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Harvesting_061 _1932.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID231",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/NonEvent_072 _2114.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID232",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/NonEvent_072 _694.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID233",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/NonEvent_079 _2121.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID234",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/NonEvent_080 _2122.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID235",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/NonEvent_080 _702.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID236",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/NonEvent_086 _2128.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID237",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Swimming_034 _1270.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID238",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Swimming_034 _2738.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID239",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Swimming_036 _1272.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID240",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Swimming_036 _2740.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID241",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_025 _2836.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID242",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_026 _1366.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID243",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_026 _2837.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID244",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_028 _1368.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID245",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_031 _1371.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID246",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_031 _2842.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID247",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_032 _1372.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID248",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_033 _1373.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID249",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_033 _2844.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID250",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_034 _2845.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID251",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_035 _1375.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID252",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_035 _2846.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID253",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_036 _1376.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID254",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_036 _2847.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID255",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_037 _1377.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID256",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_038 _2849.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID257",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_041 _1381.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID258",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_041 _2852.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID259",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_042 _1382.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID260",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_042 _2853.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID261",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_044 _1384.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID262",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_044 _2855.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID263",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_046 _2857.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID264",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_047 _2858.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID265",
+      "label": "fire",
+      "path": "data/videos/fire/evo_2_2875.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID266",
+      "label": "fire",
+      "path": "data/videos/fire/evo_7_2892.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID267",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_007 _360.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID268",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_018 _1780.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID269",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_037 _1799.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID270",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_039 _1801.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID271",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_106_2903.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID272",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_107_2904.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID273",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_118_2916.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID274",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_19_2931.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID275",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_28_2941.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID276",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_35_2949.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID277",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_39_2953.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID278",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_44_2959.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID279",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_85_3004.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID280",
+      "label": "fire",
+      "path": "data/videos/fire/karkkila_31_3044.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID281",
+      "label": "fire",
+      "path": "data/videos/fire/karkkila_33_3046.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID282",
+      "label": "fire",
+      "path": "data/videos/fire/karkkila_34_3047.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID283",
+      "label": "fire",
+      "path": "data/videos/fire/karkkila_35_3048.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID284",
+      "label": "fire",
+      "path": "data/videos/fire/karkkila_37_3050.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID285",
+      "label": "fire",
+      "path": "data/videos/fire/karkkila_47_3061.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID286",
+      "label": "fire",
+      "path": "data/videos/fire/karkkila_4_3053.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID287",
+      "label": "fire",
+      "path": "data/videos/fire/karkkila_63_3079.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID288",
+      "label": "fire",
+      "path": "data/videos/fire/karkkila_65_3081.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID289",
+      "label": "fire",
+      "path": "data/videos/fire/karkkila_71_3088.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID290",
+      "label": "fire",
+      "path": "data/videos/fire/ruokolahti_14_3100.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID291",
+      "label": "fire",
+      "path": "data/videos/fire/ruokolahti_16_3102.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID292",
+      "label": "fire",
+      "path": "data/videos/fire/ruokolahti_23_3110.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID293",
+      "label": "fire",
+      "path": "data/videos/fire/ruokolahti_40_3129.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID294",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_001 _1391.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID295",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_009 _1399.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID296",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_013 _1403.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID297",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_015 _1405.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID298",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_019 _1409.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID299",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_019 _18.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID300",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_023 _22.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID301",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_033 _1423.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID302",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_036 _1426.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID303",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_039 _1429.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID304",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_041 _40.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID305",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_002 _51.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID306",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_017 _1458.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID307",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_023 _72.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID308",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Basketball_051 _1492.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID309",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_017 _114.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID310",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_019 _116.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID311",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_020 _1513.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID312",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_024 _1517.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID313",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_031 _128.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID314",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_035 _1528.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID315",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_036 _133.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID316",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_048 _1541.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID317",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/CarRacing_002 _1547.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID318",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Constructing_023 _1670.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID319",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Constructing_030 _271.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID320",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Constructing_031 _272.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID321",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Constructing_037 _1684.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID322",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Constructing_058 _1705.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID323",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Cycling_006 _306.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID324",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Cycling_039 _1745.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID325",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Cycling_046 _1752.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID326",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Running_003 _1091.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID327",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Running_003 _2557.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID328",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Running_026 _2580.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID329",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Running_031 _1119.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID330",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Running_035 _2589.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID331",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Running_038 _2592.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID332",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Running_052 _1140.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID333",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Running_056 _1144.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID334",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Running_059 _1147.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID335",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Running_065 _1153.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID336",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Running_069 _1157.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID337",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Running_069 _2623.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID338",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Running_075 _2629.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID339",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Running_080 _1168.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID340",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_002 _2643.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID341",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_005 _1179.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID342",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_022 _2663.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID343",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_024 _1198.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID344",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_026 _1200.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID345",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_030 _1204.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID346",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_042 _2683.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID347",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_043 _2684.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID348",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_048 _1222.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID349",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_050 _2691.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID350",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_051 _1225.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID351",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_054 _2695.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID352",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_056 _1230.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID353",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_061 _1235.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID354",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Swimming_004 _1240.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID355",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Swimming_005 _1241.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID356",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Swimming_006 _2710.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID357",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Swimming_018 _2722.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID358",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Swimming_024 _1260.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID359",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Swimming_025 _1261.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID360",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Swimming_028 _1264.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID361",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Swimming_035 _1271.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID362",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Swimming_043 _1279.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID363",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Swimming_047 _2751.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID364",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCollision_001 _1288.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID365",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCollision_001 _2756.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID366",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCollision_005 _2760.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID367",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCollision_017 _2772.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID368",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCollision_018 _2773.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID369",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCollision_021 _1308.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID370",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCollision_027 _1314.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID371",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCollision_028 _2783.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID372",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCollision_030 _1317.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID373",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCollision_033 _1320.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID374",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCollision_046 _1333.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID375",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCollision_049 _2804.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID376",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_003 _2814.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID377",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_005 _2816.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID378",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_008 _2819.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID379",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_009 _1349.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID380",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_012 _2823.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID381",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_015 _2826.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID382",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_018 _2829.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID383",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_023 _2834.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID384",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_032 _2843.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID385",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_034 _1374.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID386",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_040 _2851.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID387",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_043 _2854.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID388",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_045 _2856.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID389",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_048 _1388.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID390",
+      "label": "fire",
+      "path": "data/videos/fire/evo_10_2865.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID391",
+      "label": "fire",
+      "path": "data/videos/fire/evo_20_2876.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID392",
+      "label": "fire",
+      "path": "data/videos/fire/evo_22_2878.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID393",
+      "label": "fire",
+      "path": "data/videos/fire/evo_29_2885.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID394",
+      "label": "fire",
+      "path": "data/videos/fire/evo_3_2886.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID395",
+      "label": "fire",
+      "path": "data/videos/fire/evo_9_2894.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID396",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_012 _1774.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID397",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_025 _1787.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID398",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_027 _1789.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID399",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_030 _383.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID400",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_038 _391.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID401",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_048 _1810.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID402",
+      "label": "fire",
+      "path": "data/videos/fire/Fire_049 _402.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID403",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_111_2909.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID404",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_112_2910.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID405",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_115_2913.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID406",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_59_2975.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID407",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_75_2993.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID408",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_90_3010.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID409",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_92_3012.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID410",
+      "label": "fire",
+      "path": "data/videos/fire/heinola_96_3016.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID411",
+      "label": "fire",
+      "path": "data/videos/fire/karkkila_12_3023.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID412",
+      "label": "fire",
+      "path": "data/videos/fire/karkkila_14_3025.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID413",
+      "label": "fire",
+      "path": "data/videos/fire/karkkila_2_3031.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID414",
+      "label": "fire",
+      "path": "data/videos/fire/karkkila_66_3082.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID415",
+      "label": "fire",
+      "path": "data/videos/fire/karkkila_67_3083.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID416",
+      "label": "fire",
+      "path": "data/videos/fire/karkkila_70_3087.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID417",
+      "label": "fire",
+      "path": "data/videos/fire/karkkila_7_3086.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID418",
+      "label": "fire",
+      "path": "data/videos/fire/ruokolahti_19_3105.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID419",
+      "label": "fire",
+      "path": "data/videos/fire/ruokolahti_24_3111.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID420",
+      "label": "fire",
+      "path": "data/videos/fire/ruokolahti_38_3126.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID421",
+      "label": "fire",
+      "path": "data/videos/fire/ruokolahti_43_3132.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID422",
+      "label": "fire",
+      "path": "data/videos/fire/ruokolahti_6_3149.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID423",
+      "label": "fire",
+      "path": "data/videos/fire/ruokolahti_9_3152.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID424",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_014 _1404.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID425",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Baseball_034 _1424.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID426",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_007 _104.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID427",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_032 _1525.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID428",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_051 _148.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID429",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Boating_052 _1545.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID430",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Cycling_008 _1714.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID431",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Cycling_009 _1715.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID432",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Cycling_015 _315.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID433",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Harvesting_037 _1908.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID434",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Harvesting_042 _500.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID435",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/NonEvent_087 _709.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID436",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/NonEvent_123 _2165.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID437",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/NonEvent_137 _759.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID438",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/NonEvent_168 _2210.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID439",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/ParadeProtest_005 _782.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID440",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Party_010 _836.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID441",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Party_023 _849.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID442",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Ploughing_005 _881.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID443",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/PoliceChase_001 _929.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID444",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/PoliceChase_005 _2393.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID445",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/PoliceChase_014 _942.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID446",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/PostEarthquake_003 _982.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID447",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/PostEarthquake_025 _2466.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID448",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/PostEarthquake_028 _1007.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID449",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/PostEarthquake_054 _2495.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID450",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/ReligiousActivity_049 _1083.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID451",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Running_010 _2564.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID452",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Running_023 _2577.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID453",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Running_085 _2639.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID454",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_007 _1181.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID455",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_008 _1182.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID456",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_009 _2650.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID457",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_011 _1185.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID458",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_013 _2654.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID459",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_025 _1199.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID460",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_031 _1205.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID461",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_036 _1210.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID462",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_039 _2680.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID463",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_041 _1215.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID464",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_048 _2689.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID465",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_053 _2694.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID466",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_054 _1228.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID467",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_057 _1231.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID468",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_059 _2700.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID469",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Soccer_062 _2703.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID470",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Swimming_009 _2713.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID471",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Swimming_012 _1248.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID472",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Swimming_035 _2739.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID473",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/Swimming_040 _2744.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID474",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCollision_003 _2758.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID475",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCollision_011 _2766.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID476",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCollision_034 _2789.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID477",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_010 _1350.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID478",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_015 _1355.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID479",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_016 _2827.mp4",
+      "split": "validation"
+    },
+    {
+      "id": "VID480",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_022 _1362.mp4",
+      "split": "train"
+    },
+    {
+      "id": "VID481",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_027 _1367.mp4",
+      "split": "test"
+    },
+    {
+      "id": "VID482",
+      "label": "no_fire",
+      "path": "data/videos/no_fire/TrafficCongestion_029 _1369.mp4",
+      "split": "train"
+    }
+  ]
+}

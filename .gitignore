@@ -1,0 +1,93 @@
+# Local Python environments and caches
+Proje_Kodlari/venv/
+**/__pycache__/
+*.py[cod]
+
+# Re-creatable runtime and exploratory output
+Proje_Kodlari/outputs/
+Proje_Kodlari/evaluation_results/false_positives/
+Proje_Kodlari/evaluation_results/mobilenet_baseline/
+eski_sekiller/
+
+# Data are released separately or acquired from their source
+AR Souri Dataset/
+Proje_Kodlari/data/videos/
+video_provenance_manifest.draft.json
+
+# Staged archival exports are never committed directly
+release/
+
+# Journal-template source, draft deliverable, and DOCX QA intermediates
+CMC-Template.docx
+CMC_Submission_DRAFT.docx
+.docx_work/
+.provenance_work/
+
+# Tek seferlik gelistirme betikleri ve gecici dokumler.
+# Bunlar yeniden uretim paketinin parcasi degildir; depoya ve release'e girmemeleri
+# gerekir. Ozellikle manuscript veya model dosyalarini yerinde degistiren betikler
+# (update_makale.py, rewrite_pickle.py) yayimlandiginda sonuclarin sonradan
+# duzenlendigi izlenimi verir.
+fix_*.py
+patch_*.py
+deploy_*.py
+edit_makale.py
+update_makale.py
+rewrite_pickle.py
+check_hist.py
+check_probs.py
+extract_tables.py
+
+# Gecici metin dokumleri
+conclusion_dump.txt
+abstract_dump.txt
+temp_article*.txt
+manuscript_audit_text.txt
+table5.txt
+*.bak
+makale.html.onceki
+
+# Frames extracted from the clip corpus by extract_training_frames.py. The
+# corpus itself is excluded above and one of its two sources is CC BY-NC, so
+# the derived frames are not redistributed either; rerun the extractor to
+# rebuild them from a local copy of the corpus.
+Proje_Kodlari/data/dataset/
+
+# Re-creatable intermediates of the image-level experiments of Sections 4.1-4.4.
+# The aggregate JSON and CSV in the same directory ARE part of the release; only
+# the decode cache and the per-image checkpoints are rebuilt on demand.
+**/_sweep_frames_*.npy
+**/_sweep_frames_*.progress
+**/_v1_*_perimage*.jsonl
+
+# Stray git template directory, not the repository's own .git
+git/
+
+# Internal audit notes, not part of the reproduction package
+TUTARLILIK_RAPORU.md
+
+# Stray screen recording, not referenced by any experiment
+Proje_Kodlari/rec_*.mp4
+
+# Internal review notes, not part of the reproduction package
+HAKEM_RAPORU.md
+
+# Checkpoint of the box-stage diagnostic; the aggregate JSON beside it is released
+**/_v1_box_stages.jsonl
+
+# Per-seed artifacts of the seed sweep; the aggregate v3_seed_variance.json is released
+**/_seed_runs.json
+**/_clip_verdicts_seed*.json
+**/_v3_results_seed*.json
+**/v3_mobilenet_seed*.pth
+
+# Submission working notes, not part of the reproduction package
+SUBMISSION_PACK.md
+
+# One-off setup helper for the seed sweep, not part of the reproduction package
+kur_ve_tohum_taramasi.bat
+torch_nerede.bat
+
+# A virtual environment created inside the tree
+.venv/
+KAPAK_VE_HAKEM_NOTLARI.md
