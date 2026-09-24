@@ -52,6 +52,12 @@ def main() -> int:
     for r, p, t in pr:
         if t > 0.5:
             op = (r * 100, p * 100)
+    # The artifact already records the deployed point exactly. Locating it on
+    # the ROC by matching the true-positive rate would be ambiguous, since every
+    # threshold step that adds only false positives leaves the TPR unchanged and
+    # the first match is the one with the lowest false-positive rate.
+    rep = d.get("operating_point_as_reported", {})
+    op_roc = (rep.get("FPR"), rep.get("Recall_TPR"))
     prior = 100.0 * d["n_positive"] / (d["n_positive"] + d["n_negative"])
 
     fig, ax = plt.subplots(1, 2, figsize=(9.2, 4.0), dpi=200)
@@ -60,12 +66,9 @@ def main() -> int:
                label="chance")
     ax[0].plot(fpr, tpr, color="#1a1a1a", lw=1.8,
                label=f"deep edge (AUROC {d['AUROC']:.3f})")
-    if op:
-        # the ROC point matching the deployed rule
-        fp_at = next((p[0] * 100 for p in roc if abs(p[1] * 100 - op[0]) < 1e-6), None)
-        if fp_at is not None:
-            ax[0].plot([fp_at], [op[0]], "o", ms=6, mfc="white", mec="#c62828", mew=1.8,
-                       label="reported operating point")
+    if op_roc[0] is not None and op_roc[1] is not None:
+        ax[0].plot([op_roc[0]], [op_roc[1]], "o", ms=6, mfc="white",
+                   mec="#c62828", mew=1.8, label="reported operating point")
     ax[0].set_xlabel("False positive rate (%)")
     ax[0].set_ylabel("True positive rate (%)")
     ax[0].set_title("Receiver operating characteristic", fontsize=10)

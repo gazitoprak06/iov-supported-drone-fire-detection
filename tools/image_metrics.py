@@ -133,7 +133,10 @@ def mcnemar(b: int, c: int) -> dict:
     n = b + c
     if n == 0:
         return {"b": b, "c": c, "chi2": None, "p": None}
-    chi2 = (abs(b - c) - 1) ** 2 / n
+    # The continuity correction can only shrink the discrepancy, never reverse
+    # it, so it is clamped at zero. Without the clamp, b == c returns 1/n rather
+    # than the 0 that no difference at all should give.
+    chi2 = max(0.0, abs(b - c) - 1) ** 2 / n
     # Survival function of chi-square with 1 dof, expressed through erfc so
     # that this module carries no SciPy dependency.
     p = math.erfc(math.sqrt(chi2 / 2.0))

@@ -1,4 +1,4 @@
-"""train_v2_baselines.py — Section 4.5: threshold sweep companion, learned
+"""v2_learned_baselines.py —Section 4.5: threshold sweep companion, learned
 baselines on the same features, the cascade, and the joint latency run.
 
 This script produces every row of Table 5 and the seed-variance figures quoted
@@ -35,9 +35,9 @@ Protocol, exactly as stated in Section 4.5
   latency comparisons are refused by construction.
 
 Usage:
-    python train_v2_baselines.py                # everything
-    python train_v2_baselines.py --skip-cascade # skip the slow proposal stage
-    python train_v2_baselines.py --skip-latency
+    python v2_learned_baselines.py                # everything
+    python v2_learned_baselines.py --skip-cascade # skip the slow proposal stage
+    python v2_learned_baselines.py --skip-latency
 
 Writes Proje_Kodlari/evaluation_results/v2_baselines/v2_baseline_metrics.json
 and a per-image prediction CSV per reported configuration.
@@ -310,7 +310,7 @@ def main():
             sys.exit(f"missing split directory: {d}")
 
     tr, va, te = _load_split(TRAIN_DIR), _load_split(VAL_DIR), _load_split(TEST_DIR)
-    log("=== train_v2_baselines.py (Section 4.5) ===")
+    log("=== v2_learned_baselines.py (Section 4.4, Table 4) ===")
     for name, rows in (("train", tr), ("val", va), ("test", te)):
         log(f"  {name}: {len(rows)} images "
             f"({sum(l == FIRE for _, l in rows)} fire, "
@@ -451,8 +451,8 @@ def main():
     out = OUT_DIR / "v2_baseline_metrics.json"
     out.write_text(json.dumps(results, indent=2))
     log(f"\nWrote {out}")
-    log("Table 5 of the manuscript must be regenerated from this file; the "
-        "values it currently prints came from the superseded script.")
+    log("Table 4 of the manuscript is checked against this file by "
+        "tools/check_paper_numbers.py.")
 
 
 if __name__ == "__main__":

@@ -84,7 +84,8 @@ def main() -> int:
         print(f"   constant-positive   F1={b['constant_positive']['F1']}%  "
               f"Acc={b['constant_positive']['Accuracy']}%")
         print(f"   constant-negative   F1={b['constant_negative']['F1']}  "
-              f"Acc={b['constant_negative']['Accuracy']}%")
+              f"Acc={b['constant_negative']['Accuracy']}%   "
+              f"(F1 is undefined: the rule emits no positive)")
         print(f"   deep edge           F1={b['deep_edge']['F1']}%  "
               f"Acc={b['deep_edge']['Accuracy']}%\n")
     return 0

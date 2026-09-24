@@ -1,21 +1,19 @@
 import argparse
 import os
 import random
-import time
-import json
-import csv
 import numpy as np
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torchvision import datasets, transforms, models
 from torch.utils.data import DataLoader
-from sklearn.metrics import confusion_matrix
 from pathlib import Path
-import platform
 
-import ssl
-ssl._create_default_https_context = ssl._create_unverified_context
+# The ImageNet weights are fetched over HTTPS on the first run. An earlier
+# version of this file disabled certificate verification process-wide to work
+# around a local trust-store problem; that is not something to ship, so it has
+# been removed. If the download fails behind a proxy, set TORCH_HOME to a
+# directory holding a pre-downloaded checkpoint instead.
 
 def set_seed(seed):
     """Seed every generator the training path draws from.
@@ -32,16 +30,26 @@ def set_seed(seed):
     torch.use_deterministic_algorithms(False)  # CPU convolutions are already deterministic
 
 
-def main(seed=0, out_name="v3_mobilenet.pth", quiet=False):
+def main(seed=0, out_name="v3_mobilenet.pth", quiet=False, force=False):
     set_seed(seed)
     # Setup paths
     base_dir = "Proje_Kodlari/data/dataset"
     train_dir = os.path.join(base_dir, "train")
     val_dir = os.path.join(base_dir, "val")
-    
+
     out_dir = 'Proje_Kodlari/evaluation_results/v3_deep_edge'
     os.makedirs(out_dir, exist_ok=True)
-    
+
+    # The weights reported in the paper live at the default output path and are
+    # hashed by MANIFEST.sha256. A reviewer running this file to see whether
+    # training works should not silently destroy the artifact every other
+    # program reads, so overwriting is refused unless it is asked for.
+    target = os.path.join(out_dir, out_name)
+    if os.path.exists(target) and not force:
+        raise SystemExit(
+            f"{target} already exists and is the released artifact.\n"
+            f"Pass --force to overwrite it, or --out <name> to write elsewhere.")
+
     device = torch.device("cpu")
     if not quiet:
         print(f"Using device: {device}  seed: {seed}")
@@ -135,5 +143,7 @@ if __name__ == "__main__":
                     help="seed for the loader shuffle, the augmentation and the head init")
     ap.add_argument("--out", default="v3_mobilenet.pth",
                     help="weight filename written under the deep edge results directory")
+    ap.add_argument("--force", action="store_true",
+                    help="overwrite the output weights if they already exist")
     a = ap.parse_args()
-    main(seed=a.seed, out_name=a.out)
+    main(seed=a.seed, out_name=a.out, force=a.force)

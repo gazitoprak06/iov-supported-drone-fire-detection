@@ -44,10 +44,16 @@ def score(rows, verdicts):
 
 
 def main(argv) -> int:
-    a_path = Path(argv[0]) if argv else PUBLISHED
-    b_path = Path(argv[1]) if len(argv) > 1 else PUBLISHED
-    if len(argv) == 1:
-        a_path, b_path = PUBLISHED, Path(argv[0])
+    # With no argument both runs would be the released file, and the program
+    # would happily overwrite the artifact with a vacuous zero-disagreement
+    # comparison of that file against itself.
+    if not argv:
+        print(__doc__.strip().splitlines()[-2].strip())
+        print("error: name at least one verdict file to compare against the released one")
+        return 2
+    a_path, b_path = PUBLISHED, Path(argv[0])
+    if len(argv) > 1:
+        a_path, b_path = Path(argv[0]), Path(argv[1])
 
     man = json.loads(MANIFEST.read_text(encoding="utf-8"))
     clips = man["videos"] if isinstance(man, dict) and "videos" in man else man
@@ -57,14 +63,15 @@ def main(argv) -> int:
     print(f"A = {a_path}")
     print(f"B = {b_path}\n")
 
-    diff = []
-    for c in clips:
-        cid = c["id"]
-        if cid not in A or cid not in B:
-            print(f"  {cid}: missing from one run")
-            continue
-        if bool(A[cid]["alarm"]) != bool(B[cid]["alarm"]):
-            diff.append(c)
+    # Scoring below indexes every held-out clip in both runs, so a clip absent
+    # from either would raise rather than be reported. Refuse first.
+    absent = [c["id"] for c in clips if c["id"] not in A or c["id"] not in B]
+    if absent:
+        print(f"{len(absent)} clips are missing from one of the two runs, "
+              f"e.g. {absent[:5]}; refusing to compare a partial corpus")
+        return 1
+
+    diff = [c for c in clips if bool(A[c["id"]]["alarm"]) != bool(B[c["id"]]["alarm"])]
 
     print(f"{len(clips)} clips, {len(diff)} disagree "
           f"({100.0 * len(diff) / len(clips):.2f}%)\n")

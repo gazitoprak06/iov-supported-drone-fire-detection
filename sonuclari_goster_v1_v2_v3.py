@@ -11,6 +11,12 @@ print("="*70)
 print("  DRONE YANGIN TESPIT SISTEMI - BASARI ORANLARI (V1, V2, V3)")
 print("="*70)
 
+# Bound up front so that a missing artifact prints a message instead of raising
+# a NameError further down. A reader who has not run the pipeline yet is in
+# exactly that state, and this is the script that is supposed to tell them so.
+rel = {}
+rf = {}
+
 # V2 JSON file
 v2_path = os.path.join("Proje_Kodlari", "evaluation_results", "v2_baselines",
                        "v2_baseline_metrics.json")
@@ -46,7 +52,7 @@ if os.path.exists(v2_path):
     print("Lojistik Regresyon (Tum Ozellikler): F1 = {:.2f}%".format(lr.get("F1", 0)))
     print("Random Forest (Tum Ozellikler)   : F1 = {:.2f}%".format(rf.get("F1", 0)))
 else:
-    print("\nV2 metrikleri bulunamadi. (train_v2_baselines.py calistirildi mi?)")
+    print("\nV2 metrikleri bulunamadi. (v2_learned_baselines.py calistirildi mi?)")
 
 # V3 JSON file
 v3_path = os.path.join("Proje_Kodlari", "evaluation_results", "v3_deep_edge",
@@ -83,7 +89,7 @@ else:
 # not make until the deep edge weights were applied to the still-image split.
 st_path = os.path.join("Proje_Kodlari", "evaluation_results", "v3_deep_edge",
                        "v3_on_still_images.json")
-if os.path.exists(st_path):
+if os.path.exists(st_path) and rel and rf:
     with open(st_path, "r", encoding="utf-8") as f:
         st = json.load(f).get("deep_edge_still", {})
     print("\n--- ORTAK KUME: ucu de ayni 410 goruntude ---")
@@ -94,7 +100,11 @@ if os.path.exists(st_path):
         st.get("F1", 0), st.get("Accuracy", 0)))
     print("V2 ogrenilmis (bu veride egitildi): F1 = {:.2f}%   Acc = {:.2f}%".format(
         rf.get("F1", 0), rf.get("Accuracy", 0)))
-    print("  -> Kendi verisi icin ayarlanmis kural, o veriyi hic gormemis aga yeniliyor.")
+    if st.get("F1") is not None and rel.get("F1") is not None:
+        if st["F1"] > rel["F1"]:
+            print("  -> Kendi verisi icin ayarlanmis kural, o veriyi hic gormemis aga yeniliyor.")
+        else:
+            print("  -> Bu kohortta aktarim, kural tabanli sistemi gecemiyor.")
 
 print("\n" + "="*70)
 print("  Bu rakamlarin tamami yayimlanan sonuc dosyalarindan okundu.")

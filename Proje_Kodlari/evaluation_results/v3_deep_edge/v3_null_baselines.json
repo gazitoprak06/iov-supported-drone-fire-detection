@@ -4,14 +4,14 @@
     "definition": "the constant-positive rule alarms on every clip; the constant-negative rule alarms on none. Both are fixed by the class counts alone and read no pixel.",
     "source": "cohort composition and confusion matrices of v3_results_by_split.json; no clip is re-evaluated",
     "environment": {
-      "python": "3.10.12",
-      "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
-      "cpu": "x86_64",
+      "python": "3.12.7",
+      "platform": "Windows-10-10.0.19045-SP0",
+      "cpu": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
       "argv": [
-        "tools/clip_null_baselines.py"
+        "tools\\clip_null_baselines.py"
       ],
-      "opencv": "4.13.0",
-      "numpy": "2.2.6"
+      "opencv": "5.0.0",
+      "numpy": "2.5.1"
     }
   },
   "unseen_by_gradient": {

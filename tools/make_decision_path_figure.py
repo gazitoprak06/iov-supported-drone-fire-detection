@@ -26,7 +26,7 @@ OUT = ROOT / "fig_decision_path.png"
 NODES = {
     "A": ("UAV camera feed,\nsampled at 2 frames/s", (5.0, 11.2), (3.5, 1.15),
           "#e1f5fe", "#03a9f4", False),
-    "B": ("Resize to 224$\\times$224,\nnormalise", (5.0, 9.3), (3.1, 1.15),
+    "B": ("Resize to 224$\\times$224,\nnormalize", (5.0, 9.3), (3.1, 1.15),
           "#ffffff", "#9e9e9e", False),
     "C": ("MobileNetV3-Small\nedge CNN", (5.0, 7.4), (3.1, 1.15),
           "#fff3e0", "#ff9800", False),

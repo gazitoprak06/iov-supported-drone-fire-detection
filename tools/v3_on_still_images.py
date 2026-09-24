@@ -81,6 +81,13 @@ def main() -> int:
             for p, y in todo:
                 img = cv2.imread(str(p), cv2.IMREAD_COLOR)
                 if img is None:
+                    # Skipping without recording would leave the image forever
+                    # outstanding, so every rerun would report one left and exit
+                    # zero while never writing the aggregate. Record it and fail
+                    # at aggregation instead.
+                    fh.write(json.dumps({"path": str(p), "label": y,
+                                         "pred": None, "undecodable": True}) + "\n")
+                    fh.flush()
                     continue
                 logits = model.forward(preprocess_bgr(img))
                 pred = 1 if int(np.argmax(logits)) == FIRE_CLASS_INDEX else 0
@@ -96,6 +103,11 @@ def main() -> int:
         return 0
 
     rows = [done[str(p)] for p, _ in images]
+    bad = [r["path"] for r in rows if r.get("undecodable")]
+    if bad:
+        print(f"{len(bad)} images could not be decoded ({bad[:3]}...); "
+              f"refusing to report a partial cohort")
+        return 1
     tp = sum(1 for r in rows if r["label"] == 1 and r["pred"] == 1)
     fn = sum(1 for r in rows if r["label"] == 1 and r["pred"] == 0)
     fp = sum(1 for r in rows if r["label"] == 0 and r["pred"] == 1)

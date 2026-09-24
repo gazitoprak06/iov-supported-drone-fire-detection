@@ -52,8 +52,36 @@ class TestBinaryMetrics(unittest.TestCase):
         self.assertEqual(m["Recall"], 81.13)
         self.assertEqual(m["Specificity"], 19.52)
         self.assertEqual(m["FPR"], 80.48)
-        # F1 = 2PR/(P+R) on the rounded percentages, as the module defines it
+        # F1 is formed from the unrounded precision and recall and rounded once.
+        # This cell gives 52.65 under either convention, so it cannot detect a
+        # regression on its own; test_f1_is_not_double_rounded below is the
+        # case that can.
         self.assertEqual(m["F1"], 52.65)
+
+    def test_f1_is_not_double_rounded(self):
+        """The headline clip cohort, where the two conventions disagree.
+
+        binary_metrics documents that F1 must come from the unrounded precision
+        and recall. Forming it from the rounded percentages instead moves this
+        cell from 95.45 to 95.46, which is the defect this case exists to catch;
+        the confusion matrix is the one Section 4.5 reports.
+        """
+        m = binary_metrics(tp=63, tn=125, fp=1, fn=5)
+        self.assertEqual(m["Precision"], 98.44)
+        self.assertEqual(m["Recall"], 92.65)
+        self.assertEqual(m["F1"], 95.45)
+        # what the discarded convention would have produced
+        p, r = m["Precision"], m["Recall"]
+        self.assertEqual(round(2 * p * r / (p + r), 2), 95.46)
+
+    def test_mcnemar_is_zero_when_the_discordant_cells_are_equal(self):
+        """The Yates correction is clamped, so no difference gives no statistic.
+
+        Without the clamp, abs(b - c) - 1 is -1 at b == c and the square makes
+        the statistic 1/n rather than 0.
+        """
+        self.assertEqual(mcnemar(7, 7)["chi2"], 0.0)
+        self.assertGreater(mcnemar(20, 5)["chi2"], 0.0)
 
     def test_perfect_classifier(self):
         m = binary_metrics(tp=10, tn=10, fp=0, fn=0)

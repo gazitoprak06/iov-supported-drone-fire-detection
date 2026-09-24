@@ -228,16 +228,20 @@ def main():
                         else:
                             consecutive_fires = 0
                             
-                        # Temporal Smoothing Filter
+                        # Temporal smoothing filter. The evaluator of Section 4.5
+                        # latches the alarm and stops scanning, so a viewer that
+                        # cleared it on a single negative sample would be showing
+                        # a different rule than the one the paper measures. The
+                        # latch is reset only when the operator loads another clip.
                         if consecutive_fires >= CONSECUTIVE_FOR_ALARM:
                             state['is_alarm'] = True
-                        elif consecutive_fires == 0:
-                            state['is_alarm'] = False
                             
                         # Grad-CAM computation if we need it
                         model.zero_grad()
-                        # We want the gradient for the FIRE class (index 0)
-                        target_score = out[0, 0]
+                        # The gradient is taken for the fire class, whose index
+                        # is imported rather than restated so that the heatmap
+                        # and the alarm can never explain different classes.
+                        target_score = out[0, FIRE_CLASS_INDEX]
                         target_score.backward()
                         
                         if 'value' in gradients and 'value' in activations:

@@ -58,9 +58,14 @@ def run_one_seed(seed: int) -> dict:
     weights = f"v3_mobilenet_seed{seed}.pth"
     verdict_cache = OUT_DIR / f"_clip_verdicts_seed{seed}.json"
 
+    # The cache is keyed by clip id only, so verdicts left by an earlier attempt
+    # at this seed would be scored against the weights that attempt produced and
+    # silently mixed with the new ones. Refitting invalidates them.
+    verdict_cache.unlink(missing_ok=True)
+
     print(f"\n=== seed {seed}: training ===", flush=True)
     subprocess.run([sys.executable, str(ROOT / "train_v3.py"),
-                    "--seed", str(seed), "--out", weights],
+                    "--seed", str(seed), "--out", weights, "--force"],
                    cwd=ROOT, check=True)
 
     print(f"=== seed {seed}: scoring the manifest ===", flush=True)

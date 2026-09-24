@@ -13,8 +13,11 @@ every p_i above t, so the largest threshold at which the clip still alarms is
 
 Sweeping t over that score therefore reproduces the deployed rule at every
 operating point rather than approximating it, and at t = 0.5 it must reproduce
-the published verdicts exactly, since argmax over two logits is p > 0.5. This
-program asserts that agreement rather than assuming it.
+the recorded verdicts exactly, since the deployed test is an argmax over two
+logits with the fire class at index zero, which numpy resolves in favour of the
+first index on a tie and which is therefore p >= 0.5 rather than p > 0.5. This
+program asserts that agreement rather than assuming it, and refuses to emit a
+curve without it.
 
 Two differences from tools/eval_clips_numpy.py are deliberate. That program
 stops at the first alarm, because the verdict cannot change afterwards; a curve
@@ -168,10 +171,12 @@ def curve(scores, labels) -> dict:
 
 
 def operating_point(scores, labels, t) -> dict:
-    tp = sum(1 for s, y in zip(scores, labels) if y and s > t)
-    fn = sum(1 for s, y in zip(scores, labels) if y and s <= t)
-    fp = sum(1 for s, y in zip(scores, labels) if not y and s > t)
-    tn = sum(1 for s, y in zip(scores, labels) if not y and s <= t)
+    # >= t, matching the argmax tie-break of the deployed rule; see the
+    # agreement check in report().
+    tp = sum(1 for s, y in zip(scores, labels) if y and s >= t)
+    fn = sum(1 for s, y in zip(scores, labels) if y and s < t)
+    fp = sum(1 for s, y in zip(scores, labels) if not y and s >= t)
+    tn = sum(1 for s, y in zip(scores, labels) if not y and s < t)
     rec = 100.0 * tp / (tp + fn) if tp + fn else 0.0
     prec = 100.0 * tp / (tp + fp) if tp + fp else 0.0
     f1 = 2 * prec * rec / (prec + rec) if prec + rec else 0.0
@@ -195,13 +200,23 @@ def report(verdict_path=None) -> int:
         print(f"{len(missing)} clips still unscored; rerun without --report")
         return 1
 
+    absent = [c["id"] for c in clips if done[c["id"]].get("missing")]
+    if absent:
+        print(f"{len(absent)} clip files were not on disk when scored "
+              f"({absent[:5]}...); refusing to draw a curve over a partial corpus")
+        return 1
+
     # A curve that does not pass through the reported operating point is not a
     # curve of the reported system, so the agreement is required rather than
     # assumed. It has to be checked against verdicts produced by the same video
     # decoder: the released verdicts and an OpenCV 5 run differ on two of the
     # 483 clips, and comparing across that boundary would mix two questions.
+    # The deployed test is argmax over two logits with the fire class at index
+    # zero, and numpy.argmax breaks a tie toward the first index, so the rule is
+    # p >= 0.5 and not p > 0.5. A strict comparison here would disagree with the
+    # evaluator on any exact tie.
     disagree = [c["id"] for c in clips
-                if (done[c["id"]]["score"] > 0.5) != bool(verdicts[c["id"]]["alarm"])]
+                if (done[c["id"]]["score"] >= 0.5) != bool(verdicts[c["id"]]["alarm"])]
     if disagree:
         print(f"ERROR: {len(disagree)} clips disagree at t=0.5 with {vpath.name}: "
               f"{disagree[:8]}")
@@ -240,8 +255,7 @@ def report(verdict_path=None) -> int:
               f"AP={b['average_precision']}  "
               f"(at t=0.5: TPR={b['operating_point_as_reported']['Recall_TPR']}%, "
               f"FPR={b['operating_point_as_reported']['FPR']}%)")
-    print("\nVerdicts at t=0.5 agree with the published run on all "
-          f"{len(clips)} clips.")
+    print(f"\nVerdicts at t=0.5 agree with {vpath.name} on all {len(clips)} clips.")
     return 0
 
 
@@ -275,8 +289,14 @@ def main() -> int:
             path = ROOT / c["path"] if not Path(c["path"]).is_absolute() else Path(c["path"])
             if not path.exists():
                 path = BASE / c["path"]
-            probs = clip_probs(model, path) if path.exists() else []
-            rec = {"id": c["id"], "n_samples": len(probs),
+            # A clip that is not on disk must not be scored zero and admitted to
+            # the curve: it would pass the t = 0.5 check against a verdict file
+            # that also records no alarm for it, and the curve would silently
+            # cover a partial corpus. Record the absence and refuse at report
+            # time, as tools/eval_clips_numpy.py does.
+            missing = not path.exists()
+            probs = [] if missing else clip_probs(model, path)
+            rec = {"id": c["id"], "n_samples": len(probs), "missing": missing,
                    "score": round(clip_score(probs), 6),
                    "probs": [round(p, 5) for p in probs]}
             fh.write(json.dumps(rec) + "\n")

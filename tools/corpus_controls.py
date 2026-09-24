@@ -55,7 +55,10 @@ HELD_OUT_SPLITS = {"test", "validation"}
 
 
 def prefix(path: str) -> str:
-    return re.split(r"[_ ]", os.path.basename(path))[0]
+    # Lowercased, because BOREAL_PREFIXES is: a clip named Evo_12_3.mp4 would
+    # otherwise be classified ERA and the source control would silently
+    # measure the wrong partition.
+    return re.split(r"[_ ]", os.path.basename(path))[0].lower()
 
 
 def source(path: str) -> str:
@@ -68,8 +71,12 @@ def event(path: str) -> str:
     Clip filenames end in a global clip index, so stripping the trailing
     underscore-number leaves the event: 'Fire_004 _1624.mp4' -> 'Fire_004',
     'karkkila_66_3082.mp4' -> 'karkkila_66'.
+
+    The extension is matched generically rather than as a literal '.mp4': a
+    clip stored as .MP4 or .avi would otherwise keep its global index, become a
+    singleton event, and be counted as not spanning partitions when it may.
     """
-    return re.sub(r"\s*_\d+\.mp4$", "", os.path.basename(path))
+    return re.sub(r"\s*_\d+\.\w+$", "", os.path.basename(path))
 
 
 def score(rows, verdicts) -> dict:
