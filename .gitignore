@@ -103,3 +103,5 @@ hocaya_goster.bat
 # Derived deliverables; makale.html is the audited source
 makale.docx
 makale.pdf
+
+makale_to_word.py
