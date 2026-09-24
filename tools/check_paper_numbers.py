@@ -43,6 +43,8 @@ ARTIFACTS = {
     "null":  Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_null_baselines.json"),
     "still": Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_on_still_images.json"),
     "lat":   Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_latency.json"),
+    "curve": Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_operating_curve.json"),
+    "dec":   Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_decoder_dependence.json"),
 }
 
 

@@ -47,6 +47,7 @@ from clip_metrics import (  # noqa: E402
     CONSECUTIVE_FOR_ALARM, DEFAULT_FPS, FIRE_CLASS_INDEX, SAMPLES_PER_SECOND,
     wilson,
 )
+from image_metrics import environment_record  # noqa: E402
 from torch_free_mobilenetv3 import (  # noqa: E402
     MobileNetV3SmallNumpy, load_state_dict, preprocess_bgr,
 )
@@ -182,23 +183,30 @@ def operating_point(scores, labels, t) -> dict:
             "Recall_TPR_wilson": [lo, hi]}
 
 
-def report() -> int:
+def report(verdict_path=None) -> int:
     man = json.loads(MANIFEST.read_text(encoding="utf-8"))
     clips = man["videos"] if isinstance(man, dict) and "videos" in man else man
     done = load_done()
-    verdicts = json.loads(VERDICTS.read_text(encoding="utf-8"))
+    vpath = Path(verdict_path) if verdict_path else VERDICTS
+    verdicts = json.loads(vpath.read_text(encoding="utf-8"))
 
     missing = [c["id"] for c in clips if c["id"] not in done]
     if missing:
         print(f"{len(missing)} clips still unscored; rerun without --report")
         return 1
 
-    # The curve must reproduce the published rule at its own operating point.
+    # A curve that does not pass through the reported operating point is not a
+    # curve of the reported system, so the agreement is required rather than
+    # assumed. It has to be checked against verdicts produced by the same video
+    # decoder: the released verdicts and an OpenCV 5 run differ on two of the
+    # 483 clips, and comparing across that boundary would mix two questions.
     disagree = [c["id"] for c in clips
                 if (done[c["id"]]["score"] > 0.5) != bool(verdicts[c["id"]]["alarm"])]
     if disagree:
-        print(f"ERROR: {len(disagree)} clips disagree with the published verdict "
-              f"at t=0.5, e.g. {disagree[:5]}")
+        print(f"ERROR: {len(disagree)} clips disagree at t=0.5 with {vpath.name}: "
+              f"{disagree[:8]}")
+        print("If those are the clips the decoder-dependence note names, pass the "
+              "verdict file produced in this environment with --verdicts.")
         return 1
 
     out = {"_protocol": {
@@ -208,8 +216,10 @@ def report() -> int:
                  "threshold at which the clip still alarms",
         "consecutive_for_alarm": CONSECUTIVE_FOR_ALARM,
         "samples_per_second": SAMPLES_PER_SECOND,
-        "reproduces_published_verdicts_at_threshold": 0.5,
+        "reproduces_verdicts_at_threshold": 0.5,
+        "verdicts_checked_against": str(vpath),
         "n_clips_checked": len(clips),
+        "environment": environment_record(),
     }}
 
     for name, sel in (("held_out", lambda c: c["split"] in HELD_OUT_SPLITS),
@@ -240,10 +250,13 @@ def main() -> int:
     ap.add_argument("--budget", type=float, default=150.0,
                     help="seconds of work before checkpointing and exiting")
     ap.add_argument("--report", action="store_true")
+    ap.add_argument("--verdicts", default=None,
+                    help="verdict file to check the operating point against; "
+                         "defaults to the released one")
     args = ap.parse_args()
 
     if args.report:
-        return report()
+        return report(args.verdicts)
 
     man = json.loads(MANIFEST.read_text(encoding="utf-8"))
     clips = man["videos"] if isinstance(man, dict) and "videos" in man else man

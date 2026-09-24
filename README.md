@@ -56,28 +56,55 @@ Two modules exist so that programs cannot drift apart in how they count:
 | Source and event controls (Section 4.5) | `tools/corpus_controls.py` | `v3_deep_edge/v3_corpus_controls.json` |
 | Null baselines, clip cohorts (Table 5) | `tools/clip_null_baselines.py` | `v3_deep_edge/v3_null_baselines.json` |
 | Deep edge on the still-image cohort (Table 5) | `tools/v3_on_still_images.py` | `v3_deep_edge/v3_on_still_images.json` |
+| Operating curves, Fig. 7 (Section 4.5) | `tools/clip_score_curve.py`, then `tools/make_curve_figure.py` | `v3_deep_edge/v3_operating_curve.json` |
+| Decoder dependence (Section 4.5) | `tools/compare_verdict_runs.py` | `v3_deep_edge/v3_decoder_dependence.json` |
+| Fig. 5 | `tools/make_decision_path_figure.py` | `fig_decision_path.png` |
+
+Fig. 5 is a Mermaid block in `makale.html`, which needs a browser to render;
+`fig_decision_path.png` is the same diagram as a picture, drawn from the same
+node and edge list, for readers and conversions that have no Mermaid renderer.
 
 `tools/box_count_stages.py` is a diagnostic rather than a result: it reports the
 spurious-box total at each stage of the localization chain, so that the totals
 quoted in Section 4.3 can be attributed to a stage rather than guessed.
 
-`tools/clip_score_curve.py` is provided but was not run for this submission, and
-no figure in the manuscript depends on it. The alarm rule of Algorithm 2 exposes
-no threshold, so a reader asking for an ROC or precision-recall curve is asking
-for something the deployed rule does not define. It does define one implicitly:
-writing `p_i` for the fire probability of the i-th sample, a clip alarms at
-threshold `t` exactly when some window of `CONSECUTIVE_FOR_ALARM` successive
-samples has every `p_i` above `t`, so
+`tools/clip_score_curve.py` produces Fig. 7. The alarm rule of Algorithm 2
+exposes no threshold, so an ROC or precision-recall curve is not defined for it
+directly. It defines one implicitly: writing `p_i` for the fire probability of
+the i-th sample, a clip alarms at threshold `t` exactly when some window of
+`CONSECUTIVE_FOR_ALARM` successive samples has every `p_i` above `t`, so
 
     score = max over windows w of ( min over i in w of p_i )
 
 is the largest threshold at which the clip still alarms, and sweeping it
-reproduces the deployed rule at every operating point rather than approximating
-it. The program asserts that at `t = 0.5` it reproduces the published verdict of
+traverses the deployed rule at every operating point rather than approximating
+it. The program asserts that at `t = 0.5` it reproduces the recorded verdict of
 every clip, since argmax over two logits is `p > 0.5`, and refuses to emit a
 curve if any clip disagrees. It scans each clip to the end rather than stopping
 at the first alarm, and skips unsampled frames with `grab()`; expect tens of
-minutes over the 483-clip corpus. Run it, then `--report`.
+minutes over the 483-clip corpus.
+
+```
+python tools/clip_score_curve.py --budget 3600     # repeat until none are left
+python tools/clip_score_curve.py --report
+python tools/make_curve_figure.py
+```
+
+### The decoder matters
+
+The verdicts are reproducible within a video decoder and not quite across them.
+Re-running `tools/eval_clips_numpy.py` under OpenCV 5.0 on Windows reproduces
+all but two of the 483 verdicts recorded under OpenCV 4.13 on Linux; the two are
+named in Section 4.5 and in `v3_decoder_dependence.json`. The manuscript reports
+the lower of the two resulting figures. If `--report` above fails the agreement
+check with those two clips, the run is in the other environment: produce verdicts
+in yours and point the check at them, rather than relaxing it.
+
+```
+python tools/eval_clips_numpy.py --budget 3600 --cache mine.json --out mine_results.json
+python tools/compare_verdict_runs.py mine.json          # names what differs
+python tools/clip_score_curve.py --report --verdicts mine.json
+```
 
 ## Install
 

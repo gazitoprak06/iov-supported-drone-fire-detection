@@ -1,0 +1,60 @@
+{
+  "_protocol": {
+    "experiment": "Section 4.5 - decoder dependence of the clip verdicts",
+    "run_A": "Proje_Kodlari/evaluation_results/v3_deep_edge/_clip_verdicts.json",
+    "run_B": "_verdicts_winA.json",
+    "note": "same weights, same sampling policy, same decision rule; the two runs differ only in the video decoder that produced the frames",
+    "environment_of_this_comparison": {
+      "python": "3.12.7",
+      "platform": "Windows-10-10.0.19045-SP0",
+      "cpu": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+      "argv": [
+        "tools\\compare_verdict_runs.py",
+        "_verdicts_winA.json"
+      ],
+      "opencv": "5.0.0",
+      "numpy": "2.5.1"
+    }
+  },
+  "n_clips": 483,
+  "n_disagree": 2,
+  "pct_disagree": 0.41,
+  "disagreeing_clips": [
+    {
+      "id": "VID048",
+      "label": "fire",
+      "split": "validation",
+      "file": "Fire_023 _376.mp4",
+      "A_alarm": false,
+      "B_alarm": true
+    },
+    {
+      "id": "VID211",
+      "label": "no_fire",
+      "split": "validation",
+      "file": "CarRacing_010 _158.mp4",
+      "A_alarm": true,
+      "B_alarm": false
+    }
+  ],
+  "held_out_run_A": {
+    "TP": 63,
+    "TN": 125,
+    "FP": 1,
+    "FN": 5,
+    "Recall": 92.65,
+    "FPR": 0.79,
+    "F1": 95.45,
+    "Accuracy": 96.91
+  },
+  "held_out_run_B": {
+    "TP": 64,
+    "TN": 126,
+    "FP": 0,
+    "FN": 4,
+    "Recall": 94.12,
+    "FPR": 0.0,
+    "F1": 96.97,
+    "Accuracy": 97.94
+  }
+}

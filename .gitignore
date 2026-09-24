@@ -78,6 +78,11 @@ HAKEM_RAPORU.md
 **/_v3_still_predictions.jsonl
 **/_clip_frame_probs.jsonl
 
+# A second verdict run kept for the decoder comparison; the comparison itself
+# is released as v3_decoder_dependence.json
+_verdicts_*.json
+_results_*.json
+
 # Per-seed artifacts of the seed sweep; the aggregate v3_seed_variance.json is released
 **/_seed_runs.json
 **/_clip_verdicts_seed*.json
