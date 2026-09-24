@@ -83,6 +83,11 @@ HAKEM_RAPORU.md
 _verdicts_*.json
 _results_*.json
 
+# Commit message drafts written to a file because PowerShell mishandles a
+# multi-line -m argument
+_c.txt
+_commit_msg.txt
+
 # Per-seed artifacts of the seed sweep; the aggregate v3_seed_variance.json is released
 **/_seed_runs.json
 **/_clip_verdicts_seed*.json
