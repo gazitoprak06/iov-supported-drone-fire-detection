@@ -50,6 +50,7 @@ ARTIFACTS = {
     "lat":   _HERE / Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_latency.json"),
     "curve": _HERE / Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_operating_curve.json"),
     "dec":   _HERE / Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_decoder_dependence.json"),
+    "pf":    _HERE / Path("Proje_Kodlari/evaluation_results/v1_image_level/v1_prior_free.json"),
 }
 
 
