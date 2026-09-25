@@ -91,6 +91,14 @@ def main() -> int:
         print(f"ERROR: no images found under {args.dataset}/{args.split}")
         return 1
 
+    # A truncated cohort must not reach the released aggregate or evict the
+    # decoded frame stack, both of which are keyed by split alone. The suffix
+    # is applied where those paths are formed, below.
+    suffix = f"_limit{args.limit}" if args.limit else ""
+    if suffix:
+        print(f"--limit in effect: results and frame cache carry the "
+              f"{suffix} suffix and the released aggregate is left alone")
+
     n_fire = sum(1 for _, lab in rows if lab == 1)
     n_no_fire = len(rows) - n_fire
     class_prior = round(100.0 * n_fire / len(rows), 2)
@@ -105,8 +113,8 @@ def main() -> int:
     import numpy as np
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    cache = OUT_DIR / f"_sweep_frames_{args.split}.npy"
-    progress = OUT_DIR / f"_sweep_frames_{args.split}.progress"
+    cache = OUT_DIR / f"_sweep_frames_{args.split}{suffix}.npy"
+    progress = OUT_DIR / f"_sweep_frames_{args.split}{suffix}.progress"
     labels = np.array([lab for _, lab in rows], dtype=np.int8)
     shape = (len(rows), WORK_SIZE[1], WORK_SIZE[0], 3)
 
@@ -162,7 +170,7 @@ def main() -> int:
 
     # Rows already computed by an earlier invocation are reused, so the sweep
     # can be completed across several runs.
-    out_path = OUT_DIR / "v1_saturation_sweep.json"
+    out_path = OUT_DIR / f"v1_saturation_sweep{suffix}.json"
     existing: dict[int, dict] = {}
     if out_path.exists():
         try:

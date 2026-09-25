@@ -41,7 +41,7 @@ from clip_metrics import (  # noqa: E402
     SPLIT_ROLE, group_and_score, print_summary,
 )
 
-ROOT = Path("Proje_Kodlari")
+ROOT = Path(__file__).resolve().parent / "Proje_Kodlari"
 MANIFEST = ROOT / "annotations" / "video_evaluation_manifest.json"
 WEIGHTS = ROOT / "evaluation_results" / "v3_deep_edge" / "v3_mobilenet.pth"
 OUT = ROOT / "evaluation_results" / "v3_deep_edge" / "v3_results_by_split.json"

@@ -26,25 +26,30 @@ import re
 import sys
 from pathlib import Path
 
-PAPER = Path("makale.html")
-RESULTS = Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_results_by_split.json")
-MANIFEST = Path("Proje_Kodlari/annotations/video_evaluation_manifest.json")
+# Anchored to this file so the gate runs from any directory. It is the command
+# a reader is most likely to try first, and failing on the working directory
+# would be a poor introduction to a package about reproducibility.
+_HERE = Path(__file__).resolve().parent.parent
+
+PAPER = _HERE / "makale.html"
+RESULTS = _HERE / "Proje_Kodlari/evaluation_results/v3_deep_edge/v3_results_by_split.json"
+MANIFEST = _HERE / "Proje_Kodlari/annotations/video_evaluation_manifest.json"
 
 # Namespaces for the data-num tags that cover Tables 1 to 4. data-v3 tags,
 # handled separately below, predate these and cover the deep edge section only.
 ARTIFACTS = {
-    "v1":    Path("Proje_Kodlari/evaluation_results/v1_image_level/v1_image_level_metrics.json"),
-    "res":   Path("Proje_Kodlari/evaluation_results/v1_image_level/v1_resolution_control.json"),
-    "sweep": Path("Proje_Kodlari/evaluation_results/v1_image_level/v1_saturation_sweep.json"),
-    "v2":    Path("Proje_Kodlari/evaluation_results/v2_baselines/v2_baseline_metrics.json"),
-    "v1lat": Path("Proje_Kodlari/evaluation_results/v1_image_level/v1_latency_variability.json"),
-    "ctrl":  Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_corpus_controls.json"),
-    "seed":  Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_seed_variance.json"),
-    "null":  Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_null_baselines.json"),
-    "still": Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_on_still_images.json"),
-    "lat":   Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_latency.json"),
-    "curve": Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_operating_curve.json"),
-    "dec":   Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_decoder_dependence.json"),
+    "v1":    _HERE / Path("Proje_Kodlari/evaluation_results/v1_image_level/v1_image_level_metrics.json"),
+    "res":   _HERE / Path("Proje_Kodlari/evaluation_results/v1_image_level/v1_resolution_control.json"),
+    "sweep": _HERE / Path("Proje_Kodlari/evaluation_results/v1_image_level/v1_saturation_sweep.json"),
+    "v2":    _HERE / Path("Proje_Kodlari/evaluation_results/v2_baselines/v2_baseline_metrics.json"),
+    "v1lat": _HERE / Path("Proje_Kodlari/evaluation_results/v1_image_level/v1_latency_variability.json"),
+    "ctrl":  _HERE / Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_corpus_controls.json"),
+    "seed":  _HERE / Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_seed_variance.json"),
+    "null":  _HERE / Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_null_baselines.json"),
+    "still": _HERE / Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_on_still_images.json"),
+    "lat":   _HERE / Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_latency.json"),
+    "curve": _HERE / Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_operating_curve.json"),
+    "dec":   _HERE / Path("Proje_Kodlari/evaluation_results/v3_deep_edge/v3_decoder_dependence.json"),
 }
 
 

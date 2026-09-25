@@ -290,7 +290,10 @@ def main() -> int:
     }
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    out = OUT_DIR / "v1_resolution_control.json"
+    # A --limit run scores a truncated cohort; writing it to the released name
+    # would leave the artifact asserting an n_images the paper does not report.
+    suffix = f"_limit{args.limit}" if args.limit else ""
+    out = OUT_DIR / f"v1_resolution_control{suffix}.json"
     out.write_text(json.dumps(results, indent=2), encoding="utf-8")
     print(f"\nWrote {out}\n")
     print(json.dumps(

@@ -15,6 +15,7 @@ frames. The numbers this script produces are only as good as that agreement.
 
 import argparse
 import json
+import os
 import sys
 import time
 from pathlib import Path
@@ -31,7 +32,10 @@ from torch_free_mobilenetv3 import (  # noqa: E402
     MobileNetV3SmallNumpy, load_state_dict, preprocess_bgr,
 )
 
-ROOT = Path("Proje_Kodlari")
+# Anchored to this file rather than to the caller's working directory, so the
+# program runs from anywhere. Every tool written later in the project does the
+# same; these four were the holdouts and required being run from the repo root.
+ROOT = Path(__file__).resolve().parent.parent / "Proje_Kodlari"
 MANIFEST = ROOT / "annotations" / "video_evaluation_manifest.json"
 WEIGHTS = ROOT / "evaluation_results" / "v3_deep_edge" / "v3_mobilenet.pth"
 CACHE = ROOT / "evaluation_results" / "v3_deep_edge" / "_clip_verdicts.json"
@@ -112,20 +116,40 @@ def main():
     todo = [v for v in videos if v["id"] not in cache]
     print(f"{len(cache)}/{len(videos)} cached; {len(todo)} remaining", flush=True)
 
+    def checkpoint():
+        """Write the cache through a temporary file.
+
+        The docstring promises the run can be interrupted and resumed, but a
+        single write after the loop loses everything to a Ctrl-C, and an
+        interrupt during the write truncates a file the paper depends on. The
+        rename is atomic on both platforms, so the cache is either the previous
+        state or the new one and never a half-written mixture.
+        """
+        tmp = CACHE.with_suffix(CACHE.suffix + ".tmp")
+        tmp.write_text(json.dumps(cache))
+        os.replace(tmp, CACHE)
+
     t_start = time.time()
     done = 0
-    for v in todo:
-        if time.time() - t_start > args.budget:
-            break
-        path = ROOT / v["path"]
-        if not path.exists():
-            cache[v["id"]] = {"alarm": False, "missing": True}
-            continue
-        alarm, n_inf = clip_verdict(model, path)
-        cache[v["id"]] = {"alarm": bool(alarm), "n_inferences": n_inf}
-        done += 1
+    try:
+        for v in todo:
+            if time.time() - t_start > args.budget:
+                break
+            path = ROOT / v["path"]
+            if not path.exists():
+                cache[v["id"]] = {"alarm": False, "missing": True}
+                continue
+            alarm, n_inf = clip_verdict(model, path)
+            cache[v["id"]] = {"alarm": bool(alarm), "n_inferences": n_inf}
+            done += 1
+            if done % 20 == 0:
+                checkpoint()
+    except KeyboardInterrupt:
+        checkpoint()
+        print(f"\ninterrupted; {len(cache)}/{len(videos)} clips cached", flush=True)
+        return 130
 
-    CACHE.write_text(json.dumps(cache))
+    checkpoint()
     print(f"processed {done} clips in {time.time()-t_start:.0f}s; "
           f"{len(cache)}/{len(videos)} total", flush=True)
 

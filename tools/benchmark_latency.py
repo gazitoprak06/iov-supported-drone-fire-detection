@@ -33,7 +33,7 @@ import torch.nn as nn
 from PIL import Image
 from torchvision import models, transforms
 
-ROOT = Path("Proje_Kodlari")
+ROOT = Path(__file__).resolve().parent.parent / "Proje_Kodlari"
 WEIGHTS = ROOT / "evaluation_results" / "v3_deep_edge" / "v3_mobilenet.pth"
 OUT = ROOT / "evaluation_results" / "v3_deep_edge" / "v3_latency.json"
 

@@ -22,7 +22,7 @@ import json
 import sys
 from pathlib import Path
 
-ROOT = Path("Proje_Kodlari")
+ROOT = Path(__file__).resolve().parent / "Proje_Kodlari"
 MANIFEST = ROOT / "annotations" / "video_evaluation_manifest.json"
 OUT = Path("labels.json")
 

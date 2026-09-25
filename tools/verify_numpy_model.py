@@ -32,7 +32,7 @@ from torch_free_mobilenetv3 import (  # noqa: E402
     MobileNetV3SmallNumpy, load_state_dict, preprocess_bgr,
 )
 
-ROOT = Path("Proje_Kodlari")
+ROOT = Path(__file__).resolve().parent.parent / "Proje_Kodlari"
 WEIGHTS = ROOT / "evaluation_results" / "v3_deep_edge" / "v3_mobilenet.pth"
 IMAGE_GLOB = str(ROOT / "data" / "dataset" / "*" / "*" / "*.jpg")
 
