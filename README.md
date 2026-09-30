@@ -4,16 +4,29 @@ Reproduction package for the manuscript of the same name (Alaeddin Gazi Toprak,
 Alireza Souri). The audited manuscript source is `makale.html`.
 
 The paper implements a CPU-only, hand-set colour-space fire detector (V1),
-audits it against constant-predictor null baselines, locates its failure in the
-decision rule rather than in the evidence by fitting learned models on the same
-features (V2), and then replaces the detector with a retrained MobileNetV3-Small
-evaluated on a clip-level partition of a 483-clip real aerial corpus (the deep
-edge detector).
+audits it against constant-predictor null baselines, shows that the pipeline
+destroys class information its inputs contain by fitting learned models on a
+colour summary of the same images (V2), and then replaces the detector with a
+retrained MobileNetV3-Small evaluated on a clip-level partition of a 483-clip
+real aerial corpus (the deep edge detector).
 
 The negative results are not hidden. On the still-image split the hand-set rule
 is beaten on F1 by a constant fire predictor and on accuracy by a constant
 no-fire predictor, across all seven colour-space ablations and all nine
-threshold settings. That is the paper's primary result.
+threshold settings. Stated without reference to the class prior, which is the
+form that does not depend on the 38.78% positive rate or on the choice of F1,
+the released configuration's Matthews correlation is 0.0081 and its informedness
+0.0065: on this split it is not distinguishable from chance. That is the paper's
+primary result.
+
+Two things it deliberately does not claim. The 512-bin colour histogram the
+learned models are fitted on is not the hand-set rule's feature set — it is
+HSV-only, it carries no connectivity, and it summarises the whole frame rather
+than the candidate regions — so the comparison shows that the images carry
+extractable information and that this pipeline does not extract it, not that the
+two were handed the same evidence. And the deep edge replacement is reported but
+never ablated; its consecutive-sample rule, sampling rate and augmentation set
+were each fixed once.
 
 ## What is in this repository
 
@@ -46,6 +59,7 @@ Two modules exist so that programs cannot drift apart in how they count:
 | Table / Section | Program | Artifact |
 | --- | --- | --- |
 | Section 4.1, Table 1 | `tools/eval_image_level.py` | `v1_image_level/v1_image_level_metrics.json` |
+| Prior-free measures and the best-threshold bound (Section 4.1) | `tools/prior_free_and_best_threshold.py` | `v1_image_level/v1_prior_free.json` |
 | Table 2 | `tools/resolution_control.py` | `v1_image_level/v1_resolution_control.json` |
 | Table 3 | `tools/saturation_sweep.py` | `v1_image_level/v1_saturation_sweep.json` |
 | Table 4 | `v2_learned_baselines.py` | `v2_baselines/v2_baseline_metrics.json` |
@@ -59,6 +73,7 @@ Two modules exist so that programs cannot drift apart in how they count:
 | Operating curves, Fig. 7 (Section 4.5) | `tools/clip_score_curve.py`, then `tools/make_curve_figure.py` | `v3_deep_edge/v3_operating_curve.json` |
 | Decoder dependence (Section 4.5) | `tools/compare_verdict_runs.py` | `v3_deep_edge/v3_decoder_dependence.json` |
 | Fig. 5 | `tools/make_decision_path_figure.py` | `fig_decision_path.png` |
+| Seed sweep (Section 4.5) | `tools/multiseed_v3.py` | `v3_deep_edge/v3_seed_variance.json` |
 
 Fig. 5 is a Mermaid block in `makale.html`, which needs a browser to render;
 `fig_decision_path.png` is the same diagram as a picture, drawn from the same
@@ -142,7 +157,8 @@ These gates need no external data and should be run first:
 ```
 python -m unittest discover -s tests
 python tools/check_paper_numbers.py
-python tools/check_no_data_lost.py <before.html> makale.html
+python tools/check_no_data_lost.py makale_before.html makale.html
+sha256sum -c MANIFEST.sha256          # or: python tools/refresh_manifest.py
 ```
 
 The test suite covers the two shared definition modules against values worked
@@ -185,10 +201,17 @@ python v2_learned_baselines.py            # Table 4
 python tools/benchmark_v1_latency.py      # Section 5 variability record
 ```
 
-The first three run the morphological chain at native resolution over images
-spanning three orders of magnitude, so a full pass is long. Each checkpoints to
-disk and resumes; pass `--max-seconds S` to bound a single invocation and rerun
-until it reports completion.
+`eval_image_level.py`, `resolution_control.py` and `saturation_sweep.py` run the
+morphological chain at native resolution over images spanning three orders of
+magnitude, so a full pass is long. Those three checkpoint to disk and resume;
+pass `--max-seconds S` to bound a single invocation and rerun until it reports
+completion. `verify_v1_equivalence.py` takes `--limit` but no time bound, and
+`prior_free_and_best_threshold.py` reads the released per-image record rather
+than any image, so it returns immediately.
+
+`--limit` truncates the cohort, and the two programs that write an aggregate
+add the limit to their output filename when it is in effect, so a quick trial
+run cannot overwrite the released artifact.
 
 One convention of Table 1 is worth knowing before rerunning it. The white-hot
 bypass of Section 3.1 is itself an RGB-channel rule, so it is disabled together

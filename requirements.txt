@@ -3,11 +3,14 @@
 #   Decision Rule, and a Deep Edge Replacement
 #
 # The manuscript records two environments and which experiment ran in which
-# (Section 4). This file pins the audited versions of Environment A, the
-# Windows 10 / Python 3.12.7 target machine that produced Sections 4.1, 4.2 and
-# 4.4. Environment B, a containerised Linux host with Python 3.10.12, OpenCV
-# 4.13.0 and scikit-learn 1.7.2, produced the resolution control of Section 4.3
-# and the clip-level evaluation of Section 4.5.
+# (Section 4), and the header of every result file names the one that produced
+# it. This file pins Environment A, the Windows 10 / Python 3.12.7 target
+# machine: it produced Section 4.4 and its joint latency run, the prior-free
+# measures of Section 4.1, and the corpus controls, operating curve, seed sweep
+# and decoder comparison of Section 4.5. Environment B, a containerised Linux
+# host with Python 3.10.12, NumPy 2.2.6 and OpenCV 4.13.0, produced the released
+# image-level artifacts of Sections 4.1 to 4.3 and the reported clip verdicts.
+# Check an artifact's own header rather than this comment if it matters.
 #
 # Two cautions carry over from the manuscript:
 #   * random-forest figures are specific to the scikit-learn version, because a
@@ -31,7 +34,7 @@ Pillow==11.3.0
 # --- Sections 4.2 and 4.4: the learned baselines and the cascade -----------
 scikit-learn==1.9.0
 
-# --- Fig. 6 ---------------------------------------------------------------
+# --- Figs. 5, 6 and 7 ------------------------------------------------------
 matplotlib==3.10.6
 
 # --- Section 4.5: training and the PyTorch reference evaluator only --------

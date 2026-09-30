@@ -115,3 +115,20 @@ makale.docx
 makale.pdf
 
 makale_to_word.py
+
+# Derived deliverables; makale_dergi.html is the audited source
+makale_dergi.docx
+makale_dergi.pdf
+makale_to_word_dergi.py
+
+# One-off diagnostic for the 2026-09-30 makale_dergi.docx drift audit, not
+# part of the reproduction package
+tools/diag_dergi.py
+_dergi_check.txt
+
+# Personal scratch files, not part of the reproduction package
+compress.py
+debug.py
+makale_docx_check.txt
+makale_docx_icerik.txt
+makale_dergi_check.txt

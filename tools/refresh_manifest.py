@@ -32,7 +32,10 @@ def entry_path(field: str) -> Path:
 
 
 def to_field(rel: Path) -> str:
-    return ".\\" + str(rel).replace("/", "\\")
+    # POSIX separators, so that `sha256sum -c MANIFEST.sha256` works on the
+    # Linux host the manuscript names as Environment B. Backslashes are literal
+    # filename characters there, and every entry would be reported missing.
+    return rel.as_posix()
 
 
 def tracked() -> list[Path]:
@@ -71,7 +74,9 @@ def main(argv) -> int:
     changed, ok, missing = [], 0, []
 
     lines = []
-    for k in [k for k in order if k in keys] + added:
+    # Sorted on write, so a later refresh produces a diff of the digests that
+    # changed rather than a reordering on top of them.
+    for k in sorted(keys):
         p = ROOT / k
         if not p.exists():
             missing.append(k)
@@ -81,8 +86,7 @@ def main(argv) -> int:
             changed.append(k)
         elif k in existing:
             ok += 1
-        field = existing[k][1] if k in existing else to_field(Path(k))
-        lines.append(f"{d}  {field}")
+        lines.append(f"{d}  {to_field(Path(k))}")
 
     print(f"tracked files : {len(keys)}")
     print(f"unchanged     : {ok}")
