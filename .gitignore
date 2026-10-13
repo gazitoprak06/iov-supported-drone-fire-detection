@@ -132,3 +132,10 @@ debug.py
 makale_docx_check.txt
 makale_docx_icerik.txt
 makale_dergi_check.txt
+
+# Advisor-round working copies of the journal manuscript and their scratch
+# output; the audited source is makale_dergi.html
+makale_dergi_REVIZE_EDILMIS*.docx
+makale_text.txt
+media/
+hakem_raporu_ozeti.md

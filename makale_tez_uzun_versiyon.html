@@ -172,7 +172,7 @@
                 <tr><td class="left">3</td><td class="left">\( M_{ycc} \leftarrow (Cr &gt; 150) \wedge (Cr &gt; Cb) \wedge (Y &gt; Cb) \)</td></tr>
                 <tr><td class="left">4</td><td class="left">\( M \leftarrow M_{hsv} \wedge M_{rgb} \wedge M_{ycc} \)</td></tr>
                 <tr><td class="left">5</td><td class="left">\( M_{wh} \leftarrow \mathrm{erode}\big((R &gt; 240) \wedge (G &gt; 230) \wedge (B &gt; 200),\; 15 \times 15\big) \); &nbsp; \( M \leftarrow M \vee M_{wh} \)</td></tr>
-                <tr><td class="left">6</td><td class="left">\( M \leftarrow \mathrm{dilate}^{2}\big(\mathrm{open}_{5\times5}(\mathrm{close}_{15\times15}(M)),\; 15 \times 15\big) \)</td></tr>
+                <tr><td class="left">6</td><td class="left">\( M \leftarrow \mathrm{dilate}_{15\times15}^{\times 2}\big(\mathrm{open}_{5\times5}(\mathrm{close}_{15\times15}(M))\big) \)</td></tr>
                 <tr><td class="left">7</td><td class="left"><b>if</b> \( F_{prev} \neq \emptyset \) <b>then</b> \( M_{flick} \leftarrow \mathrm{close}_{7\times7}\big(|F - F_{prev}| &gt; \tau_{motion}\big) \) <b>else</b> \( M_{flick} \leftarrow \emptyset \)</td></tr>
                 <tr><td class="left">8</td><td class="left"><b>for each</b> external contour \( c \) of \( M \) with area \( &gt; A_{min}(h) \) &nbsp;<i>(Eq. 2)</i> <b>do</b></td></tr>
                 <tr><td class="left">9</td><td class="left">&nbsp;&nbsp;&nbsp;\( s \leftarrow \mathrm{area}(c)/\mathrm{area}(\mathrm{convexHull}(c)) \); &nbsp; \( \rho \leftarrow \) mean of \( M_{flick} \) in the box of \( c \)</td></tr>

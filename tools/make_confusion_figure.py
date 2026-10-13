@@ -37,7 +37,7 @@ OUT = Path("v3_confusion_matrix.png")
 
 PANELS = [
     ("unseen_by_gradient", "(a) 194 unseen clips\nreported result", "#2e7d32"),
-    ("gradient_train", "(b) 289 fitted clips\nmemorisation ceiling", "#ef6c00"),
+    ("gradient_train", "(b) 289 fitted clips\nmemorization ceiling", "#ef6c00"),
     ("full_manifest_CONTAMINATED", "(c) all 483 clips\ncontaminated control", "#c62828"),
 ]
 
