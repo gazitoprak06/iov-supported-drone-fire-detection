@@ -7,7 +7,7 @@ def get_ellipse_kernel(size):
 def run_heuristic_pipeline(frame, prev_frame=None, h=50.0):
     """
     Implements the exact Algorithm 1 from Section 3 of the manuscript:
-    Multi-Color-Space Pixel Intersection (V1) + Temporal Flickering (V2) + NMS & Merge.
+    Multi-color-space pixel intersection + temporal flicker layer + NMS & merge.
     """
     # 1. Multi-Color-Space Pixel Intersection
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
@@ -42,7 +42,7 @@ def run_heuristic_pipeline(frame, prev_frame=None, h=50.0):
     M = cv2.morphologyEx(M, cv2.MORPH_OPEN, get_ellipse_kernel(5))
     M = cv2.dilate(M, kernel_15, iterations=2)
     
-    # 2. Temporal Flickering (V2 logic)
+    # 2. Temporal flicker layer
     m_flick = None
     if prev_frame is not None:
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)

@@ -3,7 +3,7 @@
 #   Decision Rule, and a Deep Edge Replacement
 #
 # The manuscript records two environments and which experiment ran in which
-# (Section 4), and the header of every result file names the one that produced
+# (Section 4), and the header of most result files names the one that produced
 # it. This file pins Environment A, the Windows 10 / Python 3.12.7 target
 # machine: it produced Section 4.4 and its joint latency run, the prior-free
 # measures of Section 4.1, and the corpus controls, operating curve, seed sweep
