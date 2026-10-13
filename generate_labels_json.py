@@ -96,7 +96,7 @@ def main():
         "schema_version": "1.0",
         "description": (
             "Per-clip labels, SHA-256 hashes and cohort assignments for the "
-            "483-clip aerial corpus used in Section 4.8."
+            "483-clip aerial corpus used in Section 4.5."
         ),
         "summary": {
             "total_clips": len(records),

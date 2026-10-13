@@ -5,7 +5,7 @@ operating characteristic and the precision-recall curve. Both are drawn from the
 points in the artifact rather than recomputed here, so the figure cannot drift
 from the numbers the manuscript reports.
 
-The reported operating point is marked on both. That point is not a choice made
+The operating point of the deployed rule is marked on both. That point is not a choice made
 when drawing the curve: it is where the deployed rule of Algorithm 2 sits, since
 thresholding the clip score at one half reproduces its verdict on every clip.
 
@@ -68,7 +68,7 @@ def main() -> int:
                label=f"deep edge (AUROC {d['AUROC']:.3f})")
     if op_roc[0] is not None and op_roc[1] is not None:
         ax[0].plot([op_roc[0]], [op_roc[1]], "o", ms=6, mfc="white",
-                   mec="#c62828", mew=1.8, label="reported operating point")
+                   mec="#c62828", mew=1.8, label="deployed rule, OpenCV 5.0.0")
     ax[0].set_xlabel("False positive rate (%)")
     ax[0].set_ylabel("True positive rate (%)")
     ax[0].set_title("Receiver operating characteristic", fontsize=10)
@@ -79,7 +79,7 @@ def main() -> int:
                label=f"deep edge (AP {d['average_precision']:.3f})")
     if op:
         ax[1].plot([op[0]], [op[1]], "o", ms=6, mfc="white", mec="#c62828", mew=1.8,
-                   label="reported operating point")
+                   label="deployed rule, OpenCV 5.0.0")
     ax[1].set_xlabel("Recall (%)")
     ax[1].set_ylabel("Precision (%)")
     ax[1].set_title("Precision-recall", fontsize=10)
