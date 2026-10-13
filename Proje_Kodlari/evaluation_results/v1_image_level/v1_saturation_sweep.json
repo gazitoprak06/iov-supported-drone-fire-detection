@@ -53,7 +53,8 @@
       "FPR": 58.96,
       "S": 60,
       "precision_minus_prior_pp": 1.54,
-      "is_released_configuration": true
+      "is_released_configuration": false,
+      "differs_from_released_only_in_halo_floor": true
     },
     {
       "TP": 98,
@@ -68,7 +69,8 @@
       "FPR": 58.57,
       "S": 80,
       "precision_minus_prior_pp": 1.22,
-      "is_released_configuration": false
+      "is_released_configuration": false,
+      "differs_from_released_only_in_halo_floor": false
     },
     {
       "TP": 96,
@@ -83,7 +85,8 @@
       "FPR": 54.98,
       "S": 100,
       "precision_minus_prior_pp": 2.25,
-      "is_released_configuration": false
+      "is_released_configuration": false,
+      "differs_from_released_only_in_halo_floor": false
     },
     {
       "TP": 85,
@@ -98,7 +101,8 @@
       "FPR": 53.78,
       "S": 120,
       "precision_minus_prior_pp": -0.14,
-      "is_released_configuration": false
+      "is_released_configuration": false,
+      "differs_from_released_only_in_halo_floor": false
     },
     {
       "TP": 77,
@@ -113,7 +117,8 @@
       "FPR": 49.0,
       "S": 140,
       "precision_minus_prior_pp": -0.28,
-      "is_released_configuration": false
+      "is_released_configuration": false,
+      "differs_from_released_only_in_halo_floor": false
     },
     {
       "TP": 73,
@@ -128,7 +133,8 @@
       "FPR": 45.82,
       "S": 160,
       "precision_minus_prior_pp": 0.05,
-      "is_released_configuration": false
+      "is_released_configuration": false,
+      "differs_from_released_only_in_halo_floor": false
     },
     {
       "TP": 66,
@@ -143,7 +149,8 @@
       "FPR": 40.64,
       "S": 180,
       "precision_minus_prior_pp": 0.51,
-      "is_released_configuration": false
+      "is_released_configuration": false,
+      "differs_from_released_only_in_halo_floor": false
     },
     {
       "TP": 56,
@@ -158,7 +165,8 @@
       "FPR": 36.65,
       "S": 200,
       "precision_minus_prior_pp": -0.94,
-      "is_released_configuration": false
+      "is_released_configuration": false,
+      "differs_from_released_only_in_halo_floor": false
     },
     {
       "TP": 48,
@@ -173,7 +181,8 @@
       "FPR": 30.68,
       "S": 220,
       "precision_minus_prior_pp": -0.38,
-      "is_released_configuration": false
+      "is_released_configuration": false,
+      "differs_from_released_only_in_halo_floor": false
     }
   ],
   "_complete": true,

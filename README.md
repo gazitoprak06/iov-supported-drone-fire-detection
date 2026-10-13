@@ -249,7 +249,7 @@ python extract_training_frames.py
 python train_v3.py
 python tools/eval_clips_numpy.py          # the path that produced the figures
 python evaluate_v3_videos.py              # PyTorch reference path
-python tools/verify_numpy_model.py        # cross-checks the two, frame by frame
+python tools/verify_numpy_model.py        # cross-checks the two on the 224x224 training frames
 python tools/corpus_controls.py           # source and event-level controls
 python tools/multiseed_v3.py --seeds 0 1 2 3 4   # seed sweep (about an hour per seed)
 ```

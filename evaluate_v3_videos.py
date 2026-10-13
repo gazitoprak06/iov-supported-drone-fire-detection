@@ -44,7 +44,9 @@ from clip_metrics import (  # noqa: E402
 ROOT = Path(__file__).resolve().parent / "Proje_Kodlari"
 MANIFEST = ROOT / "annotations" / "video_evaluation_manifest.json"
 WEIGHTS = ROOT / "evaluation_results" / "v3_deep_edge" / "v3_mobilenet.pth"
-OUT = ROOT / "evaluation_results" / "v3_deep_edge" / "v3_results_by_split.json"
+# Written to its own file: v3_results_by_split.json holds the NumPy-path
+# results the manuscript reports and must not be overwritten by this reference run.
+OUT = ROOT / "evaluation_results" / "v3_deep_edge" / "v3_results_by_split_torch.json"
 VERDICTS = ROOT / "evaluation_results" / "v3_deep_edge" / "_clip_verdicts_torch.json"
 
 

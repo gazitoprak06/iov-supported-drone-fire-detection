@@ -9,7 +9,7 @@
     "altitude_m": 50.0,
     "temporal_layer": "disabled (still images, prev_frame=None)",
     "decision_rule": "image is positive iff the detector emits at least one box",
-    "disabled_mask_convention": "a disabled colour space contributes an all-pass mask to the intersection; the white-hot bypass is not one of the three colour spaces and stays active in every row",
+    "disabled_mask_convention": "a disabled colour space contributes an all-pass mask to the intersection. The white-hot bypass is itself an RGB-channel rule, so the default convention (follows_rgb) disables it together with the RGB mask; --whitehot always keeps it on in every row instead, which changes the three rows where RGB is off.",
     "environment": {
       "python": "3.10.12",
       "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",

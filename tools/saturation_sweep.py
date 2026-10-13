@@ -211,7 +211,10 @@ def main() -> int:
         m["precision_minus_prior_pp"] = (
             round(m["Precision"] - class_prior, 2) if m["Precision"] is not None else None
         )
-        m["is_released_configuration"] = s == DEFAULT_SAT_FLOORS[0]
+        # A sweep value sets all three floors, so no row equals the released
+        # (60, 80, 60); the S = 60 row differs from it only in the halo floor.
+        m["is_released_configuration"] = (s, s, s) == tuple(DEFAULT_SAT_FLOORS)
+        m["differs_from_released_only_in_halo_floor"] = s == DEFAULT_SAT_FLOORS[0]
         sweep.append(m)
         print(
             f"  S={s:3d}  TP{m['TP']:4d} TN{m['TN']:4d} FP{m['FP']:4d} FN{m['FN']:4d}  "
