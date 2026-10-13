@@ -116,7 +116,8 @@ makale.pdf
 
 makale_to_word.py
 
-# Derived deliverables; makale_dergi.html is the audited source
+# Journal-version deliverables; the current journal manuscript is maintained
+# as a Word file outside the release, and makale.html carries its numbers
 makale_dergi.docx
 makale_dergi.pdf
 makale_to_word_dergi.py
@@ -133,8 +134,8 @@ makale_docx_check.txt
 makale_docx_icerik.txt
 makale_dergi_check.txt
 
-# Advisor-round working copies of the journal manuscript and their scratch
-# output; the audited source is makale_dergi.html
+# The current journal manuscript (Word) and its scratch output are kept out
+# of the release; every number in it is checked through makale.html
 makale_dergi_REVIZE_EDILMIS*.docx
 makale_text.txt
 media/
